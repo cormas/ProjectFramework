@@ -1,11 +1,23 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "HernanMoralesDurand 8/6/2016 04:12",
 	"super" : "ComposableModel",
 	"category" : "ProjectFramework-Spec",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classvars" : [
+		"RecentProjects"
+	],
+	"instvars" : [
+		"recentProjectsLabel",
+		"recentProjectsList",
+		"currentProjectLabel",
+		"newProjectButton",
+		"openFromFileButton",
+		"exploreProjectButton",
+		"removeProjectButton",
+		"closeProjectButton",
+		"saveProjectButton"
+	],
 	"name" : "ProjectWindow",
 	"type" : "normal"
 }

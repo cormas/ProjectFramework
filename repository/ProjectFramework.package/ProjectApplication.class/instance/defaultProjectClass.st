@@ -1,4 +1,4 @@
-defaults
+subclassresponsibility
 defaultProjectClass
 
-	^ ProjectClass
+	self subclassResponsibility 

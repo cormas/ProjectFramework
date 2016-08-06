@@ -1,0 +1,4 @@
+private
+applicationClass
+
+	^ SampleApplicationClass

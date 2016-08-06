@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "ProjectFramework-Sample",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"history",
+		"project",
+		"usage",
+		"fileName"
+	],
+	"name" : "ProjectInformation",
+	"type" : "normal"
+}

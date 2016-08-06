@@ -1,4 +1,4 @@
-initialize - release
+initialization
 initializeLabels
 
 	recentProjectsLabel label: 'Recent Projects'.

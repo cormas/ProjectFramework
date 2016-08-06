@@ -1,0 +1,4 @@
+private
+applicationClass
+
+	self subclassResponsibility

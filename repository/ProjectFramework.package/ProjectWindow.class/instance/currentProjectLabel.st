@@ -1,0 +1,3 @@
+accessing
+currentProjectLabel
+	^ currentProjectLabel

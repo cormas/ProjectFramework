@@ -1,4 +1,4 @@
-initialize - release
+initialization
 initializeFocusOrders
 
 	self focusOrder

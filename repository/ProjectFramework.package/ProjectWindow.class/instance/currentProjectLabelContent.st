@@ -1,0 +1,4 @@
+private
+currentProjectLabelContent
+
+	^ 'Current Project: ' 

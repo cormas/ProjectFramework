@@ -1,5 +1,6 @@
-initialize-release
+initialization
 initializePrvWidgets
+	" Private - See superimplementor's comment "
 
 	recentProjectsLabel := self newLabel.
 	recentProjectsList := self instantiate: NewListModel.
