@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "",
-	"super" : "ProjectBase",
+	"commentStamp" : "HernanMoralesDurand 8/6/2016 15:46",
+	"super" : "ProjectSettings",
 	"category" : "ProjectFramework-Sample",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SampleProjectClass",
+	"name" : "SampleProjectSettings",
 	"type" : "normal"
 }

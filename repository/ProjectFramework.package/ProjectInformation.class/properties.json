@@ -1,6 +1,6 @@
 {
-	"commentStamp" : "",
-	"super" : "Object",
+	"commentStamp" : "HernanMoralesDurand 8/6/2016 15:05",
+	"super" : "ProjectObject",
 	"category" : "ProjectFramework-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],

@@ -1,5 +1,5 @@
-private
+settings
 applicationClass
 	" Private - See superimplementor's comment "
 
-	^ SampleApplicationClass
+	^ SampleApplicationClass  

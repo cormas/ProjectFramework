@@ -1,15 +1,13 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "HernanMoralesDurand 8/6/2016 15:36",
 	"super" : "ProjectObject",
 	"category" : "ProjectFramework-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"owners",
-		"users",
-		"lastUser"
+		"info"
 	],
-	"name" : "ProjectUsage",
+	"name" : "ProjectBase",
 	"type" : "normal"
 }

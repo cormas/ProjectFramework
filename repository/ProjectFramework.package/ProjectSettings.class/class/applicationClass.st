@@ -1,5 +1,5 @@
-private
+settings
 applicationClass
 	" Answer the main project window <Class> for the receiver "
-	
-	self subclassResponsibility
+
+	self subclassResponsibility 

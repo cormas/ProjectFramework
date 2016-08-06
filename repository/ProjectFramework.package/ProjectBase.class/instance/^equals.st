@@ -1,11 +1,11 @@
 comparing
-= aBioProject
+= aProjectObject
 	" Answer <true> if receiver has the same name, information and usage as aBioProject "
 
-	self == aBioProject
+	self == aProjectObject
 		ifTrue: [ ^ true ].
-	self class = aBioProject class
+	self class = aProjectObject class
 		ifFalse: [ ^ false ].
-	self info = aBioProject info
+	self info = aProjectObject info
 		ifFalse: [ ^ false ].
 	^ true

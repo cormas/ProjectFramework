@@ -1,6 +1,7 @@
+Holds historical information commonly associated to a project.
+
 Instance Variables:
-	creator				<ProjectUser | PseudoContext>
-	remover				<ProjectUser | PseudoContext>
+	author				<ProjectUser | PseudoContext>
 	creationDate			<TimeStamp>
 	removalDate			<TimeStamp | PseudoContext>
 	modifications		<ProtoObject | PseudoContext>
