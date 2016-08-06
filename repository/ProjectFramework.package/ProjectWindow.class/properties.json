@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ComposableModel",
+	"category" : "ProjectFramework-Spec",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ProjectWindow",
+	"type" : "normal"
+}

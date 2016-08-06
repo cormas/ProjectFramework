@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "ProjectFramework-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"UsernameSetting"
+	],
+	"instvars" : [ ],
+	"name" : "ProjectSettings",
+	"type" : "normal"
+}

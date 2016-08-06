@@ -1,0 +1,11 @@
+initialize - release
+initializeLabels
+
+	recentProjectsLabel label: 'Recent Projects'.
+	currentProjectLabel label: self currentProjectLabelContent , self currentProjectName.
+	newProjectButton label: 'Create New Project'.
+	saveProjectButton label: 'Save Current Project'.
+	openFromFileButton label: 'Open...'.
+	exploreProjectButton label: 'Explore Current Project...'.
+	removeProjectButton label: 'Remove Selected Project...'.
+	closeProjectButton label: 'Close Current Project'.

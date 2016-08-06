@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "HernanMoralesDurand 8/6/2016 02:02",
+	"super" : "Object",
+	"category" : "ProjectFramework-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"AppSingleton"
+	],
+	"instvars" : [
+		"applicationProjects",
+		"applicationUsers",
+		"currentProject",
+		"projectClass"
+	],
+	"name" : "ProjectApplication",
+	"type" : "normal"
+}
