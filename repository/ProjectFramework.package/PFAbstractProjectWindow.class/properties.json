@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "HernanMoralesDurand 8/7/2016 02:35",
+	"super" : "ComposableModel",
+	"category" : "ProjectFramework-Spec",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"newProjectButton",
+		"openFromFileButton",
+		"exploreProjectButton",
+		"removeProjectButton",
+		"closeProjectButton",
+		"saveProjectButton"
+	],
+	"name" : "PFAbstractProjectWindow",
+	"type" : "normal"
+}

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 8/7/2016 03:28",
+	"super" : "PFRecentProjectsWindow",
+	"category" : "ProjectFramework-Sample",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PFSampleProjectRLWindow",
+	"type" : "normal"
+}

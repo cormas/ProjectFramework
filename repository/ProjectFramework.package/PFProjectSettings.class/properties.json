@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "HernanMoralesDurand 8/6/2016 15:34",
+	"super" : "PFObject",
+	"category" : "ProjectFramework-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"UsernameSetting"
+	],
+	"instvars" : [ ],
+	"name" : "PFProjectSettings",
+	"type" : "normal"
+}

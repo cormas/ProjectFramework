@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "HernanMoralesDurand 8/6/2016 03:46",
+	"super" : "PFObject",
+	"category" : "ProjectFramework-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"AppSingleton"
+	],
+	"instvars" : [
+		"applicationProjects",
+		"applicationUsers",
+		"currentProject",
+		"projectClass"
+	],
+	"name" : "PFProjectApplication",
+	"type" : "normal"
+}
