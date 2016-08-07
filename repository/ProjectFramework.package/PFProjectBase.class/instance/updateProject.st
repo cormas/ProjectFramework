@@ -2,5 +2,9 @@ accessing
 updateProject
 	" Serialize the receiver "
 
-	(self serializerClass for: self info fileName) serialize: self. 
+	| fileRef |
+	
+	self halt.
+	fileRef := self fileName asFileReference.
+	(self serializerClass on: fileRef writeStream) serialize: self. 
 	

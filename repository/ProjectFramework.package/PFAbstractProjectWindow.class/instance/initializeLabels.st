@@ -1,7 +1,7 @@
 initialization
 initializeLabels
 
-	newProjectButton label: 'Create New Project'.
+	newProjectButton label: 'Create New Project...'.
 	saveProjectButton label: 'Save Current Project'.
 	openFromFileButton label: 'Open...'.
 	exploreProjectButton label: 'Explore Current Project...'.

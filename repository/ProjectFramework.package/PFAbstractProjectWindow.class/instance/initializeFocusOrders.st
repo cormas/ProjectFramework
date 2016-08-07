@@ -2,7 +2,6 @@ initialization
 initializeFocusOrders
 
 	self focusOrder
-		add: recentProjectsList;
 		add: newProjectButton;
 		add: saveProjectButton;
 		add: openFromFileButton;

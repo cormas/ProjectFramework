@@ -4,9 +4,10 @@ initializePresenter
 
 	super initializePresenter.
 	self currentProjectList columns: (Array 
-		with: (self newColumnLabeled: 'Setting')
-		with: (self newColumnLabeled: 'Value')).
-	self currentProjectList roots: {
-		{'Benjamin'.'Van Ryseghem'}.
-		{'Pamela'.'Anderson' }
+		with: (self newColumnLabeled: 'Setting' accessor: #first)
+		with: (self newColumnLabeled: 'Value' accessor: #second)).
+	self currentProjectList roots: { 
+		{ 'Author' 		. self currentProject author } .
+		{ 'Created'		. self currentProject creationDate } .
+		{ 'File'			. self currentProject fileName }		
 	}
