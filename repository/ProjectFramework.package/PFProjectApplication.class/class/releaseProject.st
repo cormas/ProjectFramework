@@ -1,4 +1,4 @@
 accessing
 releaseProject
 
-	self uniqueInstance release.
+	self release.
