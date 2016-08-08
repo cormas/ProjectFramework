@@ -1,0 +1,4 @@
+testing
+isProject
+
+	^ true

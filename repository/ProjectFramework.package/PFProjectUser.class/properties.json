@@ -1,11 +1,15 @@
 {
-	"commentStamp" : "",
-	"super" : "Object",
+	"commentStamp" : "HernanMoralesDurand 8/8/2016 15:52",
+	"super" : "PFApplicationObject",
 	"category" : "ProjectFramework-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"userProjects",
+		"preferences",
+		"name"
+	],
 	"name" : "PFProjectUser",
 	"type" : "normal"
 }

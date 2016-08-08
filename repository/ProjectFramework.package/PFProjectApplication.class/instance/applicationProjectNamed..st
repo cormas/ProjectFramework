@@ -1,6 +1,6 @@
 accessing
 applicationProjectNamed: aNameString
-	" Answer a <ProjectClass> "
+	" Answer a <PFProjectApplication> "
 
 	^ self applicationProjects
 			at: aNameString

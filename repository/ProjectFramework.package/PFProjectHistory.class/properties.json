@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "HernanMoralesDurand 8/6/2016 15:05",
-	"super" : "PFObject",
+	"super" : "PFApplicationObject",
 	"category" : "ProjectFramework-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],

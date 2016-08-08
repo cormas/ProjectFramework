@@ -1,13 +1,15 @@
 {
-	"commentStamp" : "HernanMoralesDurand 8/6/2016 15:36",
+	"commentStamp" : "",
 	"super" : "PFApplicationObject",
 	"category" : "ProjectFramework-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"info"
+		"searchGlobalProjects",
+		"user",
+		"addToApplicationProjects"
 	],
-	"name" : "PFProjectBase",
+	"name" : "PFProjectPreferences",
 	"type" : "normal"
 }
