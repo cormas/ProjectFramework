@@ -2,5 +2,8 @@ callbacks
 closeProject
 	" Private - See superimplementor's comment "
 
-	super closeProject.
+	self 
+		addToRecent: self currentProject fileName 
+		named: self currentProjectName.
 	self updateRecentProjects.
+	super closeProject.

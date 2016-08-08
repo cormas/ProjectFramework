@@ -11,7 +11,10 @@
 		"exploreProjectButton",
 		"removeProjectButton",
 		"closeProjectButton",
-		"saveProjectButton"
+		"saveProjectButton",
+		"projectActions",
+		"editProjectButton",
+		"closeWindowButton"
 	],
 	"name" : "PFAbstractProjectWindow",
 	"type" : "normal"

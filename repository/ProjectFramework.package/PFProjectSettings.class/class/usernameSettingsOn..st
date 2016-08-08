@@ -1,9 +1,9 @@
 settings
 usernameSettingsOn: aBuilder
-	<yourProjectPragmaNameSettings>
+	<projectFrameworkPragmaSettings>
 
 	(aBuilder setting: #usernameSetting)
 		target: self;
-		description: 'Set the user name' translated;
-		label: 'Username' translated;
-		parent: #parentSettings
+		description: 'Set the user name';
+		label: 'Username';
+		parent: #projectSettings

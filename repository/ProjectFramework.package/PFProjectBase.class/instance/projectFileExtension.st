@@ -2,4 +2,4 @@ accessing
 projectFileExtension
 	" Answer a <String> with the receiver's file extension "
 
-	^ 'csv'
+	^ self class projectFileExtension

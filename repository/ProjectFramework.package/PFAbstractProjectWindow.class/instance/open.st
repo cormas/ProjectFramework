@@ -1,4 +1,6 @@
 opening
 open
 
-	^ self openWithSpec
+	^ self 
+		openWithSpec;
+		centered.

@@ -1,0 +1,1 @@
+Sample user project class.

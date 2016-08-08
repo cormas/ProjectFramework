@@ -12,9 +12,5 @@ openProject
 	^  openStatus 
 			ifTrue: [ 
 				self informMessage: 'Project opened successfully'.
-				self class 
-					addToRecent: self applicationClass currentProjectName 
-					named: self applicationClass currentProjectFileName.
-				self updateOpenedProject.
-				self delete ]
+				self doPostOpenActions ]
 			ifFalse: [ self informMessage: 'Project not opened, please try again' ] 

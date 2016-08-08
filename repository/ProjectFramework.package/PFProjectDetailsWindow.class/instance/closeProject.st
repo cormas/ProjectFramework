@@ -4,3 +4,4 @@ closeProject
 
 	super closeProject.
 	self currentProjectsLabel label: self currentProjectLabelContent.
+	self currentProjectList roots: Array empty.
