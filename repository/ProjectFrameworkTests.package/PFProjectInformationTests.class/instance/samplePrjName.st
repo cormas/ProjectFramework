@@ -1,0 +1,4 @@
+testing
+samplePrjName
+
+	^ 'testProject1'
