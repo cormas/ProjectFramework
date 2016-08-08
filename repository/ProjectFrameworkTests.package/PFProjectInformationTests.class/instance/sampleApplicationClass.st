@@ -1,0 +1,4 @@
+testing
+sampleApplicationClass
+
+	^ PFSampleApplicationClass
