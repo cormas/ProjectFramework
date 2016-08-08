@@ -1,6 +1,6 @@
-initialize-release
+class initialization
 initialize
 	" Set the class' initial state "
 	
-	AppSingleton := self new.
+	AppSingleton := self applicationClass new.
 	^ self.

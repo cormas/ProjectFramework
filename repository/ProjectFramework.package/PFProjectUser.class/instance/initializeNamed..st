@@ -1,5 +1,5 @@
 initialize - release
-initializeWith: aNameString
+initializeNamed: aNameString
 	" Private - Initialize receive's settings "
 	
 	name := aNameString.
