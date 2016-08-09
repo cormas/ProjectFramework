@@ -1,13 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "PFProjectTests",
+	"super" : "TestCase",
 	"category" : "ProjectFrameworkTests-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"user2"
+		"user",
+		"project"
 	],
-	"name" : "PFProjectInformationTests",
+	"name" : "PFProjectTests",
 	"type" : "normal"
 }

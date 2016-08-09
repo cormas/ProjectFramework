@@ -1,14 +1,11 @@
 testing
 testAddOwner
 
-	| ownerName1 ownerName2 pfUser |
+	| ownerName1 ownerName2 |
 	
 	ownerName1 := 'owner1'.
 	ownerName2 := 'owner2'.
-	
-	" Create an user and add a new project "
-	pfUser := self createTestUser.
-	project := pfUser addProject: self samplePrjName.
+	project := self user addProject: self samplePrjName.
 	
 	" Create another user acting as an owner and add as an owner to the normal user project "
 	self createTestUser: ownerName1.

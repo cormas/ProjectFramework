@@ -1,0 +1,4 @@
+accessing
+sampleProjectClass
+
+	^ PFSampleProjectClass
