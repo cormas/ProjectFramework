@@ -5,6 +5,6 @@ addProject: aNameString
 	| project |
 	project := (self projectExists: aNameString) 
 					ifFalse: [ self createProject: aNameString ]
-					ifTrue: [ self applicationProjectNamed: aNameString ].
+					ifTrue: [ self error: 'Project already exists: ' , aNameString ].
 	self userProjects addLast: project.
 	^ project

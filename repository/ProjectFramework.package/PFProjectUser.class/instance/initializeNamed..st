@@ -4,4 +4,3 @@ initializeNamed: aNameString
 	
 	name := aNameString.
 	preferences := PFProjectPreferences newFor: self.
-	self addApplicationUser: self 

@@ -1,3 +1,4 @@
 accessing
-currentProject: anObject
-	currentProject := anObject
+currentProject: aPFProjectBase
+
+	currentProject := aPFProjectBase
