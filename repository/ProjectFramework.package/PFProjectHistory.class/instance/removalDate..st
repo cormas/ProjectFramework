@@ -1,3 +1,4 @@
 accessing
-removalDate: anObject
-	removalDate := anObject
+removalDate: aDateAndTime
+
+	removalDate := aDateAndTime

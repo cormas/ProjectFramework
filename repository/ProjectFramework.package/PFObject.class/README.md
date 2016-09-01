@@ -1,1 +1,4 @@
-Abstract class for the Project Framework button.
+Abstract class for Project Framework classes.
+
+See subclasses for details.
+

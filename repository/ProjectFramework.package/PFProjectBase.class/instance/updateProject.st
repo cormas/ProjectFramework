@@ -2,7 +2,8 @@ accessing
 updateProject
 	" Serialize the receiver "
 
-	self serializerClass 
+	[ self serializerClass 
 		serialize: self 
-		toFileNamed: self fileName. 
+		toFileNamed: self fileName ] 
+	ensure: [ self info beSaved ]
 	

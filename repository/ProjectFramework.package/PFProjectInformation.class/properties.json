@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "HernanMoralesDurand 8/6/2016 15:05",
+	"commentStamp" : "HernanMoralesDurand 9/1/2016 19:14",
 	"super" : "PFApplicationObject",
 	"category" : "ProjectFramework-Core",
 	"classinstvars" : [ ],
@@ -11,7 +11,8 @@
 		"project",
 		"usage",
 		"fileName",
-		"owner"
+		"owner",
+		"status"
 	],
 	"name" : "PFProjectInformation",
 	"type" : "normal"

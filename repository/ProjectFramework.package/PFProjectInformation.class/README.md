@@ -4,11 +4,11 @@ Holds  information commonly associated to a project, such as its name, usage, fi
 Internal Representation and Key Implementation Points.
 
     Instance Variables
-	fileName:		<Object>
-	history:		<Object>
-	name:		<Object>
-	project:		<Object>
-	usage:		<Object>
-
+	fileName:		<String>
+	history:			<PFProjectHistory>
+	name:			<String>
+	project:			<PFProjectBase>
+	usage:			<PFProjectUsage>
+	status: 			<Boolean>
 
     Implementation Points
