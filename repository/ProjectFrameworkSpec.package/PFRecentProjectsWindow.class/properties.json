@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "HernanMoralesDurand 8/8/2016 01:26",
+	"super" : "PFAbstractProjectWindow",
+	"category" : "ProjectFrameworkSpec-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"RecentProjects"
+	],
+	"instvars" : [
+		"recentProjectsLabel",
+		"recentProjectsList"
+	],
+	"name" : "PFRecentProjectsWindow",
+	"type" : "normal"
+}
