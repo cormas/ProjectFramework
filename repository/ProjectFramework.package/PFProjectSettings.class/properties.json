@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "HernanMoralesDurand 8/6/2016 15:34",
 	"super" : "PFObject",
-	"category" : "ProjectFramework-Core",
+	"category" : "ProjectFramework-Pharo",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [

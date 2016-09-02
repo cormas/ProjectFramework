@@ -1,4 +1,0 @@
-private
-currentProjectLabelContent
-
-	^ 'Current Project: ' 
