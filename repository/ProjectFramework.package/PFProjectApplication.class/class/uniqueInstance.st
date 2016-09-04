@@ -3,5 +3,6 @@ uniqueInstance
 	" Answer the class' primary instance "
 	
 	^ AppSingleton
-		ifNil: [ self initialize.
-				AppSingleton ]	
+		ifNil: [ 
+			self initializeApplication.
+			AppSingleton ]	

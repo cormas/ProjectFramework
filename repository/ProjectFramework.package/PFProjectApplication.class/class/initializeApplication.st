@@ -1,6 +1,5 @@
 class initialization
-initialize
+initializeApplication
 	" Set the class' initial state "
 	
 	AppSingleton := self applicationClass new.
-	^ self.
