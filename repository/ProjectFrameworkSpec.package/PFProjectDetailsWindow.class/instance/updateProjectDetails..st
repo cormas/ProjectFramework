@@ -4,7 +4,7 @@ updateProjectDetails: project
 	
 	self currentProjectList roots: { 
 			{ 'Name' 			. project name } .
-			{ 'Author' 		. project author } .
+			{ 'Author' 		. project authorName } .
 			{ 'Created'		. project creationDate } .
 			{ 'File'			. project fileName }	.
 			{ 'Status'		. (self updateProjectStatus: project status) }
