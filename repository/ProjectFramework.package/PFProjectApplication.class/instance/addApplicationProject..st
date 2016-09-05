@@ -1,7 +1,7 @@
 accessing
-addApplicationProject: aProjectClass
-	" Add a aProjectClass to the receiver's collection "
+addApplicationProject: aProjectObject
+	" Add a aProjectObject to the receiver's "
 
 	^ self applicationProjects 
-		at: aProjectClass name
-		put: aProjectClass
+		at: aProjectObject name
+		put: aProjectObject

@@ -6,8 +6,5 @@ projectExists: aNameString
 		ifTrue: [ 
 			[ ( self application applicationProjectNamed: aNameString ) isProject ]
 			on: Error
-			do: [ : ex | 
-				" Esto es porque un usuario puede tener su propios proyectos
-				no globales a la aplicación "
-				self prvProjectExists: aNameString ] ]
+			do: [ : ex | self prvProjectExists: aNameString ] ]
 		ifFalse: [ self prvProjectExists: aNameString ]	
