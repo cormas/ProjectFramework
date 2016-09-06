@@ -1,10 +1,10 @@
 accessing
-addOwner: aNameString
+addOwner: aPFProjectUser
 	" Add an user named aNameString to the receiver's owner record.
 	aNameString must exists as user "
 
-	^ (self usage isOwner: aNameString) 
+	^ (self usage isOwner: aPFProjectUser) 
 		ifFalse: [ 
-			self usage addOwner: aNameString.
-			(self userNamed: aNameString) addProject: self project name ]
-		ifTrue: [ self informMessage: aNameString , ' is already an owner of the receiver' ]
+			self usage addOwner: aPFProjectUser.
+			aPFProjectUser userProjects add: self project ]
+		ifTrue: [ self informMessage: aPFProjectUser name , ' is already an owner of project: ' , self project name ]

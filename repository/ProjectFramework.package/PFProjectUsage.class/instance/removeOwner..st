@@ -1,7 +1,7 @@
 accessing
-removeOwner: aNameString
+removeOwner: aPFProjectUser
 	" ToDo: Check credentials "
 	
 	self owners 
-		remove: (self userNamed: aNameString)
-		ifAbsent: [ self error: aNameString , ' is not owner of the receiver' ]
+		remove: aPFProjectUser
+		ifAbsent: [ self error: aPFProjectUser name , ' is not owner of the receiver' ]

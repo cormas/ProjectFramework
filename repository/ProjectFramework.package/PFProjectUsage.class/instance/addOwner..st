@@ -1,6 +1,6 @@
 accessing
-addOwner: aNameString
+addOwner: aPFProjectUser
 	" Add aNameString as a receiver's owners "
 	" ToDo: Check credentials "
 
-	^ self owners addLast: (self userNamed: aNameString)
+	^ self owners addLast: aPFProjectUser

@@ -1,5 +1,5 @@
 accessing
-addOwner: aNameString
-	" Add an user named aNameString to the receiver's owner record. aNameString must exists as user "
+addOwner: aPFProjectUser
+	" Add an user aPFProjectUser to the receiver's owner record. "
 	
-	self info addOwner: aNameString
+	self info addOwner: aPFProjectUser
