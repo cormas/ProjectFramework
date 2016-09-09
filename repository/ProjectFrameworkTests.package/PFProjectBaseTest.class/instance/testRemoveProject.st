@@ -1,4 +1,4 @@
-testing
+tests-accessing
 testRemoveProject
 
 	user := PFProjectUser named: 'user1'.

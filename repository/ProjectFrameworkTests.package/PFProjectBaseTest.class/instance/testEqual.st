@@ -1,4 +1,4 @@
-testing
+tests-accessing
 testEqual
 
 	| prj1 prj2 |
