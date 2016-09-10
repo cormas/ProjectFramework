@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 9/10/2016 15:47",
+	"super" : "PFProjectSettings",
+	"category" : "ProjectFrameworkPharo-Settings",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PFProjectSettingsPharo",
+	"type" : "normal"
+}

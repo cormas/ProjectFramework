@@ -1,0 +1,4 @@
+*ProjectFrameworkPharo
+projectFrameworkPragmaSettings
+
+	^ self systemsettings
