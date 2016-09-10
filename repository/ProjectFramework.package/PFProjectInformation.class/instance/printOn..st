@@ -3,7 +3,9 @@ printOn: aStream
 	" Private - See superimplementor's comment "
 
 	super printOn: aStream.
-	name ifNotNilDo: [ : n | 
+	name ifNotNil: [ : n | 
 		aStream 
 			space;
-			nextPutAll: n ]
+			nextPut: $(;
+			nextPutAll: n;
+			nextPut: $) ]
