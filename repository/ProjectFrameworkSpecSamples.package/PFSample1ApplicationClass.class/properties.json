@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 9/2/2016 01:11",
+	"super" : "PFProjectApplication",
+	"category" : "ProjectFrameworkSpecSamples-Sample1",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PFSample1ApplicationClass",
+	"type" : "normal"
+}
