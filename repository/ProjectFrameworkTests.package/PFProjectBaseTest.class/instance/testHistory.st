@@ -1,4 +1,4 @@
 tests-accessing
 testHistory
 
-	self assert: (self samplePrj history isKindOf: PFProjectHistory). 
+	self assert: (self newTestPrj history isKindOf: PFProjectHistory). 

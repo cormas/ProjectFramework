@@ -1,4 +1,4 @@
-testing
+accessing
 sampleUserName
 
 	^ 'user1'

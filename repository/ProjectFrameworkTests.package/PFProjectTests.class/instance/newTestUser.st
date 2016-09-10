@@ -1,6 +1,6 @@
-testing
-createTestUser: userName
+accessing
+newTestUser
 
 	^ PFProjectUser 
-		named: userName
+		named: self sampleUserName
 		application: self sampleApplicationClass.

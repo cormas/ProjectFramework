@@ -1,4 +1,4 @@
 tests-accessing
 testAuthor
 
-	self assert: (self samplePrj author isKindOf: PFProjectUser).
+	self assert: (self newTestPrj author isKindOf: PFProjectUser).
