@@ -1,4 +1,0 @@
-*ProjectFramework
-projectFrameworkPragmaSettings
-
-	^ self systemsettings
