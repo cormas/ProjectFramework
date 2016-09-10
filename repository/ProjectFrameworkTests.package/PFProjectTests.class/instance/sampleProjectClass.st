@@ -1,4 +1,4 @@
 accessing
 sampleProjectClass
 
-	^ PFSampleProjectClass
+	^ PFSample1Project
