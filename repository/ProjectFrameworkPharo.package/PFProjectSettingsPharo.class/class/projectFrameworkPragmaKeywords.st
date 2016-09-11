@@ -1,0 +1,4 @@
+accessing
+projectFrameworkPragmaKeywords
+
+	self subclassResponsibility 
