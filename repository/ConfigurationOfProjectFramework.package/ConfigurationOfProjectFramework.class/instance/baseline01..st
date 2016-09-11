@@ -18,5 +18,6 @@ baseline01: spec
 			package: 'ProjectFrameworkTests'.
 		spec 
 			group: 'All' with: #('ProjectFramework' #ProjectFrameworkSpec 'ProjectFrameworkTests' #ProjectFrameworkSpecSamples #ProjectFrameworkPharo );
+			group: 'Basic' with: #('ProjectFramework' #ProjectFrameworkPharo #ProjectFrameworkSpec );
 			group: 'Core' with: #('ProjectFramework' );
 			group: 'Tests' with: #('ProjectFramework' 'ProjectFrameworkTests' ). ].
