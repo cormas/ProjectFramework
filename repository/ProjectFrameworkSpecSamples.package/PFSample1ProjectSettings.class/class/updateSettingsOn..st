@@ -1,6 +1,6 @@
 settings
 updateSettingsOn: aBuilder
-	<projectFrameworkPragmaSettings>
+	<projectSample1Settings>
 
 	(aBuilder launcher: #updateApplication)
 		target: self;

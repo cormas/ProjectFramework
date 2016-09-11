@@ -1,6 +1,6 @@
 settings
 projectSettingsOn: aBuilder
-	<projectSample1Settings>
+	<projectSample2Settings>
 
 	(aBuilder group: #projectSettings)
 		label: self applicationName;
