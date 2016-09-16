@@ -5,6 +5,7 @@ findApplicationClass
 		ifTrue: [ self error: 'You should install the ProjectFramework samples or subclass ' , self class name , ' to use the Project Framework' ]
 		ifFalse: [ 
 			PFProjectApplication subclasses size = 1
-				ifTrue: [ self subclasses anyOne ]
+				ifTrue: [ PFProjectApplication subclasses anyOne ]
 				ifFalse: [ self askApplicationClass ] ]
+
 	
