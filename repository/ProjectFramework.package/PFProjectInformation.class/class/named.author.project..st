@@ -1,5 +1,5 @@
 instance creation
-named: aNameString creator: aProjectUser project: aProject
+named: aNameString author: aProjectUser project: aProject
 	" Answer a new project information object setting all necessary parameters "
 	
 	^ self new 

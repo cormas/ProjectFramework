@@ -1,3 +1,5 @@
 accessing
-project: anObject
-	project := anObject
+project: aPFProjectBase
+	" Set the receiver's project, aPFProjectBase "
+
+	project := aPFProjectBase

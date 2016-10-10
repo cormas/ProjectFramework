@@ -4,5 +4,5 @@ initializeNamed: aNameString author: aProjectUser
 	
 	info := PFProjectInformation 
 			named: aNameString 
-			creator: aProjectUser 
+			author: aProjectUser 
 			project: self.

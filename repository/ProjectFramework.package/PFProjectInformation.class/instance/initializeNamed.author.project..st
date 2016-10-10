@@ -6,4 +6,4 @@ initializeNamed: aNameString author: aProjectUser project: aProject
 	history := PFProjectHistory new author: aProjectUser.
 	project := aProject.
 	usage := PFProjectUsage new lastUser: aProjectUser.
-	status := false
+	saveStatus := false

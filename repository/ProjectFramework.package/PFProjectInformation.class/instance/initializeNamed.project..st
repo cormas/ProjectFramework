@@ -4,4 +4,4 @@ initializeNamed: aNameString project: aProject
 
 	name := aNameString.
 	project := aProject.
-	status := false
+	saveStatus := false

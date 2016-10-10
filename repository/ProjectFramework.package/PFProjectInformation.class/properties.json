@@ -12,8 +12,8 @@
 		"usage",
 		"fileName",
 		"owner",
-		"status",
-		"version"
+		"version",
+		"saveStatus"
 	],
 	"name" : "PFProjectInformation",
 	"type" : "normal"

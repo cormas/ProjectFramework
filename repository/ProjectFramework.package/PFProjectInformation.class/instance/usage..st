@@ -1,3 +1,4 @@
 accessing
-usage: anObject
-	usage := anObject
+usage: aPFProjectUsage
+
+	usage := PFProjectUsage
