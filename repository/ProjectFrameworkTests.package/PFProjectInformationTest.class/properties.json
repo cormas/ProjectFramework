@@ -5,7 +5,9 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "PFProjectInformationTests",
+	"instvars" : [
+		"projectInfo"
+	],
+	"name" : "PFProjectInformationTest",
 	"type" : "normal"
 }
