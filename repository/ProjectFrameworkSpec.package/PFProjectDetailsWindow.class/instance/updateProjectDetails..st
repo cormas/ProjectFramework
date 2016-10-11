@@ -7,5 +7,5 @@ updateProjectDetails: project
 			{ 'Author' 		. project authorName } .
 			{ 'Created'		. project creationDate } .
 			{ 'File'			. project fileName }	.
-			{ 'Status'		. (self updateProjectStatus: project status) }
+			{ 'Status'		. (self updateProjectStatus: project saveStatus) }
 	} 
