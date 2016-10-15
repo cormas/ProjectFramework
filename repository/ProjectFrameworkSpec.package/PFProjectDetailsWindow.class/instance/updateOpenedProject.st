@@ -4,4 +4,4 @@ updateOpenedProject
 	
 	super updateOpenedProject.
 	self currentProjectsLabel label: self currentProjectLabelContent , self applicationClass currentProjectName.
-	self updateProjectDetails: self currentProject.
+	self updateCurrentProjectDetails
