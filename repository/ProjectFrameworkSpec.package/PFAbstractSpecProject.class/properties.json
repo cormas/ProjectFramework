@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ComposableModel",
+	"category" : "ProjectFrameworkSpec-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PFAbstractSpecProject",
+	"type" : "normal"
+}

@@ -1,0 +1,4 @@
+callbacks
+updateClosedProject
+
+	self releaseProject.

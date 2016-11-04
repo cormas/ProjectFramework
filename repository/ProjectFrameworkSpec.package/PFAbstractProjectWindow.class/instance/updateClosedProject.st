@@ -1,7 +1,8 @@
 callbacks
 updateClosedProject
+	" Private - See superimplementor's comment "
 
-	self releaseProject.
+	super updateClosedProject.
 	self editProjectButton disable.	
 	self closeProjectButton disable.
 	self exploreProjectButton disable.
