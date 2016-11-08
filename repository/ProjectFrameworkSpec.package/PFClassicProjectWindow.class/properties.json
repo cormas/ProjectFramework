@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "HernanMoralesDurand 11/7/2016 22:50",
+	"super" : "SpcMenuAppWindow",
+	"category" : "ProjectFrameworkSpec-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"projectManager"
+	],
+	"name" : "PFClassicProjectWindow",
+	"type" : "normal"
+}

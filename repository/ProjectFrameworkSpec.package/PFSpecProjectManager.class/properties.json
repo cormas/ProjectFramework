@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "ProjectFrameworkSpec-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"applicationClass",
+		"projectClass",
+		"settingsClass"
+	],
+	"name" : "PFSpecProjectManager",
+	"type" : "normal"
+}

@@ -1,8 +1,5 @@
 callbacks
-openProject: projectApp
+openProject: projectAppName
 	" Open the project named projectApp "
 
-	^ self applicationClass uniqueInstance
-		applicationProjectNamed: projectApp name put: projectApp;
-		currentProject: projectApp;
-		currentProjectIsValid
+	^ self projectManager openProject: projectAppName

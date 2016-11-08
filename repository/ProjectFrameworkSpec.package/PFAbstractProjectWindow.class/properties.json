@@ -14,7 +14,8 @@
 		"saveProjectButton",
 		"projectActions",
 		"editProjectButton",
-		"closeWindowButton"
+		"closeWindowButton",
+		"projectManager"
 	],
 	"name" : "PFAbstractProjectWindow",
 	"type" : "normal"
