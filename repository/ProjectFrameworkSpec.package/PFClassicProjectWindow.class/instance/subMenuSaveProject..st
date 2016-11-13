@@ -6,4 +6,4 @@ subMenuSaveProject: item
 		name: 'Save';
 		shortcut: $s command;
 		icon: Smalltalk ui icons smallSave;
-		action: [ self quitApplication ]
+		action: [ self applicationSave ]

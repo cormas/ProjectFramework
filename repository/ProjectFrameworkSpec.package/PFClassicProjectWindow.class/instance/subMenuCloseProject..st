@@ -6,4 +6,4 @@ subMenuCloseProject: item
 		name: 'Close';
 		shortcut: $c command;
 		icon: Smalltalk ui icons smallCancel;
-		action: [ self quitApplication ]
+		action: [ self applicationClose ]
