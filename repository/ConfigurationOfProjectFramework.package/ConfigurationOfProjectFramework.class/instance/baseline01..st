@@ -5,11 +5,17 @@ baseline01: spec
 	spec for: #'common' do: [
 		spec blessing: #'baseline'.
 		spec repository: 'http://smalltalkhub.com/mc/hernan/ProjectFramework/main/'.
-		spec project: 'Grease' with: [
+		spec 
+			project: 'Grease' with: [
 				spec
 					className: #ConfigurationOfGrease;
 					versionString: #'stable';
-					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo50/main/' ].
+					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo50/main/' ];
+			project: 'SpecUIAddOns' with: [
+				spec
+					className: #ConfigurationOfSpecUIAddOns;
+					versionString: #'bleedingEdge';
+					repository: 'http://smalltalkhub.com/mc/hernan/SpecUIAddOns/main/' ].
 		spec 
 			package: 'ProjectFramework';
 			package: #ProjectFrameworkPharo with: [
@@ -17,7 +23,7 @@ baseline01: spec
 			package: #ProjectFrameworkSamples with: [
 				spec requires: #('ProjectFramework' ). ];
 			package: #ProjectFrameworkSpec with: [
-				spec requires: #('ProjectFramework' #ProjectFrameworkPharo ). ];
+				spec requires: #('ProjectFramework' #ProjectFrameworkPharo 'SpecUIAddOns' ). ];
 			package: #ProjectFrameworkSpecSamples with: [
 				spec requires: #('ProjectFramework' #ProjectFrameworkPharo #ProjectFrameworkSpec #ProjectFrameworkSamples ). ];
 			package: 'ProjectFrameworkTests' with: [
