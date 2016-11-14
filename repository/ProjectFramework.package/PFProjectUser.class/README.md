@@ -1,6 +1,6 @@
-PFProjectUser represents an user with projects, and a current project, in the system.
+Represents an user with projects. Projects could be unrelated. An user maintains a current project which is the project currently running in a PFProjectApplication.
 
 Instance Variables:
 	name			<String>
 	projects			<Collection> of <PFProjectBase>
-	currentProject	<BioProject>
+	currentProject	<PFProjectBase>
