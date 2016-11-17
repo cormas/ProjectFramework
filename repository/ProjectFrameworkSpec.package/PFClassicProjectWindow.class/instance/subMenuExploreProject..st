@@ -5,5 +5,5 @@ subMenuExploreProject: item
 	item 
 		name: 'Explore...';
 		shortcut: $e command;
-		icon: Smalltalk ui icons smallInspectIt;
+		icon: Smalltalk ui icons smallInspectItIcon;
 		action: [ self applicationExplore ]

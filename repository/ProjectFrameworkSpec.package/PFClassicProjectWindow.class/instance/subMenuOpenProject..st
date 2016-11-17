@@ -5,5 +5,5 @@ subMenuOpenProject: item
 	item 
 		name: 'Open...';
 		shortcut: $o command;
-		icon: Smalltalk ui icons smallLoadProject;
+		icon: Smalltalk ui icons smallLoadProjectIcon;
 		action: [ self applicationOpen ]

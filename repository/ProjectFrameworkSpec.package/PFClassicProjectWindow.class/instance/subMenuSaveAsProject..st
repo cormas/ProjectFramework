@@ -5,5 +5,5 @@ subMenuSaveAsProject: item
 	item 
 		name: 'Save As...';
 		shortcut: $a command;
-		icon: Smalltalk ui icons smallSave;
+		icon: Smalltalk ui icons smallSaveIcon;
 		action: [ self applicationSaveAs ]

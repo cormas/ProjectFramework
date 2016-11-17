@@ -5,5 +5,5 @@ subMenuNewProject: item
 	item 
 		name: 'New...';
 		shortcut: $n command;
-		icon: Smalltalk ui icons smallNew;
+		icon: Smalltalk ui icons smallNewIcon;
 		action: [ self applicationNewProject ]

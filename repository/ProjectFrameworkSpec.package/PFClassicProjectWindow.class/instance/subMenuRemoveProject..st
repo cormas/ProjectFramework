@@ -5,5 +5,5 @@ subMenuRemoveProject: item
 	item 
 		name: 'Remove';
 		shortcut: $r command;
-		icon: Smalltalk ui icons remove;
+		icon: Smalltalk ui icons removeIcon;
 		action: [ self applicationRemoveProject ]
