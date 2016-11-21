@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "HernanMoralesDurand 11/21/2016 01:13",
+	"super" : "Object",
+	"category" : "ProjectFramework-Translator",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"translator"
+	],
+	"name" : "PFTranslator",
+	"type" : "normal"
+}
