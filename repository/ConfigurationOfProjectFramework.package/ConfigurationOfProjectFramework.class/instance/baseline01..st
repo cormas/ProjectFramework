@@ -15,9 +15,15 @@ baseline01: spec
 				spec
 					className: #ConfigurationOfSpecUIAddOns;
 					versionString: #'bleedingEdge';
-					repository: 'http://smalltalkhub.com/mc/hernan/SpecUIAddOns/main/' ].
+					repository: 'http://smalltalkhub.com/mc/hernan/SpecUIAddOns/main/' ];
+			project: 'I18N' with: [
+				spec
+					className: #ConfigurationOfI18N;
+					versionString: #'stable';
+					repository: 'http://smalltalkhub.com/mc/TorstenBergmann/I18N/main/' ].
 		spec 
-			package: 'ProjectFramework';
+			package: 'ProjectFramework' with: [
+				spec requires: #('I18N' ). ];
 			package: #ProjectFrameworkPharo with: [
 				spec requires: #('ProjectFramework' ). ];
 			package: #ProjectFrameworkSamples with: [
