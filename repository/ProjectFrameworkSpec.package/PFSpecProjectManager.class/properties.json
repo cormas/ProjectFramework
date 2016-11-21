@@ -8,7 +8,8 @@
 	"instvars" : [
 		"applicationClass",
 		"projectClass",
-		"settingsClass"
+		"settingsClass",
+		"translator"
 	],
 	"name" : "PFSpecProjectManager",
 	"type" : "normal"

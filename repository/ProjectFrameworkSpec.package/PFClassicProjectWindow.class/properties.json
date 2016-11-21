@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"projectManager"
+		"projectManager",
+		"translator"
 	],
 	"name" : "PFClassicProjectWindow",
 	"type" : "normal"

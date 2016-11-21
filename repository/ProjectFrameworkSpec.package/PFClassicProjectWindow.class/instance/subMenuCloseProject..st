@@ -3,7 +3,7 @@ subMenuCloseProject: item
 	" Configure the menu option for closing the receiver "
 	
 	item 
-		name: 'Close';
+		name: self translator close;
 		shortcut: $c command;
 		icon: Smalltalk ui icons smallCancelIcon;
 		action: [ self applicationClose ]
