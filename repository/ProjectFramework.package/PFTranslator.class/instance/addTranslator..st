@@ -1,4 +1,4 @@
 accessing
-addTranslator: aString
+addTranslator: languageCode
 
-	I18NTranslator addTranslator: (I18NTranslator newForLanguage: aString)
+	self translatorClass addTranslator: (I18NTranslator newForLanguage: languageCode)

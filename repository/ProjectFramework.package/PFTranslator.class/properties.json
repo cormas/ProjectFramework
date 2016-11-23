@@ -6,7 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"translator"
+		"currentLanguageCode"
 	],
 	"name" : "PFTranslator",
 	"type" : "normal"
