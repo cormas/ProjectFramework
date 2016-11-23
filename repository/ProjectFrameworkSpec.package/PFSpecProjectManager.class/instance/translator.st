@@ -1,4 +1,4 @@
 i18n
 translator
 	^ translator
-		ifNil: [ translator := PFTranslator new ]
+		ifNil: [ translator := PFTranslator newForLanguage: self defaultLanguageCode ]

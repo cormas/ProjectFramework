@@ -3,7 +3,7 @@ subMenuRemoveProject: item
 	" Configure the menu option for removing the receiver "
 	
 	item 
-		name: self translator remove , '...';
+		name: self translator tRemove , '...';
 		shortcut: $r command;
 		icon: Smalltalk ui icons removeIcon;
 		action: [ 
