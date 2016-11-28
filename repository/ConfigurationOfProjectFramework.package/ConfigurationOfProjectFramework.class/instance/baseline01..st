@@ -11,16 +11,17 @@ baseline01: spec
 					className: #ConfigurationOfGrease;
 					versionString: #'stable';
 					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo50/main/' ];
-			project: 'SpecUIAddOns' with: [
-				spec
-					className: #ConfigurationOfSpecUIAddOns;
-					versionString: #'bleedingEdge';
-					repository: 'http://smalltalkhub.com/mc/hernan/SpecUIAddOns/main/' ];
 			project: 'I18N' with: [
 				spec
 					className: #ConfigurationOfI18N;
 					versionString: #'stable';
-					repository: 'http://smalltalkhub.com/mc/TorstenBergmann/I18N/main/' ].
+					repository: 'http://smalltalkhub.com/mc/TorstenBergmann/I18N/main/' ];
+			project: 'SpecUIAddOns' with: [
+				spec
+					className: #ConfigurationOfSpecUIAddOns;
+					versionString: #'bleedingEdge';
+					loads: #('Morphic' );
+					repository: 'http://smalltalkhub.com/mc/hernan/SpecUIAddOns/main/' ].
 		spec 
 			package: 'ProjectFramework' with: [
 				spec requires: #('I18N' ). ];
