@@ -9,7 +9,8 @@
 		"applicationClass",
 		"projectClass",
 		"settingsClass",
-		"translator"
+		"translator",
+		"projectWindow"
 	],
 	"name" : "PFSpecProjectManager",
 	"type" : "normal"

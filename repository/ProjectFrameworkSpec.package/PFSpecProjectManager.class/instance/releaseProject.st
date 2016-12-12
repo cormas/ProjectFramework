@@ -2,4 +2,5 @@ callbacks
 releaseProject
 	" Release receiver's current project "
 
-	self subclassResponsibility 
+	self projectClass release.
+	self applicationClass releaseProject.
