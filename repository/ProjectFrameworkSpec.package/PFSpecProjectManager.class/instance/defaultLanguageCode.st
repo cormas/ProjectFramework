@@ -1,4 +1,4 @@
-i18n
+defaults
 defaultLanguageCode
 
 	^ #EN

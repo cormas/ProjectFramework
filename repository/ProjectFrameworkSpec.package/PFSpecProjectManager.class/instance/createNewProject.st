@@ -4,8 +4,8 @@ createNewProject
 
 	| answer |
 
-	(answer := UIManager default request: 'New project name') isEmptyOrNil 
+	(answer := UIManager default request: self translator tNewProjectName) isEmptyOrNil 
 		ifFalse: [ 
 			self createAppProject: answer.
 			self updateNewProject: answer ]
-		ifTrue: [ self informMessage: 'Project name cannot be empty. Please try again' ].
+		ifTrue: [ self informMessage: self translator tNewProjectEmptyName ].

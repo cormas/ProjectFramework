@@ -1,4 +1,4 @@
 accessing
-settingsClass: anObject
+settingsClass: aClass
 	
-	^settingsClass := anObject
+	^ settingsClass := aClass
