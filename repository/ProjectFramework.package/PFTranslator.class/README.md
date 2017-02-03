@@ -1,1 +1,0 @@
-Project Framework interface to the I18N translator objects from http://smalltalkhub.com/#!/~TorstenBergmann/I18N
