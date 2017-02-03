@@ -1,4 +1,4 @@
 accessing
 projectManager
 	^ projectManager
-		ifNil: [ projectManager := self defaultProjectManagerClass new ]
+		ifNil: [ projectManager := PFSpecProjectManager new ]

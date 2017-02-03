@@ -2,7 +2,7 @@ initialization-submenus
 subMenuSettingsProject: item
 
 	item 
-		name: self translator tProperties , '...';
+		name: 'Properties...';
 		shortcut: $i command;
-		icon: Smalltalk ui icons smallInfoIcon;
+		icon: Smalltalk ui icons smallInfo;
 		action: [ self applicationProperties ]

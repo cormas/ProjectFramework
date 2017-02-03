@@ -6,4 +6,4 @@ createAppProject: projectName
 	(app := self applicationClass uniqueInstance) projectClass: self projectClass.
 	newProject := app createProjectNamed: projectName.
 	app currentProject: newProject.
-	self informMessage: self translator tNewProjectSuccess , projectName asString.
+	self informMessage: 'New project ' , projectName asString , ' created succesfully' 

@@ -4,4 +4,4 @@ serializerClass
 
 	^ Smalltalk 
 			at: #FLSerializer 
-			ifAbsent: [ self error: self translator fFuelLibraryMissing ]
+			ifAbsent: [ self error: 'FUEL library missing' ]

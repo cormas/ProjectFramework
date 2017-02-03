@@ -3,7 +3,7 @@ subMenuExploreProject: item
 	" Configure the menu option for oopening the receiver "
 	
 	item 
-		name: self translator tExplore , '...';
+		name: 'Explore...';
 		shortcut: $e command;
-		icon: Smalltalk ui icons smallInspectItIcon;
+		icon: Smalltalk ui icons smallInspectIt;
 		action: [ self applicationExplore ]

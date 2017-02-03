@@ -3,7 +3,7 @@ subMenuSaveAsProject: item
 	" Configure the menu option for save the receiver's project "
 	
 	item 
-		name: self translator tSaveAs , '...';
+		name: 'Save As...';
 		shortcut: $a command;
-		icon: Smalltalk ui icons smallSaveIcon;
+		icon: Smalltalk ui icons smallSave;
 		action: [ self applicationSaveAs ]
