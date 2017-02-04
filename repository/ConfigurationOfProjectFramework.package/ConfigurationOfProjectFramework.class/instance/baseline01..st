@@ -20,6 +20,7 @@ baseline01: spec
 				spec
 					className: #ConfigurationOfSpecUIAddOns;
 					versionString: #'bleedingEdge';
+					loads: #('Core' );
 					repository: 'http://smalltalkhub.com/mc/hernan/SpecUIAddOns/main/' ].
 		spec 
 			package: 'ProjectFramework' with: [
