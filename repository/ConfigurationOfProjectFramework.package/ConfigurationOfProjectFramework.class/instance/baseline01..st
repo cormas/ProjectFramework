@@ -6,25 +6,24 @@ baseline01: spec
 		spec blessing: #'baseline'.
 		spec repository: 'http://smalltalkhub.com/mc/hernan/ProjectFramework/main/'.
 		spec 
+			project: 'CommonUtils' with: [
+				spec
+					className: #ConfigurationOfCommonUtils;
+					versionString: #'stable';
+					repository: 'http://smalltalkhub.com/mc/hernan/CommonUtils/main/' ];
 			project: 'Grease' with: [
 				spec
 					className: #ConfigurationOfGrease;
 					versionString: #'stable';
 					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo50/main/' ];
-			project: 'I18N' with: [
-				spec
-					className: #ConfigurationOfI18N;
-					versionString: #'stable';
-					repository: 'http://smalltalkhub.com/mc/TorstenBergmann/I18N/main/' ];
 			project: 'SpecUIAddOns' with: [
 				spec
 					className: #ConfigurationOfSpecUIAddOns;
 					versionString: #'bleedingEdge';
-					loads: #('Morphic' );
 					repository: 'http://smalltalkhub.com/mc/hernan/SpecUIAddOns/main/' ].
 		spec 
 			package: 'ProjectFramework' with: [
-				spec requires: #('I18N' ). ];
+				spec requires: #('CommonUtils' ). ];
 			package: #ProjectFrameworkPharo with: [
 				spec requires: #('ProjectFramework' ). ];
 			package: #ProjectFrameworkSamples with: [
