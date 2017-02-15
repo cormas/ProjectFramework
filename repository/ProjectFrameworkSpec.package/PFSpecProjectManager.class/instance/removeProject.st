@@ -2,6 +2,6 @@ callbacks
 removeProject
 	" Remove the selected project "
 
-	(self confirm: 'Are you sure you want to remove the selected project: ' , self currentProjectName)
+	(self confirm: self translator tAreYouSureToDeleteProject)
 		ifFalse: [ ^ self ].
 	self releaseProject.

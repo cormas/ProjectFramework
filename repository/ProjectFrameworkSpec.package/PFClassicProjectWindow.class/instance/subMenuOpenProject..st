@@ -3,7 +3,7 @@ subMenuOpenProject: item
 	" Configure the menu option for oopening the receiver "
 	
 	item 
-		name: 'Open...';
+		name: self translator tOpen , '...';
 		shortcut: $o command;
-		icon: Smalltalk ui icons smallLoadProject;
+		icon: Smalltalk ui icons smallLoadProjectIcon;
 		action: [ self applicationOpen ]

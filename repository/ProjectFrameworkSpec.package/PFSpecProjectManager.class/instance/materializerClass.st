@@ -4,4 +4,4 @@ materializerClass
 
 	^ Smalltalk 
 			at: #FLMaterializer 
-			ifAbsent: [ self error: 'FUEL library missing' ]
+			ifAbsent: [ self error: self translator fFuelLibraryMissing ]

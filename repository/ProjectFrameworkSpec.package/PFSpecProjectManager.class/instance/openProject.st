@@ -9,6 +9,6 @@ openProject
 			filename notEmpty
 				ifTrue: [ openStatus := self openProjectFile: filename ] ].
 	^ openStatus
-		ifTrue: [ self informMessage: 'Project opened successfully'.
+		ifTrue: [ self informMessage: self translator tProjectOpenSuccess.
 			self doPostOpenActions ]
-		ifFalse: [ self informMessage: 'Project not opened, please try again' ]
+		ifFalse: [ self informMessage: self translator tProjectOpenFailed ]
