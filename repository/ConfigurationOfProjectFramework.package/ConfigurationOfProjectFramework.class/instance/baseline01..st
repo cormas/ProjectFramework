@@ -16,6 +16,11 @@ baseline01: spec
 					className: #ConfigurationOfGrease;
 					versionString: #'stable';
 					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo50/main/' ];
+			project: 'I18N' with: [
+				spec
+					className: #ConfigurationOfI18N;
+					versionString: #'stable';
+					repository: 'http://smalltalkhub.com/mc/TorstenBergmann/I18N/main/' ];
 			project: 'SpecUIAddOns' with: [
 				spec
 					className: #ConfigurationOfSpecUIAddOns;
@@ -24,7 +29,7 @@ baseline01: spec
 					repository: 'http://smalltalkhub.com/mc/hernan/SpecUIAddOns/main/' ].
 		spec 
 			package: 'ProjectFramework' with: [
-				spec requires: #('CommonUtils' ). ];
+				spec requires: #('CommonUtils' 'I18N' ). ];
 			package: #ProjectFrameworkPharo with: [
 				spec requires: #('ProjectFramework' ). ];
 			package: #ProjectFrameworkSamples with: [
