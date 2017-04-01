@@ -29,7 +29,7 @@ baseline01: spec
 					repository: 'http://smalltalkhub.com/mc/hernan/SpecUIAddOns/main/' ].
 		spec 
 			package: 'ProjectFramework' with: [
-				spec requires: #('CommonUtils' 'I18N' ). ];
+				spec requires: #('CommonUtils' 'I18N' 'Grease' ). ];
 			package: #ProjectFrameworkPharo with: [
 				spec requires: #('ProjectFramework' ). ];
 			package: #ProjectFrameworkSamples with: [
