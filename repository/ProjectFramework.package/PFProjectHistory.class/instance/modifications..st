@@ -1,3 +1,4 @@
 accessing
-modifications: anObject
-	modifications := anObject
+modifications: aCollection
+
+	modifications := aCollection

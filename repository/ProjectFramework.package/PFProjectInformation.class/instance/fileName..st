@@ -1,3 +1,5 @@
 accessing
-fileName: anObject
-	fileName := anObject
+fileName: aString
+	" Set aString to be the project file name "
+
+	fileName := aString

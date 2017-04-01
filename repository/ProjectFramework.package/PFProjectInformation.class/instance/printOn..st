@@ -6,6 +6,4 @@ printOn: aStream
 	name ifNotNil: [ : n | 
 		aStream 
 			space;
-			nextPut: $(;
-			nextPutAll: n;
-			nextPut: $) ]
+			nextPutAll: n between: $( and: $) ]
