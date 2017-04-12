@@ -4,5 +4,5 @@ initializePrvWidgets
 
 	super initializePrvWidgets.
 	recentProjectsLabel := self newLabel.
-	recentProjectsList := self instantiate: NewListModel.
+	recentProjectsList := self instantiate: ListModel.
 

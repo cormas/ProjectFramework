@@ -4,6 +4,7 @@ updateOpenedProject
 	
 	super updateOpenedProject.
 	self saveProjectButton enable.
+	self removeProjectButton enable.
 	self editProjectButton enable.
 	self closeProjectButton enable.
 	self exploreProjectButton enable.
