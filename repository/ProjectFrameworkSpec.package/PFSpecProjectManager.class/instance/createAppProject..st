@@ -10,5 +10,5 @@ createAppProject: projectName
 		self updateNewProject: projectName.
 		self informMessage: self translator tNewProjectSuccess , projectName asString. 
 	]
-	on: Exception 
+	on: Error 
 	do: [ : ex | self handleCreateAppException: ex in: app name: projectName ]

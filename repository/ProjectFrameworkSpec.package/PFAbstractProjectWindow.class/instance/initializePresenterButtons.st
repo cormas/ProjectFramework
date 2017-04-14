@@ -2,9 +2,9 @@ initialization
 initializePresenterButtons
 
 	self initializeButtonActions.
-	self removeProjectButton disable.
 	self applicationClass hasProject
 		ifTrue: [ ^ self ].
+	self removeProjectButton disable.
 	self editProjectButton disable.
 	self saveProjectButton disable.
 	self closeProjectButton disable.

@@ -1,10 +1,11 @@
 accessing
 defaultProjectDetails
-
-	^ {  
-			{ 'Name' 		. self currentProject name } .
-			{ 'Author' 		. self currentProject authorName } .
-			{ 'Created'		. self currentProject creationDateAsString } .
-			{ 'File'		. self currentProject fileName }	.
-			{ 'Status'		. (self updateProjectStatus: self currentProject saveStatus) }
-	} 
+	^ self currentProject
+		ifNil: [ Array empty ]
+		ifNotNil: [ :cp | {
+			{'Name'. cp name}.
+			{'Author'. cp authorName}.
+			{'Created'. cp creationDateAsString}.
+			{'File'. cp fileName}.
+			{'Status'. (self updateProjectStatus: cp saveStatus)}
+		} ]

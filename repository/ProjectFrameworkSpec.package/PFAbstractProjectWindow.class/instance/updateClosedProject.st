@@ -6,4 +6,5 @@ updateClosedProject
 	self editProjectButton disable.	
 	self closeProjectButton disable.
 	self exploreProjectButton disable.
-	self saveProjectButton disable
+	self saveProjectButton disable.
+	self removeProjectButton disable.
