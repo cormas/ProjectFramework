@@ -14,7 +14,7 @@ addTranslationsForEN
 		at: #tTools			put: 'Tools';
 		at: #tHelp			put: 'Help';		
 		at: #tAreYouSureToDeleteProject put: 'Are you sure to remove the project?';
-		at: #tAreYouSureToCloseProject put: 'Are you sure you want to close the current project: ';
+		at: #tAreYouSureToCloseProject put: 'Are you sure to close the current project: ';
 		at: #tNewProjectSuccess put: 'Created succesfully new project: ';
 		at: #tNewProjectName put: 'New project name';
 		at: #tNewProjectEmptyName put: 'Project name cannot be empty. Please try again';
