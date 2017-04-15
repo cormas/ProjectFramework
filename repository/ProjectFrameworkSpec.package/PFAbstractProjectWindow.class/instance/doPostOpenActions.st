@@ -1,6 +1,0 @@
-callbacks
-doPostOpenActions
-	" Basic post open actions. Redefine in subclasses if necessary "
-
-	super doPostSaveActions.
-	self delete 

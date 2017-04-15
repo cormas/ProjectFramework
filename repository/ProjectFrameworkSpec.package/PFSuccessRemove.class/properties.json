@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Notification",
+	"category" : "ProjectFrameworkSpec-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PFSuccessRemove",
+	"type" : "normal"
+}

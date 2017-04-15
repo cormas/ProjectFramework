@@ -1,7 +1,7 @@
 callbacks
 removeProject
-	" Remove the selected project "
+	" Answer <true> if the current project was removed successfully. "
 
-	(self confirm: 'Are you sure you want to remove the selected project: ' , self currentProjectName)
-		ifFalse: [ ^ self ].
-	self releaseProject.
+	[ self projectManager removeProject ]
+	on: PFSuccessRemove, PFSuccessClose
+	do: [ : ex | ex pass ]

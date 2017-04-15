@@ -2,7 +2,9 @@ callbacks
 removeProject
 	" Remove the selected project "
 
-	super removeProject.
-	self currentProjectsLabel label: self currentProjectLabelContent.
-	self projectDetails: nil.
-	self updateCurrentProjectDetails.
+	[ super removeProject ]
+	on: PFSuccessRemove, PFSuccessClose
+	do: [ : ex |
+		self currentProjectsLabel label: self currentProjectLabelContent.
+		self updateCurrentProjectDetails.
+		ex pass ]

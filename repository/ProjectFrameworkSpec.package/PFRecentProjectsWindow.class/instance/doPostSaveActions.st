@@ -5,6 +5,5 @@ doPostSaveActions
 	self 
 		addToRecent: self applicationClass currentProjectName 
 		named: self applicationClass currentProjectFileName.
-	self projectDetails: nil.	
 	self updateCurrentProjectDetails.
 	super doPostSaveActions.

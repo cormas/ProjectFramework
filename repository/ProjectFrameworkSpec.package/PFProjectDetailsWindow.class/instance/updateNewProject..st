@@ -8,5 +8,4 @@ updateNewProject: aString
 	self editProjectButton enable.
 	self exploreProjectButton enable.
 	self closeProjectButton enable.
-	self projectDetails: nil.
 	self updateCurrentProjectDetails.

@@ -4,4 +4,9 @@ removeProject
 
 	(self confirm: self translator tAreYouSureToDeleteProject)
 		ifFalse: [ ^ self ].
-	self releaseProject.
+	[ self currentProject remove ]
+	on: PFSuccessRemove, PFSuccessClose
+	do: [ : ex | 
+		self releaseProject.
+		ex pass ]
+

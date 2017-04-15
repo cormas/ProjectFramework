@@ -1,10 +1,9 @@
 initialization
 initializePresenterRecents
-
 	recentProjectsList
 		beSingleSelection;
-"		handlesDoubleClick: true;
+		handlesDoubleClick: true;
 		doubleClickAction: [ :event | self openFromList ];
-"		whenSelectedItemChanged: [ :item | item ifNotNil: [ self selectedRecentProjectAction ] ];
+		whenSelectedItemChanged: [ :item | item ifNotNil: [ :arg | self selectedRecentProjectAction ] ];
 		menu: [ :menu | self rightClickMenu: menu ];
-		displayBlock: [ :item | item key , ' (' , item value , ')' ].
+		displayBlock: [ :item | item key , ' (' , item value , ')' ]
