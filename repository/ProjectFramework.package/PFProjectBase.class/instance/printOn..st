@@ -4,5 +4,5 @@ printOn: aStream
 	
 	super printOn: aStream.
 	info ifNotNilDo: [ : i |
-		aStream space; nextPut: $-; space.
+		aStream nextPutAll: ' - '.
 		info printOn: aStream ]
