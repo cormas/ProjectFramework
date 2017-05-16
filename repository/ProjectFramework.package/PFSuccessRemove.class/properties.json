@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "PFSuccessClose",
+	"name" : "PFSuccessRemove",
 	"type" : "normal"
 }
