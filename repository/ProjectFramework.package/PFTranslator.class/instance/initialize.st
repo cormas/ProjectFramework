@@ -1,4 +1,4 @@
-initialize
+initialization
 initialize
 	" Private - Initialize the receiver's translation maps "
 
