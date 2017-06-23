@@ -1,4 +1,4 @@
 defaults
 defaultProjectManagerClass
 
-	^ PFSpecProjectManager
+	^ PFProjectManager

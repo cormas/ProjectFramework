@@ -1,5 +1,5 @@
 callbacks
 applicationSaveAs
-	" Callback for closing a project "
+	" Callback for saving a project with a file name "
 	
-	self projectManager saveAsProject
+	self projectManager saveProject: (self requestFileNameForSave: 'prj')
