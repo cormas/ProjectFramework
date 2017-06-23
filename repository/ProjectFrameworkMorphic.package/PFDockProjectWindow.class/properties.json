@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "HernanMoralesDurand 6/23/2017 00:39",
+	"super" : "Object",
+	"category" : "ProjectFrameworkMorphic-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"projectManager",
+		"dock"
+	],
+	"name" : "PFDockProjectWindow",
+	"type" : "normal"
+}
