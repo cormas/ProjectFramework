@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "HernanMoralesDurand 6/21/2017 22:15",
+	"super" : "Object",
+	"category" : "ProjectFrameworkPharo-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"applicationClass",
+		"projectClass",
+		"settingsClass",
+		"translator",
+		"projectWindow",
+		"translatorClass"
+	],
+	"name" : "PFProjectManager",
+	"type" : "normal"
+}
