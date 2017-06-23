@@ -14,6 +14,7 @@ version11: spec
 			project: 'SpecUIAddOns' with: '0.2-baseline'.
 		spec 
 			package: 'ProjectFramework' with: 'ProjectFramework-HernanMoralesDurand.40';
+			package: 'ProjectFrameworkMorphic' with: 'ProjectFrameworkMorphic-HernanMoralesDurand.1';			
 			package: #ProjectFrameworkPharo with: 'ProjectFrameworkPharo-HernanMoralesDurand.3';
 			package: #ProjectFrameworkSamples with: 'ProjectFrameworkSamples-HernanMoralesDurand.1';
 			package: #ProjectFrameworkSpec with: 'ProjectFrameworkSpec-HernanMoralesDurand.28';

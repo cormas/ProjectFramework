@@ -36,12 +36,14 @@ baseline01: spec
 				spec requires: #('ProjectFramework' ). ];
 			package: #ProjectFrameworkSpec with: [
 				spec requires: #('ProjectFramework' #ProjectFrameworkPharo 'SpecUIAddOns' ). ];
+			package: #ProjectFrameworkMorphic  with: [
+				spec requires: #('ProjectFramework' 'ProjectFrameworkPharo' 'ProjectFrameworkSamples' ). ];			
 			package: #ProjectFrameworkSpecSamples with: [
 				spec requires: #('ProjectFramework' #ProjectFrameworkPharo #ProjectFrameworkSpec #ProjectFrameworkSamples ). ];
 			package: 'ProjectFrameworkTests' with: [
 				spec requires: #('ProjectFramework' #ProjectFrameworkSamples ). ].
 		spec 
-			group: 'All' with: #('ProjectFramework' #ProjectFrameworkSpec 'ProjectFrameworkTests' #ProjectFrameworkSpecSamples #ProjectFrameworkPharo #ProjectFrameworkSamples );
+			group: 'All' with: #('ProjectFramework' #ProjectFrameworkSpec 'ProjectFrameworkTests' 'ProjectFrameworkMorphic' #ProjectFrameworkSpecSamples #ProjectFrameworkPharo #ProjectFrameworkSamples );
 			group: 'Basic' with: #('ProjectFramework' #ProjectFrameworkPharo #ProjectFrameworkSpec );
 			group: 'Core' with: #('ProjectFramework' );
 			group: 'Tests' with: #('ProjectFramework' 'ProjectFrameworkTests' #ProjectFrameworkSamples ). ].
