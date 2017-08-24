@@ -2,6 +2,6 @@ accessing
 name
 	" Answer a <String> representing the receiver's name "
 
-	^ self info name 
-		ifNotNilDo: [ : n | n ]
-		ifNil: [ 'Invalid' ] " Problem retrieving project name. Project information was not configured correctly "
+	^ self info name
+		ifNotNil: [ :n | n ]
+		ifNil: [ " Problem retrieving project name. Project information was not configured correctly " 'Invalid' ]
