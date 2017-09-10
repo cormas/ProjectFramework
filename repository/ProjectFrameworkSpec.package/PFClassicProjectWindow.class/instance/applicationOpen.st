@@ -2,4 +2,5 @@ callbacks
 applicationOpen
 	" Callback for opening a project "
 	
-	self projectManager openProject
+	self projectManager openProject.
+	self updateProjectTitle: ''
