@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "HernanMoralesDurand 8/6/2016 03:46",
+	"commentStamp" : "HernanMoralesDurand 9/10/2017 05:40",
 	"super" : "PFObject",
 	"category" : "ProjectFramework-Core",
 	"classinstvars" : [ ],
@@ -9,7 +9,6 @@
 		"ApplicationClass"
 	],
 	"instvars" : [
-		"applicationProjects",
 		"applicationUsers",
 		"currentProject",
 		"projectClass"

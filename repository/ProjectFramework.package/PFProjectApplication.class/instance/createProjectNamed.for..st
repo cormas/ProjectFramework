@@ -1,5 +1,9 @@
 accessing
 createProjectNamed: aNameString for: creatorObject
-	" Add a new project named aNameString to the receiver's projects "
+	" Add a project named aNameString to the receiver, setting its user to creatorObject "
 
-	^ self projectClass named: aNameString author: creatorObject
+	self currentProject name = aNameString
+		ifTrue: [ self error: aNameString ].
+	^ self currentProject: (self projectClass 
+		named: aNameString 
+		author: creatorObject).
