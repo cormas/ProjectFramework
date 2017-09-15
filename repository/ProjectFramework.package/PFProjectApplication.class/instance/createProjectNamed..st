@@ -1,9 +1,8 @@
 accessing
 createProjectNamed: aNameString
-	" Add a project named aNameString to the receiver, setting its user to the default user "
+	" Set a new project named aNameString, setting its user to the default user. Answer a <PFProjectBase> "
 
-	self currentProject name = aNameString
-		ifTrue: [ self error: aNameString ].
-	^ self currentProject: (self projectClass 
+	self currentProject: (self projectClass 
 		named: aNameString 
 		author: (PFProjectUser named: 'Unknown')).
+	^ self currentProject
