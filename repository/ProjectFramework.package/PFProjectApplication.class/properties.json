@@ -11,7 +11,8 @@
 	"instvars" : [
 		"applicationUsers",
 		"currentProject",
-		"projectClass"
+		"projectClass",
+		"fsm"
 	],
 	"name" : "PFProjectApplication",
 	"type" : "normal"
