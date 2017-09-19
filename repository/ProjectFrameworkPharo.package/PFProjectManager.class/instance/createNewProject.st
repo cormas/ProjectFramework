@@ -5,5 +5,9 @@ createNewProject
 	| answer |
 
 	(answer := UIManager default request: self translator tNewProjectName) isEmptyOrNil 
-		ifFalse: [ self createAppProject: answer ]
-		ifTrue: [ self informMessage: self translator tNewProjectEmptyName ].
+		ifFalse: [ 
+			self createAppProject: answer.
+			^ true ]
+		ifTrue: [ 
+			self informMessage: self translator tNewProjectEmptyName.
+			^ false ].

@@ -2,6 +2,7 @@ Project manager is responsible for:
 
 - Creating/Removing a new project 
 - Opening/Closing a project
+- Setting project translation codes
 
 Internal Representation and Key Implementation Points.
 

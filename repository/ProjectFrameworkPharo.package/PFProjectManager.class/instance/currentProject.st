@@ -1,5 +1,5 @@
 accessing
 currentProject
-	" Answer the currently working <Project> "
+	" Answer the active <PFProjectBase> if any, nil otherwise "
 
 	^ self applicationClass currentProject
