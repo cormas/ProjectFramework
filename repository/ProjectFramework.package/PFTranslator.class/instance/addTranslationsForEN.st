@@ -12,7 +12,9 @@ addTranslationsForEN
 		at: #tRemove 	put: 'Remove';
 		at: #tProperties put: 'Properties';
 		at: #tTools			put: 'Tools';
-		at: #tHelp			put: 'Help';		
+		at: #tHelp			put: 'Help';	
+		at: #tAbout 			put: 'About';
+		at: #tQuit 			put: 'Quit';
 		at: #tAreYouSureToDeleteProject put: 'Are you sure to remove the project?';
 		at: #tAreYouSureToCloseProject put: 'Are you sure to close the current project: ';
 		at: #tNewProjectSuccess put: 'Created succesfully new project: ';

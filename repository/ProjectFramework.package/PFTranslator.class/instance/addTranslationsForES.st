@@ -13,6 +13,8 @@ addTranslationsForES
 		at: #tProperties 	put: 'Propiedades';
 		at: #tTools			put: 'Herramientas';
 		at: #tHelp			put: 'Ayuda';
+		at: #tAbout 			put: 'Acerca de';
+		at: #tQuit 			put: 'Salir';
 		at: #tAreYouSureToDeleteProject put: '¿Está seguro de eliminar el proyecto?';	
 		at: #tAreYouSureToCloseProject put: '¿Está seguro de cerrar el proyecto? : ';
 		at: #tNewProjectSuccess put: 'Nuevo proyecto creado exitosamente : ';
@@ -22,6 +24,6 @@ addTranslationsForES
 		at: #tProjectOpenFailed put: 'El proyecto no pudo abrirse. Por favor intente nuevamente';
 		at: #tProjectUpdateSuccess put:  'El proyecto fue actualizado exitosamente : ';
 		at: #fFuelLibraryMissing put: 'No se encuentra la librería FUEL';
-		at: #tFuelMaterializationError put: 'Error: El proyec no pudo ser materializado : ';
+		at: #tFuelMaterializationError put: 'Error: El proyecto no pudo ser materializado : ';
 		at: #tInvalidUTF8EncodedFile put: 'Error: El archivo debe estar codificado como UTF-8';
 		yourself

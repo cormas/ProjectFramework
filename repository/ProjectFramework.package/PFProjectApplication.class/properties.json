@@ -12,7 +12,8 @@
 		"applicationUsers",
 		"currentProject",
 		"projectClass",
-		"fsm"
+		"fsm",
+		"announcer"
 	],
 	"name" : "PFProjectApplication",
 	"type" : "normal"
