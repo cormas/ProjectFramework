@@ -1,4 +1,4 @@
-initialization
+initialization-submenus
 initializeFileSubMenu: group
 
 	group
