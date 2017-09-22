@@ -3,9 +3,9 @@ subMenuRemoveProject: item
 	" Configure the menu option for removing the receiver "
 	
 	item 
-		name: self translator tRemove , '...';
+		name: self translator tRemove;
 		shortcut: $r command;
-		icon: Smalltalk ui icons removeIcon;
+		icon: #removeIcon asIcon;
 		action: [ 
 			(self confirm: self translator areYouSureToDeleteProject)
 				ifTrue: [ self applicationRemoveProject ] ]

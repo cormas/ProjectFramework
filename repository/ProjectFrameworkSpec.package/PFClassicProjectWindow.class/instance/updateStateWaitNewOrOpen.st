@@ -1,7 +1,6 @@
 initialization
 updateStateWaitNewOrOpen
 
-	self shouldBeImplemented.
 	self 
 		menuEnableNew;
 		menuEnableOpen;
@@ -9,4 +8,5 @@ updateStateWaitNewOrOpen
 		menuDisableSaveAs;
 		menuDisableClose;
 		menuDisableExplore;
+		menuDisableProperties;
 		menuDisableRemove.

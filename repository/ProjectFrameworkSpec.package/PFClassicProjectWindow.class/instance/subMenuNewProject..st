@@ -3,7 +3,7 @@ subMenuNewProject: item
 	" Configure the menu option for creating a project "
 	
 	item 
-		name: self translator tNew , '...';
+		name: self translator tNew;
 		shortcut: $n command;
-		icon: Smalltalk ui icons smallNewIcon;
+		icon: #smallNewIcon asIcon;
 		action: [ self applicationNewProject ]
