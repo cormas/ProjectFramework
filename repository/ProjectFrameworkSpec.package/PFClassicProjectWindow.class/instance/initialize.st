@@ -11,4 +11,8 @@ initialize
 		when: PFOpenedProject
 		send: #updateStateOpened
 		to: self.
+	self pfAnnouncer 
+		when: PFCloseProject
+		send: #updateCloseProject
+		to: self.
 	self application startFSM.
