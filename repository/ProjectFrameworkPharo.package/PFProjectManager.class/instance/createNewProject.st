@@ -7,7 +7,5 @@ createNewProject
 	(answer := UIManager default request: self translator tNewProjectName) isEmptyOrNil 
 		ifFalse: [ 
 			self createAppProject: answer.
-			^ true ]
-		ifTrue: [ 
-			self informMessage: self translator tNewProjectEmptyName.
-			^ false ].
+			self fsm handleEvent: #actionNew ]
+		ifTrue: [ self informMessage: self translator tNewProjectEmptyName ].
