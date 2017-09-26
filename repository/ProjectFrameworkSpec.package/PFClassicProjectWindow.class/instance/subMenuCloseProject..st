@@ -5,5 +5,5 @@ subMenuCloseProject: item
 	item 
 		name: self translator tClose;
 		shortcut: $c command;
-		icon: Smalltalk ui icons smallCancelIcon;
+		icon: #smallCancelIcon asIcon;
 		action: [ self applicationClose ]

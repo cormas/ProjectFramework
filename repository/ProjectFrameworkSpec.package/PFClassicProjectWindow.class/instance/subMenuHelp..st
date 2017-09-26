@@ -3,5 +3,5 @@ subMenuHelp: item
 
 	item
 		name: self translator tHelp;
-		icon: Smalltalk ui icons smallHelpIcon;
+		icon: #smallHelpIcon asIcon;
 		action: [ self openHelp ]

@@ -1,9 +1,9 @@
 initialization-submenus
 subMenuSaveProject: item
 	" Configure the menu option for oopening the receiver "
-	
-	item 
+
+	item
 		name: self translator tSave;
 		shortcut: $s command;
-		icon: Smalltalk ui icons smallSaveIcon;
+		icon: #smallSaveIcon asIcon;
 		action: [ self applicationSave ]
