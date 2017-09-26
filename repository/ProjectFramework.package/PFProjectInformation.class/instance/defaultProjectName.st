@@ -4,6 +4,6 @@ defaultProjectName
 
 	| prjExt |
 	prjExt := '.' , self project projectFileExtension.
-	^ self name
+	^ self infoName
 		ifNotNil: [ : n | n ,  prjExt ]
 		ifNil: [ 'Unknown' , prjExt ]

@@ -4,4 +4,4 @@ currentProjectName
 
 	^ self currentProject
 		ifNil: [ '(no project)' ]
-		ifNotNil: [ :aProject | aProject name ]
+		ifNotNil: [ : aProject | aProject projectName ]

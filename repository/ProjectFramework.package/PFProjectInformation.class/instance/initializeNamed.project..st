@@ -2,6 +2,6 @@ initialize - release
 initializeNamed: aNameString project: aProject
 	" Private - Initialize internal's receiver state "
 
-	name := aNameString.
+	infoName := aNameString.
 	project := aProject.
 	saveStatus := false
