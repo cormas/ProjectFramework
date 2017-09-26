@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "HernanMoralesDurand 9/18/2017 21:51",
-	"super" : "Object",
+	"super" : "PFObject",
 	"category" : "ProjectFrameworkPharo-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
