@@ -1,7 +1,6 @@
 callbacks
 updateNewProject: aString
 
-	self projectWindow 
-		updateNewProject: aString;
-		updateNewCleanProject
+	self projectWindow updateNewProject: aString.
+	self updateNewCleanProject.
 	
