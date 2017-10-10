@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "PFProjectManager",
+	"category" : "ProjectFrameworkSamples-Sample1",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PFSample1ProjectManager",
+	"type" : "normal"
+}
