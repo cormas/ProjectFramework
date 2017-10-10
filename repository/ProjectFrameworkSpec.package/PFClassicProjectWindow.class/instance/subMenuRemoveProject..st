@@ -7,5 +7,5 @@ subMenuRemoveProject: item
 		shortcut: $r command;
 		icon: #removeIcon asIcon;
 		action: [ 
-			(self confirm: self translator areYouSureToDeleteProject)
+			(self confirm: self translator tAreYouSureToDeleteProject)
 				ifTrue: [ self applicationRemoveProject ] ]
