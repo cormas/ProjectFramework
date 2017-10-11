@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "CustomHelp",
+	"category" : "ProjectFrameworkSpecSamples-Sample1",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PFSample1Help",
+	"type" : "normal"
+}
