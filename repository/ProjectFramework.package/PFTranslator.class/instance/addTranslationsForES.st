@@ -10,6 +10,11 @@ addTranslationsForES
 		at: #tClose 			put: 'Cerrar';
 		at: #tExplore 		put: 'Explorar';
 		at: #tRemove 		put: 'Eliminar';
+		at: #tRename 		put: 'Renombrar';		
+		at: #tRenameAs 		put: 'Renombrar como:';
+		at: #tCancelled		put: 'Cancelado';
+		at: #tImport 		put: 'Importar';
+		at: #tExport 		put: 'Exportar';				
 		at: #tProperties 	put: 'Propiedades';
 		at: #tTools			put: 'Herramientas';
 		at: #tHelp			put: 'Ayuda';

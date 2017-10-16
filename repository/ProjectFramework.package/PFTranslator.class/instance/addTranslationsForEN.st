@@ -10,6 +10,11 @@ addTranslationsForEN
 		at: #tClose 		put: 'Close';
 		at: #tExplore 	put: 'Explore';
 		at: #tRemove 	put: 'Remove';
+		at: #tRename 	put: 'Rename';
+		at: #tRenameAs 	put: 'Rename as:';
+		at: #tCancelled	put: 'Cancelled';
+		at: #tImport 	put: 'Import';
+		at: #tExport 	put: 'Export';
 		at: #tProperties put: 'Properties';
 		at: #tTools			put: 'Tools';
 		at: #tHelp			put: 'Help';	
