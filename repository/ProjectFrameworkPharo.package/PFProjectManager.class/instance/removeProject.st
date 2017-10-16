@@ -1,6 +1,6 @@
 callbacks
 removeProject
-	" Remove the selected project "
+	" Remove the receiver's current project "
 
 	(self confirm: self translator tAreYouSureToDeleteProject)
 		ifFalse: [ ^ self ].
