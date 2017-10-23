@@ -4,4 +4,4 @@ saveProject
 
 	self currentProject updateProject.
 	self informMessage: self translator tProjectUpdateSuccess , self applicationClass currentProject fileName.
-	self doPostSaveActions.
+	self projectWindow doPostSaveActions.
