@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "PFClassicProjectWindow",
+	"super" : "PFStandardProjectWindow",
 	"category" : "ProjectFrameworkSpecSamples-Sample1",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "PFSample1ClassicWindow",
+	"name" : "PFSample1StandardWindow",
 	"type" : "normal"
 }
