@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "HernanMoralesDurand 11/14/2016 15:44",
+	"commentStamp" : "HernanMoralesDurand 11/7/2017 19:12",
 	"super" : "SpcMenuAppWindow",
 	"category" : "ProjectFrameworkSpec-Layouts",
 	"classinstvars" : [ ],
@@ -8,6 +8,6 @@
 	"instvars" : [
 		"projectManager"
 	],
-	"name" : "PFClassicProjectWindow",
+	"name" : "PFStandardProjectWindow",
 	"type" : "normal"
 }

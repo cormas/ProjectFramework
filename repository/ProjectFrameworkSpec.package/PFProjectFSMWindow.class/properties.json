@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 11/7/2017 19:12",
+	"super" : "PFStandardProjectWindow",
+	"category" : "ProjectFrameworkSpec-Layouts",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PFProjectFSMWindow",
+	"type" : "normal"
+}
