@@ -20,6 +20,8 @@ addTranslationsForES
 		at: #tHelp			put: 'Ayuda';
 		at: #tAbout 			put: 'Acerca de';
 		at: #tQuit 			put: 'Salir';
+		at: #tOk 				put: 'Aceptar';
+		at: #tCancel 		put: 'Cancelar';					
 		at: #tAreYouSureToDeleteProject put: '¿Está seguro de eliminar el proyecto?';	
 		at: #tAreYouSureToCloseProject put: '¿Está seguro de cerrar el proyecto? : ';
 		at: #tNewProjectSuccess put: 'Nuevo proyecto creado exitosamente : ';
