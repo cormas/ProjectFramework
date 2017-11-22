@@ -9,7 +9,7 @@ baseline02: spec
 			project: 'CommonUtils' with: [
 				spec
 					className: #ConfigurationOfCommonUtils;
-					versionString: #'stable';
+					versionString: #'development';
 					repository: 'http://smalltalkhub.com/mc/hernan/CommonUtils/main/' ];
 			project: 'Grease' with: [
 				spec
