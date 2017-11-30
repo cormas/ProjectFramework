@@ -3,6 +3,7 @@ initialize
 	" Private - Initialize receiver's state "
 
 	super initialize.
+	self pfAnnouncer subscriptions reset.
 	self pfAnnouncer
 		when: PFNewProject
 		send: #updateStateWaitNewOrOpen 
