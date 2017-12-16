@@ -3,7 +3,7 @@ askApplicationClass
 	" Answer a <Class> acting as main Application class "
 
 	| index |
-	index := UIManager default chooseFrom: PFProjectApplication subclasses message: 'Please select the application class:'.
+	index := self requestFrom: PFProjectApplication subclasses message: 'Please select the application class:'.
 	^ index = 0
 		ifTrue: [ 
 			self inform: 'Username cannot be empty. Please try again'.
