@@ -1,4 +1,0 @@
-*ProjectFrameworkMorphic
-popUpOwner
-
-	^ self
