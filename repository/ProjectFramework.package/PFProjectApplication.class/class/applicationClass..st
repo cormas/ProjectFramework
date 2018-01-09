@@ -1,3 +1,5 @@
 accessing
-applicationClass: anObject
-	^ ApplicationClass := anObject
+applicationClass: aClass
+	" Set the receiver's main application class "
+	
+	^ ApplicationClass := aClass
