@@ -1,7 +1,7 @@
 accessing
-addApplicationProject: aProjectObject
-	" Add a aProjectObject to the receiver's "
+addApplicationProject: aPFProjectBase
+	" Add aPFProjectBase to the receiver's "
 
 	^ self applicationProjects 
-		at: aProjectObject name
-		put: aProjectObject
+		at: aPFProjectBase name
+		put: aPFProjectBase

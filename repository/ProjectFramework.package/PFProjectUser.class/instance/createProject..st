@@ -4,6 +4,5 @@ createProject: aNameString
 	
 	| newProject |
 	newProject := self createProjectNamed: aNameString for: self.
-	self preferences addToApplicationProjects
-		ifTrue: [ self addApplicationProject: newProject ].
+	self addApplicationProject: newProject.
 	^ newProject

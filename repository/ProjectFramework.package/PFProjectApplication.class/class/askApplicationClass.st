@@ -3,6 +3,7 @@ askApplicationClass
 	" Answer a <Class> acting as main Application class "
 
 	| index |
+	
 	index := self requestFrom: PFProjectApplication subclasses message: 'Please select the application class:'.
 	^ index = 0
 		ifTrue: [ 

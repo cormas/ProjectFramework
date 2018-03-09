@@ -1,5 +1,5 @@
 accessing
-addApplicationProject: aPFSampleProjectClass 
-	" Add a aPFSampleProjectClass to the receiver's projects collection "
+addApplicationProject: aPFProjectBase 
+	" Add a aPFProjectBase to the receiver's application projects "
 
-	^ self application addApplicationProject: aPFSampleProjectClass
+	^ self application addApplicationProject: aPFProjectBase

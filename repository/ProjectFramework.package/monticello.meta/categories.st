@@ -1,3 +1,4 @@
 SystemOrganization addCategory: #ProjectFramework!
 SystemOrganization addCategory: 'ProjectFramework-Core'!
-SystemOrganization addCategory: 'ProjectFramework-Pharo'!
+SystemOrganization addCategory: 'ProjectFramework-Exceptions'!
+SystemOrganization addCategory: 'ProjectFramework-Translator'!

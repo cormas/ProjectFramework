@@ -1,0 +1,4 @@
+accessing
+currentApplicationClass
+
+	^ ApplicationClass

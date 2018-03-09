@@ -5,6 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [
+		"ApplicationClass",
 		"CurrentProjectClass",
 		"UsernameSetting",
 		"VersionSetting"

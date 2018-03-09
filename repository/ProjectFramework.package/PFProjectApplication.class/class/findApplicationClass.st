@@ -7,6 +7,6 @@ findApplicationClass
 		ifFalse: [ 
 			PFProjectApplication subclasses size = 1
 				ifTrue: [ PFProjectApplication subclasses anyOne ]
-				ifFalse: [ self askApplicationClass ] ]
+				ifFalse: [ PFProjectSettings currentApplicationClass ] ]
 
 	
