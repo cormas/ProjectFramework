@@ -25,7 +25,7 @@ baseline: spec
 
 		spec 
 			package: 'ProjectFramework' with: [
-				spec requires: #('CommonUtils' 'I18N'). ];
+				spec requires: #('CommonUtils' 'I18N' 'SState'). ];
 			package: #ProjectFrameworkMorphic with: [
 				spec requires: #('ProjectFramework' 'ProjectFrameworkPharo' 'ProjectFrameworkSamples' ). ];
 			package: #ProjectFrameworkPharo with: [
