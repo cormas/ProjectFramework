@@ -21,6 +21,15 @@ baseline: spec
 				with: [ spec
 					className: 'ConfigurationOfI18N';
 					version: #stable;
-					repository: 'http://www.smalltalkhub.com/mc/TorstenBergmann/I18N/main' ]			
+					repository: 'http://www.smalltalkhub.com/mc/TorstenBergmann/I18N/main' ].
+
+		spec 
+			group: 'All' with: #('ProjectFramework' #ProjectFrameworkSpec 'ProjectFrameworkTests' 'ProjectFrameworkMorphic' #ProjectFrameworkSpecSamples #ProjectFrameworkPharo #ProjectFrameworkSamples );
+			group: 'Basic' with: #('ProjectFramework' #ProjectFrameworkPharo #ProjectFrameworkSpec );
+			group: 'Core' with: #('ProjectFramework' );
+			group: 'Tests' with: #('ProjectFramework' 'ProjectFrameworkTests' #ProjectFrameworkSamples );
+			group: 'default' with: #('All')
+
+
 	
 				].
