@@ -1,13 +1,13 @@
 comparing
-= aProjectObject
+= aPFObject
 	" Answer <true> if receiver has the same name, information and usage as aBioProject "
 
-	self == aProjectObject
+	self == aPFObject
 		ifTrue: [ ^ true ].
-	self class = aProjectObject class
+	self class = aPFObject class
 		ifFalse: [ ^ false ].
-	self name = aProjectObject name
+	self infoName = aPFObject infoName
 		ifFalse: [ ^ false ].
-	self fileName = aProjectObject fileName
+	self fileName = aPFObject fileName
 		ifFalse: [ ^ false ].
 	^ true

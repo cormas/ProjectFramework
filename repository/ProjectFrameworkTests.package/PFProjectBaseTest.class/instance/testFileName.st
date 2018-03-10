@@ -1,5 +1,9 @@
 tests-accessing
 testFileName
 
-	self assert: (self newTestPrj fileName isKindOf: String).
-	self assert: self newTestPrj fileName equals: self newTestPrj info defaultProjectName.
+	| prj prjName |
+	
+	prj := self newTestPrj.
+	prjName := prj fileName.
+	self assert: (prjName isKindOf: String).
+	self assert: prjName equals: prj info defaultProjectName.
