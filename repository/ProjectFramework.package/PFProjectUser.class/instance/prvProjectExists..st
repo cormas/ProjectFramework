@@ -1,5 +1,7 @@
 testing
-prvProjectExists: aNameString
-	" Answer <true> if the receiver contains a project named aNameString "
+prvProjectExists: aString
+	" Answer <true> if the receiver contains a project named aString "
 
-	^ self userProjects anySatisfy: [ : prj | prj name = aNameString ]
+	self currentProject isNil 
+		ifTrue: [ ^ false ].
+	^ (self userProjects anySatisfy: [ : prj | prj name = aString ]) or: [ self currentProject projectName = aString ]

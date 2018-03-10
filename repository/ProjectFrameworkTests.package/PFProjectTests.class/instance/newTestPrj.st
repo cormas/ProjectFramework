@@ -4,4 +4,4 @@ newTestPrj
 
 	^ (PFProjectUser named: self sampleUserName) 
 			searchGlobalProjects: false;
-			addProject: self samplePrjName
+			addProject: self randomPrjName "self samplePrjName"

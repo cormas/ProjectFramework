@@ -5,5 +5,6 @@ printOn: aStream
 	super printOn: aStream.
 	info
 		ifNotNil: [ :i | 
-			aStream nextPutAll: ' - '.
-			info printOn: aStream ]
+			aStream space; nextPut: $(.
+			info printOn: aStream.
+			aStream nextPut: $) ]
