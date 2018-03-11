@@ -4,19 +4,19 @@ SmalltalkCISpec {
       #baseline : 'ProjectFramework',
       #directory : 'repository',
 	  #onWarningLog : true,	  
-      #load : [ 'Development' ],
+      #load : [ 'default' ],
       #platforms : [  #pharo ]
     }
   ],
   #testing : {
     #exclude : {
-      #packages : [ 'Roassal2', 'Trachel' ]
+      #packages : [ 'SpecUIAddOns', 'SState', 'I18N', 'CommonUtils' ]
 	},  
     #coverage : {
        #packages : [ 'ProjectFramework*' ]
     },
     #include : {  
-       #packages : [ 'ProjectFramework-Tests*' ]
-    },
-	#failOnZeroTests : false	
+       #packages : [ 'ProjectFrameworkTests*' ]
+    }
   }
+}
