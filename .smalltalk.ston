@@ -1,0 +1,22 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'ProjectFramework',
+      #directory : 'repository',
+	  #onWarningLog : true,	  
+      #load : [ 'Development' ],
+      #platforms : [  #pharo ]
+    }
+  ],
+  #testing : {
+    #exclude : {
+      #packages : [ 'Roassal2', 'Trachel' ]
+	},  
+    #coverage : {
+       #packages : [ 'ProjectFramework*' ]
+    },
+    #include : {  
+       #packages : [ 'ProjectFramework-Tests*' ]
+    },
+	#failOnZeroTests : false	
+  }
