@@ -41,126 +41,7 @@ Metacello new
 ## Adding an Application and Project
 
 <<<<<<< HEAD
-The ProjectFramework includes a class representing your whole Application. An Application is global to an image - only one application per image could be active at a time - and could contain a single active project or multiple projects. **PFProjectBase** is the basic core (abstract) class for user projects. A custom Project class could be created by inheriting from **PFProjectBase**. Such class will inherit basic project features for example: setting/getting project author, adding/removing project users, owner(s), creation/modification dates, file naming and project history information. Every instantiated project must belong to an application, so the first thing to do is to create an application class:An Application class should inherit from **PFProjectApplication**:s```smalltalkPFProjectApplication subclass: #MyApplicationClass   	instanceVariableNames: ''   	classVariableNames: ''   	package: 'MyApplication-Core'```If there is just one subclass of **PFProjectApplication** then it will be automatically configured and used as the "current application class". Otherwise, you should set up the current application class using the global preferences, for example:```smalltalkPFProjectSettings currentApplicationClass: PFSample1ApplicationClass.``` PFProjectSettings implements customization points in ProjectFramework, so that the Settings Framework might collect them and populate a setting browser with them.The following snippet details how to add your own Project class:```smalltalkPFProjectBase subclass: #MyPFProject   	instanceVariableNames: ''   	classVariableNames: ''   	package: 'MyApplication-Core'```**PFProjectBase** is responsible for implementing owners management, which can be used to authenticate operations on it, authoring, file naming, versioning and history.## Configuring the ApplicationTo link the Application with the Project, we need to add a method to MyApplicationClass in instance side:```smalltalkdefaultProjectClass	" Private - See superimplementor's comment "	^ MyPFProject```You can also configure the application name in class side of MyApplicationClass:```smalltalkapplicationName	" Answer a <String> with receiver's name "		^ 'My First Application'```An user (**PFProjectUser**) represents an user with projects and can instantiate multiple project, however only one will be the active project (#currentProject) at a time for the current application.## Adding a Project Window The Project Framework has built-in support for several types of User-Interfaces. The differences between UI's are that they provide different layouts considering the available underlying widget library. This also provides an abstraction layer for future widget toolkits or libraries (such as Bloc).To add your project window class, use the following snippet:```smalltalkMyAppProjectWindow```Now we need to link your application with your project, add the following instance method in MyAppProjectWindow:```smalltalkapplicationClass	^ MyApplicationClass```Add the following instance methoda in MyAppProjectWindow:```smalltalkprojectClass	" Private - See superimplementor's comment "    	^ MyApplicationProject``````smalltalkcloseAfterCreateProject   	" Answer <true> if receiver's window should close after creation of a project "	^ false```### ProjectFrameworkSpecProjectFrameworkSpec classes inherits from **ComposableModel** (in Pharo 6.x) or **ComposablePresenter** (in Pharo 7.x) and uses the [SpecUIAddOns](https://github.com/hernanmd/SpecUIAddOns) package classes to provide a "standard" layout. The standard project window is based in the Spec **ApplicationWithToolbar** class. Alternatively, a "Project Details" with or without recent projects list layout is also available.Here is a screenshot of both layouts:Classic Layout:![convertidor iso 11784 - senasa 754](https://user-images.githubusercontent.com/4825959/37262532-5fca39d8-2582-11e8-9a0a-c6c0e594a303.png)Recent Projects List Layout:![rehhcg_1](https://user-images.githubusercontent.com/4825959/37262533-5ffe728e-2582-11e8-85b5-893b2df53171.png)### ProjectFrameworkMorphicThe docking project window is based in the **DockingBarMorph** class.## State MachineProjectFramework uses the [SState](http://smalltalkhub.com/#!/~MasashiUmezawa/SState "SState") package to provide a Finite State Machine managing common project events.## EventsA nice common feature to inform the user of the current project, is to update the title of created or opened projects in the uppermost toolbar. To do this simply implement #defaultWindowTitle to answer a **String** and do not override the #title method.## TranslationThe Project Framework currently uses the i18N package to add translation support to menu items and messages. The package I18N was developed by Torsten Bergmann and it is available through SmalltalkHub with the MIT License. The abstract class to check for implementing i18N to your application is **PFTranslator**.PFTranslator adds two catalogs with related project operations. One for english (see #addTranslationsForEN) and another one for spanish (#addTranslationsForES).	
-=======
-The ProjectFramework includes a class representing your whole Application. An Application is global to an image - only one application per image could be active at a time - and could contain a single active project or multiple projects. **PFProjectBase** is the basic core (abstract) class for user projects. A custom Project class could be created by inheriting from **PFProjectBase**. Such class will inherit basic project features for example: setting/getting project author, adding/removing project users, owner(s), creation/modification dates, file naming and project history information. Every instantiated project must belong to an application, so the first thing to do is to create an application class:
-
-An Application class should inherit from **PFProjectApplication**:s
-
-```smalltalk
-PFProjectApplication subclass: #MyApplicationClass
-   	instanceVariableNames: ''
-   	classVariableNames: ''
-   	package: 'MyApplication-Core'
-```
-
-If there is just one subclass of **PFProjectApplication** then it will be automatically configured and used as the "current application class". Otherwise, you should set up the current application class using the global preferences, for example:
-
-```smalltalk
-PFProjectSettings currentApplicationClass: PFSample1ApplicationClass.
-``` 
-
-PFProjectSettings implements customization points in ProjectFramework, so that the Settings Framework might collect them and populate a setting browser with them.
-
-
-The following snippet details how to add your own Project class:
-
-
-```smalltalk
-PFProjectBase subclass: #MyPFProject
-   	instanceVariableNames: ''
-   	classVariableNames: ''
-   	package: 'MyApplication-Core'
-```
-
-**PFProjectBase** is responsible for implementing owners management, which can be used to authenticate operations on it, authoring, file naming, versioning and history.
-
-## Configuring the Application
-
-To link the Application with the Project, we need to add a method to MyApplicationClass in instance side:
-
-```smalltalk
-defaultProjectClass
-	" Private - See superimplementor's comment "
-
-	^ MyPFProject
-```
-
-You can also configure the application name in class side of MyApplicationClass:
-
-```smalltalk
-applicationName
-	" Answer a <String> with receiver's name "
-	
-	^ 'My First Application'
-```
-
-An user (**PFProjectUser**) represents an user with projects and can instantiate multiple project, however only one will be the active project (#currentProject) at a time for the current application.
-
-## Adding a Project Window 
-
-The Project Framework has built-in support for several types of User-Interfaces. The differences between UI's are that they provide different layouts considering the available underlying widget library. This also provides an abstraction layer for future widget toolkits or libraries (such as Bloc).
-
-
-To add your project window class, use the following snippet:
-
-```smalltalk
-
-MyAppProjectWindow
-```
-
-Now we need to link your application with your project, add the following instance method in MyAppProjectWindow:
-
-```smalltalk
-applicationClass
-
-	^ MyApplicationClass
-```
-
-Add the following instance methoda in MyAppProjectWindow:
-
-```smalltalk
-projectClass
-	" Private - See superimplementor's comment "
-
-    	^ MyApplicationProject
-```
-
-```smalltalk
-closeAfterCreateProject
-   	" Answer <true> if receiver's window should close after creation of a project "
-
-	^ false
-```
-
-### ProjectFrameworkSpec
-
-ProjectFrameworkSpec classes inherits from **ComposableModel** (in Pharo 6.x) or **ComposablePresenter** (in Pharo 7.x) and uses the [SpecUIAddOns](https://github.com/hernanmd/SpecUIAddOns) package classes to provide a "standard" layout. The standard project window is based in the Spec **ApplicationWithToolbar** class. Alternatively, a "Project Details" with or without recent projects list layout is also available.
-
-Here is a screenshot of both layouts:
-
-### ProjectFrameworkMorphic
-
-The docking project window is based in the **DockingBarMorph** class.
-
-
-## State Machine
-
-ProjectFramework uses the [SState](http://smalltalkhub.com/#!/~MasashiUmezawa/SState "SState") package to provide a Finite State Machine managing common project events.
-
-## Events
-
-A nice common feature to inform the user of the current project, is to update the title of created or opened projects in the uppermost toolbar. To do this simply implement #defaultWindowTitle to answer a **String** and do not override the #title method.
-
-## Translation
-
-The Project Framework currently uses the i18N package to add translation support to menu items and messages. The package I18N was developed by Torsten Bergmann and it is available through SmalltalkHub with the MIT License. The abstract class to check for implementing i18N to your application is **PFTranslator**.
-
-PFTranslator adds two catalogs with related project operations. One for english (see #addTranslationsForEN) and another one for spanish (#addTranslationsForES).
-
-	
-
-# Contribute
+The ProjectFramework includes a class representing your whole Application. An Application is global to an image - only one application per image could be active at a time - and could contain a single active project or multiple projects. **PFProjectBase** is the basic core (abstract) class for user projects. A custom Project class could be created by inheriting from **PFProjectBase**. Such class will inherit basic project features for example: setting/getting project author, adding/removing project users, owner(s), creation/modification dates, file naming and project history information. Every instantiated project must belong to an application, so the first thing to do is to create an application class:An Application class should inherit from **PFProjectApplication**:s```smalltalkPFProjectApplication subclass: #MyApplicationClass   	instanceVariableNames: ''   	classVariableNames: ''   	package: 'MyApplication-Core'```If there is just one subclass of **PFProjectApplication** then it will be automatically configured and used as the "current application class". Otherwise, you should set up the current application class using the global preferences, for example:```smalltalkPFProjectSettings currentApplicationClass: PFSample1ApplicationClass.``` PFProjectSettings implements customization points in ProjectFramework, so that the Settings Framework might collect them and populate a setting browser with them.The following snippet details how to add your own Project class:```smalltalkPFProjectBase subclass: #MyPFProject   	instanceVariableNames: ''   	classVariableNames: ''   	package: 'MyApplication-Core'```**PFProjectBase** is responsible for implementing owners management, which can be used to authenticate operations on it, authoring, file naming, versioning and history.## Configuring the ApplicationTo link the Application with the Project, we need to add a method to MyApplicationClass in instance side:```smalltalkdefaultProjectClass	" Private - See superimplementor's comment "	^ MyPFProject```You can also configure the application name in class side of MyApplicationClass:```smalltalkapplicationName	" Answer a <String> with receiver's name "		^ 'My First Application'```An user (**PFProjectUser**) represents an user with projects and can instantiate multiple project, however only one will be the active project (#currentProject) at a time for the current application.## Adding a Project Window The Project Framework has built-in support for several types of User-Interfaces. The differences between UI's are that they provide different layouts considering the available underlying widget library. This also provides an abstraction layer for future widget toolkits or libraries (such as Bloc).To add your project window class, use the following snippet:```smalltalkMyAppProjectWindow```Now we need to link your application with your project, add the following instance method in MyAppProjectWindow:```smalltalkapplicationClass	^ MyApplicationClass```Add the following instance methoda in MyAppProjectWindow:```smalltalkprojectClass	" Private - See superimplementor's comment "    	^ MyApplicationProject``````smalltalkcloseAfterCreateProject   	" Answer <true> if receiver's window should close after creation of a project "	^ false```### ProjectFrameworkSpecProjectFrameworkSpec classes inherits from **ComposableModel** (in Pharo 6.x) or **ComposablePresenter** (in Pharo 7.x) and uses the [SpecUIAddOns](https://github.com/hernanmd/SpecUIAddOns) package classes to provide a "standard" layout. The standard project window is based in the Spec **ApplicationWithToolbar** class. Alternatively, a "Project Details" with or without recent projects list layout is also available.Here is a screenshot of both layouts:Classic Layout:![convertidor iso 11784 - senasa 754](https://user-images.githubusercontent.com/4825959/37262532-5fca39d8-2582-11e8-9a0a-c6c0e594a303.png)Recent Projects List Layout:![rehhcg_1](https://user-images.githubusercontent.com/4825959/37262533-5ffe728e-2582-11e8-85b5-893b2df53171.png)### ProjectFrameworkMorphicThe docking project window is based in the **DockingBarMorph** class, and enables to use the ProjectFramework without Spec (or other higher-level library) dependency.![dockingpfwindow](https://user-images.githubusercontent.com/4825959/37263455-0a19abae-2587-11e8-9087-828cdfea3e2d.png)## State MachineProjectFramework uses the [SState](http://smalltalkhub.com/#!/~MasashiUmezawa/SState "SState") package to provide a Finite State Machine managing common project events.## EventsA nice common feature to inform the user of the current project, is to update the title of created or opened projects in the uppermost toolbar. To do this simply implement #defaultWindowTitle to answer a **String** and do not override the #title method.## TranslationThe Project Framework currently uses the i18N package to add translation support to menu items and messages. The package I18N was developed by Torsten Bergmann and it is available through SmalltalkHub with the MIT License. The abstract class to check for implementing i18N to your application is **PFTranslator**.PFTranslator adds two catalogs with related project operations. One for english (see #addTranslationsForEN) and another one for spanish (#addTranslationsForES).# Contribute
 
 **Working on your first Pull Request?** You can learn how from this *free* series [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github)
 
@@ -190,5 +71,5 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 # Authors
 
 Hernán Morales Durand
->>>>>>> 5900c80239a6d7624477f6058b638166bf7ba0c7
+
 
