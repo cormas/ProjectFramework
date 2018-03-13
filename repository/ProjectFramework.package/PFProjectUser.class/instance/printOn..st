@@ -4,5 +4,6 @@ printOn: aStream
 	
 	super printOn: aStream.
 	aStream 
+		nextPut: $:;
 		space;
 		nextPutAll: self name asString

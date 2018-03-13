@@ -1,4 +1,4 @@
-accessing
+accessing - serialization
 fileName: aString
 	" See comment in #fileName: "
 

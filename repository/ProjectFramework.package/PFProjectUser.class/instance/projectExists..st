@@ -4,7 +4,7 @@ projectExists: aNameString
 	
 	^  self preferences searchGlobalProjects
 		ifTrue: [ 
-			[ ( self application applicationProjectNamed: aNameString ) isProject ]
+			[ (self application applicationProjectNamed: aNameString) isProject ]
 			on: Error
 			do: [ : ex | self prvProjectExists: aNameString ] ]
 		ifFalse: [ self prvProjectExists: aNameString ]	

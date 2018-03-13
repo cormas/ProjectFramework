@@ -1,5 +1,5 @@
 accessing
-userNamed: username
+findUserNamed: username
 	" Answer a <PFProjectUser> named username for the current application "
 
-	^ self application userNamed: username
+	^ self application findUserNamed: username
