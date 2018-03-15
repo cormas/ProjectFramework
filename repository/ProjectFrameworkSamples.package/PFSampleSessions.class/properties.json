@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 3/15/2018 12:06",
+	"super" : "Object",
+	"category" : "ProjectFrameworkSamples-Sample3",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PFSampleSessions",
+	"type" : "normal"
+}
