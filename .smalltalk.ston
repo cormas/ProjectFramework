@@ -9,14 +9,10 @@ SmalltalkCISpec {
     }
   ],
   #testing : {
-    #exclude : {
-      #packages : [ 'SpecUIAddOns', 'SState', 'I18N', 'CommonUtils' ]
-	},  
     #coverage : {
-       #packages : [ 'ProjectFramework*' ]
+       #packages : [ 'ProjectFrameworkTests' ]
     },
-    #include : {  
-       #packages : [ 'ProjectFrameworkTests*' ]
+	#packages : [ 'ProjectFrameworkTests*' ]
     }
   }
 }
