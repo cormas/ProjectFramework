@@ -9,7 +9,7 @@ testEqual
 	user searchGlobalProjects: false.
 	user2 searchGlobalProjects: false.
 
-	prj1 := user createProjectNamed: prjName for: user.
+	prj1 := user createProject: prjName.
 	prj2 := PFSample1Project named: prjName.
 	
 	self assert: prj1 equals: prj2.

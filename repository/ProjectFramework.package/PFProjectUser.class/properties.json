@@ -8,7 +8,7 @@
 	"instvars" : [
 		"userProjects",
 		"preferences",
-		"name"
+		"userName"
 	],
 	"name" : "PFProjectUser",
 	"type" : "normal"

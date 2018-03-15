@@ -2,5 +2,5 @@ initialize - release
 initializeNamed: aNameString application: aPFApplicationClass
 	" Private - Initialize receive's settings "
 	
-	name := aNameString.
+	userName := aNameString.
 	preferences := PFProjectPreferences newFor: self.

@@ -1,5 +1,5 @@
 accessing
-name
+userName
 	" Answer a <String> representing the receiver's name "
 
-	^ name
+	^ userName

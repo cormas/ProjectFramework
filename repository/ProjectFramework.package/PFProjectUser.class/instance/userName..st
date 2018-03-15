@@ -1,7 +1,7 @@
 accessing
-name: aString
+userName: aString
 	" Set the receiver's name to be aString "
 
 	aString isString
-		ifTrue: [ name := aString ]
+		ifTrue: [ userName := aString ]
 		ifFalse: [ self error: aString ]
