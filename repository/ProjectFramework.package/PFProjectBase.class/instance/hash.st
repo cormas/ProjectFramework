@@ -2,4 +2,4 @@ comparing
 hash
 	" Private - hash is implemented because #= is implemented "
 
-	^ self info hash bitXor: self name hash
+	^ self info hash bitXor: self projectName hash

@@ -3,5 +3,5 @@ addApplicationProject: aPFProjectBase
 	" Add aPFProjectBase to the receiver's "
 
 	^ self applicationProjects 
-		at: aPFProjectBase name
+		at: aPFProjectBase projectName
 		put: aPFProjectBase

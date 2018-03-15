@@ -4,4 +4,4 @@ removeOwner: aPFProjectUser
 	
 	self owners 
 		remove: aPFProjectUser
-		ifAbsent: [ self error: aPFProjectUser name , ' is not owner of the receiver' ]
+		ifAbsent: [ self error: aPFProjectUser userName , ' is not owner of the receiver' ]

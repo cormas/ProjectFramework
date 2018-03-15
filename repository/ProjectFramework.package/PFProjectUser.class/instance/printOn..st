@@ -6,4 +6,4 @@ printOn: aStream
 	aStream 
 		nextPut: $:;
 		space;
-		nextPutAll: self name asString
+		nextPutAll: self userName asString

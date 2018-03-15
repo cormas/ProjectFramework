@@ -1,3 +1,5 @@
 accessing
-info: anObject
-	info := anObject
+info: aPFProjectInformation
+	" Set the receiver's info object to be aPFProjectInformation "
+
+	info := aPFProjectInformation

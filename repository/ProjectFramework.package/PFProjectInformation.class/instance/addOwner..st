@@ -7,4 +7,4 @@ addOwner: aPFProjectUser
 		ifFalse: [ 
 			self usage addOwner: aPFProjectUser.
 			aPFProjectUser userProjects add: self project ]
-		ifTrue: [ Exception signal: aPFProjectUser name , ' is already an owner of project: ' , self project name ]
+		ifTrue: [ Exception signal: aPFProjectUser 	userName , ' is already an owner of project: ' , self project projectName ]
