@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "HernanMoralesDurand 9/18/2017 21:51",
 	"super" : "PFObject",
-	"category" : "ProjectFrameworkPharo-Core",
+	"category" : "ProjectFramework-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
@@ -10,8 +10,10 @@
 		"projectClass",
 		"settingsClass",
 		"translator",
+		"translatorClass",
+		"announcer",
 		"projectWindow",
-		"translatorClass"
+		"fsm"
 	],
 	"name" : "PFProjectManager",
 	"type" : "normal"

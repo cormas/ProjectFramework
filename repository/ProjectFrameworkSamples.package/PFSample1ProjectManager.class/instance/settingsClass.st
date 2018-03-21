@@ -1,4 +1,4 @@
-private
+accessing
 settingsClass
 	" Private - See superimplementor's comment "
 

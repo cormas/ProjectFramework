@@ -1,4 +1,4 @@
-private
+accessing
 projectClass
 	" Answer the user class representing a project "
 

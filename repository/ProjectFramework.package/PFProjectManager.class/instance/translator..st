@@ -1,3 +1,3 @@
-i18n
+accessing - i18n
 translator: anObject
 	translator := anObject

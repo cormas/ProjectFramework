@@ -3,6 +3,6 @@ openProject: projectApp
 	" Open the project named projectApp "
 
 	^ self applicationClass uniqueInstance
-		applicationProjectNamed: projectApp name put: projectApp;
+		applicationProjectNamed: projectApp projectName put: projectApp;
 		currentProject: projectApp;
 		currentProjectIsValid

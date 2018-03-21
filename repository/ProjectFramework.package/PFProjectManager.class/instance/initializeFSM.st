@@ -20,4 +20,6 @@ initializeFSM
 		exitAction: [ self exitStateWaitSaveOrClose ];
 		when: #actionSave to: #stateWaitChangeOrClose;
 		when: #actionClose to: #stateWaitNewOrOpen.	
+			
+	self startFSM.
 

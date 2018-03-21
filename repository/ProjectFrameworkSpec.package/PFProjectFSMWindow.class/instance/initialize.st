@@ -16,4 +16,4 @@ initialize
 		when: PFCloseProject
 		send: #updateCloseProject
 		to: self.
-	self application startFSM.
+
