@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "PFDockProjectWindow",
+	"category" : "ProjectFrameworkMorphic-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PFDockProjectSample1",
+	"type" : "normal"
+}

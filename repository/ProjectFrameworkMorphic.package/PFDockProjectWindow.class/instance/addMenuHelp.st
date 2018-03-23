@@ -2,5 +2,5 @@ initialization-submenus
 addMenuHelp
 
 	self dock
-		add: 'Help' 
+		add: self translator tHelp
 		subMenu: self addMenuHelpSubmenu

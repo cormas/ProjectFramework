@@ -1,3 +1,3 @@
 initialization-submenus
 addMenuTools
-	self dock add: 'Tools' subMenu: self addMenuToolsSubmenu
+	self dock add: self translator tTools subMenu: self addMenuToolsSubmenu
