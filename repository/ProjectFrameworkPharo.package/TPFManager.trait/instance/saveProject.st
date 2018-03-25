@@ -3,7 +3,6 @@ saveProject
 	" Private - Serialize current opened project "
 
 	self fsm handleEvent: #actionSave.
-"	self projectManager saveProject: (self requestFileNameForSave: self applicationExtension)"	
 	self projectManager saveProject.
 	self 
 		addToRecent: self applicationClass currentProjectName 

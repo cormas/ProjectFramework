@@ -1,5 +1,5 @@
 {
-	"classtraitcomposition" : "TPFApplication classTrait + TPFManager classTrait + TPFRecents classTrait",
+	"classtraitcomposition" : "TPFManager classTrait + TPFRecents classTrait",
 	"classvars" : [
 		"RecentProjects"
 	],
@@ -7,7 +7,7 @@
 	"name" : "PFAbstractSpecProject",
 	"commentStamp" : "",
 	"super" : "ComposableModel",
-	"traitcomposition" : "TPFApplication + TPFManager + TPFRecents",
+	"traitcomposition" : "TPFManager + TPFRecents",
 	"type" : "normal",
 	"classinstvars" : [ ],
 	"pools" : [ ],

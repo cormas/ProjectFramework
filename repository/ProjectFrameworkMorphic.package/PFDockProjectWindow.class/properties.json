@@ -1,14 +1,16 @@
 {
-	"commentStamp" : "HernanMoralesDurand 6/23/2017 00:39",
-	"super" : "Object",
-	"category" : "ProjectFrameworkMorphic-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
+	"classtraitcomposition" : "TPFManager classTrait + TPFRecents classTrait",
 	"classvars" : [ ],
 	"instvars" : [
 		"projectManager",
 		"dock"
 	],
 	"name" : "PFDockProjectWindow",
-	"type" : "normal"
+	"commentStamp" : "HernanMoralesDurand 6/23/2017 00:39",
+	"super" : "Object",
+	"traitcomposition" : "TPFManager + TPFRecents",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "ProjectFrameworkMorphic-Core"
 }
