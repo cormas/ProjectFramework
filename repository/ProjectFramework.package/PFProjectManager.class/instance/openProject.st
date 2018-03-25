@@ -5,9 +5,9 @@ openProject
 	| openStatus |
 	openStatus := false.
 	(self requestFileNameForOpen: self projectFileExtension)
-		ifNotNil: [ :filename | 
-			filename notEmpty
-				ifTrue: [ openStatus := self openProjectFile: filename ] ].
+		ifNotNil: [ : fileRef | 
+			fileRef fullName notEmpty
+				ifTrue: [ openStatus := self openProjectFile: fileRef fullName ] ].
 	^ openStatus
 		ifTrue: [ self doPostOpenActions ]
 		ifFalse: [ self informMessage: self translator tProjectOpenFailed ]

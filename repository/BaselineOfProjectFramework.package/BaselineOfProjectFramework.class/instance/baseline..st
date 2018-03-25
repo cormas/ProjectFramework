@@ -4,12 +4,16 @@ baseline: spec
 	spec
 		for: #common
 		do: [ 
+			spec postLoadDoIt: #'postLoad'.			
 			spec
 				baseline: 'CommonUtils'
 				with: [ spec repository: 'github://hernanmd/CommonUtils/repository' ].
 			spec
 				baseline: 'SpecUIAddOns'
 				with: [ spec repository: 'github://hernanmd/SpecUIAddOns/repository' ].
+			spec
+				baseline: 'FileDialog'
+				with: [ spec repository: 'github://peteruhnak/file-dialog/repository' ].
 			spec
 				configuration: 'SState'
 				with: [ spec
@@ -29,7 +33,7 @@ baseline: spec
 			package: #ProjectFrameworkMorphic with: [
 				spec requires: #('ProjectFramework' 'ProjectFrameworkPharo' 'ProjectFrameworkSamples' ). ];
 			package: #ProjectFrameworkPharo with: [
-				spec requires: #('ProjectFramework' ). ];
+				spec requires: #('ProjectFramework' 'FileDialog' ). ];
 			package: #ProjectFrameworkSamples with: [
 				spec requires: #('ProjectFramework' ). ];
 			package: #ProjectFrameworkSpec with: [
@@ -42,6 +46,6 @@ baseline: spec
 		spec 
 			group: 'All' with: #('ProjectFramework' #ProjectFrameworkSpec 'ProjectFrameworkTests' 'ProjectFrameworkMorphic' #ProjectFrameworkSpecSamples #ProjectFrameworkPharo #ProjectFrameworkSamples );
 			group: 'Basic' with: #('ProjectFramework' #ProjectFrameworkPharo #ProjectFrameworkSpec );
-			group: 'Core' with: #('ProjectFramework' );
+			group: 'Core' with: #('ProjectFramework');
 			group: 'Tests' with: #('ProjectFramework' 'ProjectFrameworkTests' #ProjectFrameworkSamples );
 			group: 'default' with: #('All') ].

@@ -6,4 +6,4 @@ subMenuOpenProject: item
 		name: self translator tOpen;
 		shortcut: $o command;
 		icon: #smallLoadProjectIcon asIcon;
-		action: [ self applicationOpen ]
+		action: [ self openProject ]

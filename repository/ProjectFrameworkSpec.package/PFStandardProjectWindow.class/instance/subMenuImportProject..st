@@ -6,4 +6,4 @@ subMenuImportProject: item
 		name: self translator tImport;
 		shortcut: $i command;
 		icon: #smallForward asIcon;
-		action: [ self applicationImport ]
+		action: [ self importProject ]

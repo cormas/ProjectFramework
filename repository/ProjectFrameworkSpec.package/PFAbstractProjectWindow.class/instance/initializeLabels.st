@@ -10,3 +10,4 @@ initializeLabels
 	removeProjectButton label: 'Remove Current Project...'.
 	closeProjectButton label: 'Close Current Project'.
 	closeWindowButton label: 'Close'.
+	recentProjectsLabel label: 'Recent Projects'.

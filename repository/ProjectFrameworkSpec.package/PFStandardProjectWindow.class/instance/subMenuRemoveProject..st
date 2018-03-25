@@ -8,4 +8,4 @@ subMenuRemoveProject: item
 		icon: #removeIcon asIcon;
 		action: [ 
 			(self confirm: self translator tAreYouSureToDeleteProject)
-				ifTrue: [ self applicationRemoveProject ] ]
+				ifTrue: [ self removeProject ] ]

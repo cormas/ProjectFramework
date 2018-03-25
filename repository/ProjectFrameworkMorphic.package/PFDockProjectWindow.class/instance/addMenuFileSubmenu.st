@@ -3,28 +3,28 @@ addMenuFileSubmenu
 	^ MenuMorph new
 		add: self translator tNew
 			target: self
-			selector: #applicationNewProject;
+			selector: #createNewProject;
 		add: self translator tOpen
 			target: self
-			selector: #applicationOpen;
+			selector: #openProject;
 		addLine;
 		add: self translator tSave
 			target: self
-			selector: #applicationSave;
+			selector: #saveProject;
 		add: self translator tSaveAs
 			target: self
-			selector: #applicationSaveAs;
+			selector: #saveAsProject;
 		addLine;
 		add: self translator tExplore
 			target: self
-			selector: #applicationExplore;
+			selector: #exploreProject;
 		add: self translator tRemove
 			target: self
-			selector: #applicationRemoveProject;
+			selector: #removeProject;
 		add: self translator tProperties
 			target: self
-			selector: #applicationExplore;
+			selector: #removeProject;
 		add: self translator tClose
 			target: self
-			selector: #applicationClose;
+			selector: #closeProject;
 		yourself

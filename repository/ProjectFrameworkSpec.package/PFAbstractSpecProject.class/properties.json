@@ -1,11 +1,15 @@
 {
-	"commentStamp" : "",
-	"super" : "ComposableModel",
-	"category" : "ProjectFrameworkSpec-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classtraitcomposition" : "TPFApplication classTrait + TPFManager classTrait + TPFRecents classTrait",
+	"classvars" : [
+		"RecentProjects"
+	],
 	"instvars" : [ ],
 	"name" : "PFAbstractSpecProject",
-	"type" : "normal"
+	"commentStamp" : "",
+	"super" : "ComposableModel",
+	"traitcomposition" : "TPFApplication + TPFManager + TPFRecents",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "ProjectFrameworkSpec-Core"
 }

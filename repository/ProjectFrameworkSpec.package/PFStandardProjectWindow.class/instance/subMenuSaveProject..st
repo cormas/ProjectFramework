@@ -6,4 +6,4 @@ subMenuSaveProject: item
 		name: self translator tSave;
 		shortcut: $s command;
 		icon: #smallSaveIcon asIcon;
-		action: [ self applicationSave ]
+		action: [ self saveProject ]

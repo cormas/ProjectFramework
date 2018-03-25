@@ -1,5 +1,5 @@
 callbacks
 doPostSaveActions
-	" Basic post save actions. Redefine in subclasses if necessary "
+	" Basic successful post save actions. Redefine in subclasses if necessary "
 
-	self updateOpenedProject.
+	self informMessage: self translator tProjectUpdateSuccess , self projectFilename.

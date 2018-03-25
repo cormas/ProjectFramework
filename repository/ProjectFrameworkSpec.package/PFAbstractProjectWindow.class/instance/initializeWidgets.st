@@ -5,3 +5,5 @@ initializeWidgets
 	self initializePrvWidgets.	
 	self initializeLabels.
 	self initializeFocusOrders.
+	self initializePresenterRecents.
+	self updateRecentProjects.

@@ -1,13 +1,15 @@
 {
-	"commentStamp" : "HernanMoralesDurand 11/28/2017 16:50",
-	"super" : "SpcMenuAppWindow",
-	"category" : "ProjectFrameworkSpec-Layouts",
-	"classinstvars" : [ ],
-	"pools" : [ ],
+	"classtraitcomposition" : "TPFApplication classTrait + TPFManager classTrait + TPFRecents classTrait",
 	"classvars" : [ ],
 	"instvars" : [
 		"projectManager"
 	],
 	"name" : "PFStandardProjectWindow",
-	"type" : "normal"
+	"commentStamp" : "HernanMoralesDurand 11/28/2017 16:50",
+	"super" : "SpcMenuAppWindow",
+	"traitcomposition" : "TPFApplication + TPFManager + TPFRecents",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "ProjectFrameworkSpec-Layouts"
 }

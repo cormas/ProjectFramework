@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "HernanMoralesDurand 9/1/2016 18:34",
+	"commentStamp" : "HernanMoralesDurand 3/25/2018 05:28",
 	"super" : "PFAbstractSpecProject",
 	"category" : "ProjectFrameworkSpec-Core",
 	"classinstvars" : [ ],
@@ -15,7 +15,9 @@
 		"projectActions",
 		"editProjectButton",
 		"closeWindowButton",
-		"projectManager"
+		"projectManager",
+		"recentProjectsList",
+		"recentProjectsLabel"
 	],
 	"name" : "PFAbstractProjectWindow",
 	"type" : "normal"

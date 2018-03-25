@@ -6,4 +6,4 @@ subMenuNewProject: item
 		name: self translator tNew;
 		shortcut: $n command;
 		icon: #smallNewIcon asIcon;
-		action: [ self applicationNewProject ]
+		action: [ self createNewProject ]

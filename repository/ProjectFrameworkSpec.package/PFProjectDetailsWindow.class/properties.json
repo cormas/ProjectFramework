@@ -1,6 +1,6 @@
 {
-	"commentStamp" : "HernanMoralesDurand 8/7/2016 02:34",
-	"super" : "PFRecentProjectsWindow",
+	"commentStamp" : "HernanMoralesDurand 3/25/2018 05:28",
+	"super" : "PFAbstractProjectWindow",
 	"category" : "ProjectFrameworkSpec-Layouts",
 	"classinstvars" : [ ],
 	"pools" : [ ],

@@ -1,7 +1,5 @@
 callbacks
 doPostSaveActions
-	" See superimplementor's comment "
+	" Basic successful post save actions. Redefine in subclasses if necessary "
 
-"	self 
-		addToRecent: self applicationClass currentProjectName 
-		named: self applicationClass currentProjectFileName."
+	self informMessage: self translator tProjectUpdateSuccess , self projectFilename.

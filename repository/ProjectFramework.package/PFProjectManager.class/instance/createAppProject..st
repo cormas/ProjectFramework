@@ -12,4 +12,4 @@ createAppProject: projectName
 		self informMessage: self translator tNewProjectSuccess , projectName asString. 
 	]
 	on: Error 
-	do: [ : ex | self handleCreateAppException: ex in: app name: projectName ]
+	do: [ : ex | self halt. self handleCreateAppException: ex in: app name: projectName ]
