@@ -28,6 +28,7 @@ addTranslationsForEN
 		at: #tNewProjectName put: 'New project name';
 		at: #tNewProjectEmptyName put: 'Project name cannot be empty. Please try again';
 		at: #tProjectOpenSuccess put: 'Project opened successfully';
+		at: #tProjectCloseSuccess put: 'Project closed successfully';
 		at: #tProjectOpenFailed put: 'Project not opened, please try again';
 		at: #tProjectUpdateSuccess put:  'Current project updated successfully as: ';
 		at: #fFuelLibraryMissing put: 'FUEL library missing';

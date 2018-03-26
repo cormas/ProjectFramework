@@ -28,6 +28,7 @@ addTranslationsForES
 		at: #tNewProjectName put: 'Nombre del nuevo proyecto';
 		at: #tNewProjectEmptyName put: 'El nombre del proyecto no puede ser vacío. Por favor intente nuevamente';
 		at: #tProjectOpenSuccess put: 'Proyecto abierto exitosamente';
+		at: #tProjectCloseSuccess put: 'Proyecto cerrado exitosamente';
 		at: #tProjectOpenFailed put: 'El proyecto no pudo abrirse. Por favor intente nuevamente';
 		at: #tProjectUpdateSuccess put:  'El proyecto fue actualizado exitosamente : ';
 		at: #fFuelLibraryMissing put: 'No se encuentra la librería FUEL';

@@ -10,4 +10,3 @@ updateStateOpened
 		enableExplore;
 		enableProperties;
 		enableRemove.
-	self informMessage: self translator tProjectOpenSuccess.

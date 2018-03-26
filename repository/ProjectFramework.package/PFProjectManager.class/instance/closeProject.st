@@ -4,6 +4,5 @@ closeProject
 
 	(self confirm: self translator tAreYouSureToCloseProject , self currentProjectName)
 		ifFalse: [ ^ self ].
-	self fsm handleEvent: #actionClose.
-	self updateClosedProject.
+	self doPostCloseActions.
 	^ true

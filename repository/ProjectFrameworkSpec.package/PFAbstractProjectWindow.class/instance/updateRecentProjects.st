@@ -1,4 +1,4 @@
-accessing
+callbacks
 updateRecentProjects
 	" Something changed. Update recent projects list "
 
