@@ -1,4 +1,4 @@
 callbacks
 disableClose
 
-	self closeProjectButton enable.
+	self closeProjectButton disable.

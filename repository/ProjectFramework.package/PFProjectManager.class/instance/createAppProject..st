@@ -8,7 +8,6 @@ createAppProject: projectName
 	[
 		newProject := app createProjectNamed: projectName.
 		app currentProject: newProject.
-		self updateNewProject: projectName.
 		self fsm handleEvent: #actionNew.
 	]
 	on: Error 

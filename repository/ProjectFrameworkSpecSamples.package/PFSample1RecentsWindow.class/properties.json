@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "HernanMoralesDurand 9/10/2016 16:34",
+	"commentStamp" : "HernanMoralesDurand 3/30/2018 18:56",
 	"super" : "PFAbstractProjectWindow",
 	"category" : "ProjectFrameworkSpecSamples-Sample1",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "PFSample1ProjectRLWindow",
+	"name" : "PFSample1RecentsWindow",
 	"type" : "normal"
 }

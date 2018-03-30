@@ -1,4 +1,0 @@
-examples
-example1
-
-	PFSample1ProjectRLWindow open

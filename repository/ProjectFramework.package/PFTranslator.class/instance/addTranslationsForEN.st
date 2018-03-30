@@ -25,6 +25,10 @@ addTranslationsForEN
 		at: #tUpdate 						put: 'Update ';
 		at: #tVersion 						put: 'Version';								
 		at: #tUsername 						put: 'User name';
+		at: #tName 							put: 'Name';
+		at: #tAuthor 						put: 'Author';
+		at: #tCreated 						put: 'Created';
+		at: #tStatus 						put: 'Status';
 		at: #tUsernameDescription 		put: 'Set the current user name';
 		at: #tSetVersion 					put: 'Set the current project version';
 		at: #tAreYouSureToDeleteProject put: 'Are you sure to remove the project?';
@@ -35,6 +39,8 @@ addTranslationsForEN
 		at: #tProjectOpenSuccess 		put: 'Project opened successfully';
 		at: #tProjectNewSuccess 			put: 'Project created successfully';
 		at: #tProjectCloseSuccess 		put: 'Project closed successfully';
+		at: #tProjectSaved 				put: 'File saved';
+		at: #tNotAFile 						put: 'Not a file';						
 		at: #tProjectChanged 				put: 'Changed';
 		at: #tProjectOpenFailed 			put: 'Project not opened, please try again';
 		at: #tProjectUpdateSuccess 		put:  'Current project updated successfully as: ';

@@ -24,6 +24,10 @@ addTranslationsForES
 		at: #tCancel 						put: 'Cancelar';
 		at: #tUpdate 						put: 'Actualizar ';
 		at: #tVersion 						put: 'Versión';
+		at: #tName 							put: 'Nombre';
+		at: #tAuthor 						put: 'Autor';
+		at: #tCreated 						put: 'Creado';
+		at: #tStatus 						put: 'Estado';								
 		at: #tUsername 						put: 'Nombre de usuario';
 		at: #tUsernameDescription 		put: 'Configurar el nombre de usuario actual';	
 		at: #tSetVersion 					put: 'Configurar la versión del proyecto';		
@@ -35,6 +39,8 @@ addTranslationsForES
 		at: #tProjectOpenSuccess 		put: 'Proyecto abierto exitosamente';
 		at: #tProjectNewSuccess 			put: 'Proyecto creado exitosamente';
 		at: #tProjectCloseSuccess 		put: 'Proyecto cerrado exitosamente';
+		at: #tProjectSaved 				put: 'Guardado';
+		at: #tNotAFile 						put: 'No es un archivo';				
 		at: #tProjectChanged 				put: 'Modificado';				
 		at: #tProjectOpenFailed 			put: 'El proyecto no pudo abrirse. Por favor intente nuevamente';
 		at: #tProjectUpdateSuccess 		put:  'El proyecto fue actualizado exitosamente : ';

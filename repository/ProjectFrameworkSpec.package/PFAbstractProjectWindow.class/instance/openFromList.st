@@ -7,7 +7,7 @@ openFromList
 	item key asFileReference exists
 		ifTrue: [ 	
 			self openProjectFile: item key.
-			self informMessage: 'Project ' , item key , ' opened successfully' .
+			self informMessage: self translator tProjectOpenSuccess.
 			self updateOpenedProject. ]
 		ifFalse: [ 
 			self openProjectRemoved: item ].

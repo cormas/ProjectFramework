@@ -1,12 +1,8 @@
 callbacks
 rightClickMenu: menu
 
-"	| el menuBuilder |
-	recentProjectsList selectedItem ifNil: [ ^ self ].
-	menuBuilder := DCMenuBuilder new menu: menu.
-	el := recentProjectsList selectedItem.
-	menuBuilder
-		addItem: 'Remove from list'
-		action: [ 
-			self class removeFromRecent: el.
-			self updateRecentProjects ]"
+	recentProjectsList selectedItem ifNil: [ ^ menu ].
+	menu
+		add: 'Open' selector: #openProject;
+		add: 'Remove from list' selector: #removeRecent.
+	^ menu

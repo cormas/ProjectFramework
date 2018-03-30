@@ -7,6 +7,7 @@ updateStateNew
 		enableSave;
 		enableSaveAs;
 		enableClose;
+		enableEdit;
 		enableExplore;
 		enableProperties;
 		enableRemove;
