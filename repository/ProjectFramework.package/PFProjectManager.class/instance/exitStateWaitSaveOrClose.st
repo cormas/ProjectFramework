@@ -1,4 +1,5 @@
 initialize - fsm
 exitStateWaitSaveOrClose
 
-	self notifyEvent: 'Exit wait save or close'
+"	self notifyEvent: 'Exit wait save or close'.
+	self halt."

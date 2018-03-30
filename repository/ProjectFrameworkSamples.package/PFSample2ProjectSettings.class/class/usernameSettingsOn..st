@@ -4,6 +4,6 @@ usernameSettingsOn: aBuilder
 
 	(aBuilder setting: #usernameSetting)
 		target: self;
-		description: 'Set the user name';
-		label: 'Username';
+		description: self translator tUsernameDescription;
+		label: self translator tUsername;
 		parent: #projectSettings

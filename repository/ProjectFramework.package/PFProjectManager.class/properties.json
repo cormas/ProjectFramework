@@ -9,8 +9,6 @@
 		"applicationClass",
 		"projectClass",
 		"settingsClass",
-		"translator",
-		"translatorClass",
 		"announcer",
 		"projectWindow",
 		"fsm"

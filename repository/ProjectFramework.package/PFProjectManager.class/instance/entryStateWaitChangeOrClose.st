@@ -1,6 +1,8 @@
 initialize - fsm
 entryStateWaitChangeOrClose
-	" This state is activated after opening a project "
+	" This action is activated after opening or creating a project "
 
-	self notifyEvent: 'Entry wait change or close'.
-	self announcer announce: PFOpenedProject.
+	(self fsm context at: #pfTrans) type = #actionOpened
+		ifTrue: [ self updateStateOpened ].
+	(self fsm context at: #pfTrans) type = #actionNew
+		ifTrue: [ self updateStateNew ].

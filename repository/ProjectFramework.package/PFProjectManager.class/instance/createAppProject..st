@@ -9,7 +9,7 @@ createAppProject: projectName
 		newProject := app createProjectNamed: projectName.
 		app currentProject: newProject.
 		self updateNewProject: projectName.
-		self informMessage: self translator tNewProjectSuccess , projectName asString. 
+		self fsm handleEvent: #actionNew.
 	]
 	on: Error 
 	do: [ : ex | self handleCreateAppException: ex in: app name: projectName ]

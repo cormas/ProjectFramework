@@ -1,0 +1,4 @@
+settings
+applicationLanguages
+
+	^ { #EN . #ES }

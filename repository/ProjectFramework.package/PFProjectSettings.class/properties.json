@@ -7,6 +7,7 @@
 	"classvars" : [
 		"ApplicationClass",
 		"CurrentProjectClass",
+		"LanguageSetting",
 		"UsernameSetting",
 		"VersionSetting"
 	],

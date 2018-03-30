@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "HernanMoralesDurand 9/10/2017 05:40",
+	"commentStamp" : "HernanMoralesDurand 3/29/2018 15:59",
 	"super" : "PFObject",
 	"category" : "ProjectFramework-Core",
 	"classinstvars" : [ ],
@@ -13,7 +13,9 @@
 		"currentProject",
 		"projectClass",
 		"fsm",
-		"announcer"
+		"announcer",
+		"translatorClass",
+		"translator"
 	],
 	"name" : "PFProjectApplication",
 	"type" : "normal"

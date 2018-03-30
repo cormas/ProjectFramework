@@ -4,6 +4,6 @@ currentVersionSettingOn: aBuilder
 
 	(aBuilder setting: #versionSetting)
 		target: self;
-		description: 'Set the current project version';
-		label: 'Version';
+		description: self translator tSetVersion;
+		label: self translator tVersion;
 		parent: #projectSettings

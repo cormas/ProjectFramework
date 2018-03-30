@@ -5,7 +5,5 @@ createNewProject
 	| answer |
 
 	(answer := self requestMessage: self translator tNewProjectName) isEmptyOrNil 
-		ifFalse: [ 
-			self createAppProject: answer.
-			self fsm handleEvent: #actionNew ]
+		ifFalse: [ self createAppProject: answer ]
 		ifTrue: [ self informMessage: self translator tNewProjectEmptyName ].

@@ -4,5 +4,5 @@ createProjectNamed: aNameString
 
 	self currentProject: (self projectClass 
 		named: aNameString 
-		author: (PFProjectUser named: 'Unknown')).
+		author: (PFProjectUser named: self defaultUsername)).
 	^ self currentProject

@@ -1,4 +1,5 @@
-accessing - i18n
+accessing
 translator
-	
+	" Answer a <PFTranslator> "
+
 	^ self application translator

@@ -1,3 +1,4 @@
 accessing - i18n
 translator: anObject
-	translator := anObject
+
+	self application translator: anObject

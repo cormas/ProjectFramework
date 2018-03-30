@@ -3,12 +3,11 @@ updateApplication
 	" Ask and update receiver's application "
 
 	| trWindow |
-	(self confirm: 'Do you want to update ' , self applicationName , '?')
+	(self confirm: self translator tUpdateAsk , self applicationName , '?')
 		ifFalse: [ ^ self ].
-	trWindow := self
-		log: 'Please wait until we finish the update process...'.
+	trWindow := self log: self translator tUpdateWait.
 	self updateApplicationCode.
 	trWindow
 		ifNotNil: [ :w | 
 			w close.
-			self inform: self applicationName , ' has been updated' ]
+			self inform: self applicationName , self tUpdateInform ]

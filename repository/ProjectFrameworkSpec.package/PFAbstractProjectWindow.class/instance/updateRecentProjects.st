@@ -1,6 +1,6 @@
 callbacks
 updateRecentProjects
-	" Something changed. Update recent projects list "
+	" The user opened or closed a project, update recent projects list "
 
 	self recentProjectsList
 		items: self class recentProjects;
