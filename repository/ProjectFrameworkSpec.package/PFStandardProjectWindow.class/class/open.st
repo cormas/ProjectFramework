@@ -4,4 +4,5 @@ open
 
 	self new 
 		openWithSpec;
-		centered.
+		centered;
+		startFSM

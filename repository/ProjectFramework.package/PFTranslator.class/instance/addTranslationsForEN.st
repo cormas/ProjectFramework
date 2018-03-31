@@ -38,9 +38,10 @@ addTranslationsForEN
 		at: #tNewProjectEmptyName 		put: 'Project name cannot be empty. Please try again';
 		at: #tProjectOpenSuccess 		put: 'Project opened successfully';
 		at: #tProjectNewSuccess 			put: 'Project created successfully';
+		at: #tProjectSaveSuccess 		put: 'Project saved successfully';
 		at: #tProjectCloseSuccess 		put: 'Project closed successfully';
 		at: #tProjectSaved 				put: 'File saved';
-		at: #tNotAFile 						put: 'Not a file';						
+		at: #tNotAFile 						put: 'Not a file';	
 		at: #tProjectChanged 				put: 'Changed';
 		at: #tProjectOpenFailed 			put: 'Project not opened, please try again';
 		at: #tProjectUpdateSuccess 		put:  'Current project updated successfully as: ';

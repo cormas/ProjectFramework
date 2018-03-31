@@ -6,3 +6,7 @@ entryStateWaitSaveOrClose
 		ifTrue: [ self updateStateChanged ].
 	(self fsm context at: #pfTrans) type = #actionClose
 		ifTrue: [ self updateStateClosed ].
+	(self fsm context at: #pfTrans) type = #actionSaveAs
+		ifTrue: [ self updateStateSaveAs ].
+	(self fsm context at: #pfTrans) type = #actionSave
+		ifTrue: [ self updateStateSave ].
