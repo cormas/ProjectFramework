@@ -12,14 +12,14 @@ initializeFSM
 	(self fsm addStateNamed: #stateWaitChangeOrClose)
 		entryAction: [ self entryStateWaitChangeOrClose ];
 		exitAction: [ self exitStateWaitChangeOrClose ];
+		when: #actionSave do: [ : ctx : ev | ctx at: #pfTrans put: ev ] to: #stateWaitChangeOrClose;
+		when: #actionSaveAs do: [ : ctx : ev | ctx at: #pfTrans put: ev ] to: #stateWaitChangeOrClose;			
 		when: #actionChange do: [ : ctx : ev | ctx at: #pfTrans put: ev ] to: #stateWaitSaveOrClose;
 		when: #actionClose do: [ : ctx : ev | ctx at: #pfTrans put: ev ] to: #stateWaitNewOrOpen.
 
 	(self fsm addStateNamed: #stateWaitSaveOrClose)
 		entryAction: [  self entryStateWaitSaveOrClose ];
 		exitAction: [  self exitStateWaitSaveOrClose ];
-		when: #actionSave do: [ : ctx : ev | ctx at: #pfTrans put: ev ] to: #stateWaitChangeOrClose;
-		when: #actionSaveAs do: [ : ctx : ev | ctx at: #pfTrans put: ev ] to: #stateWaitChangeOrClose;		
 		when: #actionClose do: [ : ctx : ev | ctx at: #pfTrans put: ev ] to: #stateWaitNewOrOpen.	
 
 

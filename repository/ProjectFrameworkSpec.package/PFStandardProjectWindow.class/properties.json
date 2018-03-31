@@ -7,7 +7,7 @@
 		"projectManager"
 	],
 	"name" : "PFStandardProjectWindow",
-	"commentStamp" : "HernanMoralesDurand 11/28/2017 16:50",
+	"commentStamp" : "HernanMoralesDurand 3/31/2018 03:12",
 	"super" : "SpcMenuAppWindow",
 	"traitcomposition" : "TPFManager + TPFRecents",
 	"type" : "normal",
