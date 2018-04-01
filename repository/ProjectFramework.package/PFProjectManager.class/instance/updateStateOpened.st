@@ -12,5 +12,5 @@ updateStateOpened
 		enableExplore;
 		enableProperties;
 		enableRemove;
-		updateNewProject: self currentProjectName.
+		updateOpenedProject: self currentProjectName.
 	self informMessage: self translator tProjectOpenSuccess.

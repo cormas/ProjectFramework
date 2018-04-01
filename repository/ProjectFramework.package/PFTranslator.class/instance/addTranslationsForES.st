@@ -53,5 +53,7 @@ addTranslationsForES
 		at: #tSetLanguage 					put: 'Idioma';
 		at: #tUpdateAsk 					put: '¿Desea actualizar ';
 		at: #tUpdateWait 					put: 'Por favor espere hasta finalizar el proceso de actualización...';
-		at: #tUpdateInform 				put: ' fue actualizado exitosamente';							
+		at: #tUpdateInform 				put: ' fue actualizado exitosamente';		
+		at: #tRemoveFromList 				put: 'Elimiar de la lista';
+		at: #tEmptyRecentFileList  		put: 'Vaciar lista de recientes';													
 		yourself

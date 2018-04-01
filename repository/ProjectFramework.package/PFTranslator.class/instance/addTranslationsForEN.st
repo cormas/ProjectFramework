@@ -54,4 +54,6 @@ addTranslationsForEN
 		at: #tUpdateAsk 					put: 'Do you want to update ';
 		at: #tUpdateWait 					put: 'Please wait until we finish the update process...';
 		at: #tUpdateInform 				put: ' has been updated';
+		at: #tRemoveFromList 				put: 'Remove from list';
+		at: #tEmptyRecentFileList  		put: 'Empty recent file list';
 		yourself

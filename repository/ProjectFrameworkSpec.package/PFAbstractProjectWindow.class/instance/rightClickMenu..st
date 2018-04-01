@@ -1,8 +1,9 @@
 callbacks
 rightClickMenu: menu
 
-	recentProjectsList selectedItem ifNil: [ ^ menu ].
+	self recentProjectsList selectedItem ifNil: [ ^ menu ].
 	menu
-		add: 'Open' selector: #openProject;
-		add: 'Remove from list' selector: #removeRecent.
+		add: self translator tOpen selector: #openProject;
+		add: self translator tRemoveFromList selector: #removeRecent;
+		add: self translator tEmptyRecentFileList selector: #removeAllRecents.
 	^ menu
