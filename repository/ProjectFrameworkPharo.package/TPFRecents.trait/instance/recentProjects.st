@@ -1,4 +1,5 @@
 accessing
 recentProjects
+	" Answer a <Collection> of <Association> describing recent projects "
 
-	^ self class recentProjects
+	^ self application recentProjects

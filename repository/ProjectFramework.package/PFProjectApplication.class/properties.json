@@ -15,7 +15,8 @@
 		"fsm",
 		"announcer",
 		"translatorClass",
-		"translator"
+		"translator",
+		"recentProjects"
 	],
 	"name" : "PFProjectApplication",
 	"type" : "normal"

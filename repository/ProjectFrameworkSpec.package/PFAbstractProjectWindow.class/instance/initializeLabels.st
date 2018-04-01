@@ -2,12 +2,12 @@ initialization
 initializeLabels
 
 	projectActions label: 'Project Actions'.
-	newProjectButton label: 'Create New Project...'.
-	saveProjectButton label: 'Save Current Project'.
-	openFromFileButton label: 'Open...'.
-	editProjectButton label: 'Edit Current Project...'.	
-	exploreProjectButton label: 'Explore Current Project...'.
-	removeProjectButton label: 'Remove Current Project...'.
-	closeProjectButton label: 'Close Current Project'.
-	closeWindowButton label: 'Close'.
+	newProjectButton label: self translator tNew.
+	saveProjectButton label: self translator tSave.
+	openFromFileButton label: self translator tOpen.
+	editProjectButton label: self translator tProperties.	
+	exploreProjectButton label: self translator tExplore.
+	removeProjectButton label: self translator tRemove.
+	closeProjectButton label: self translator tClose.
+	closeWindowButton label: self translator tQuit.
 	recentProjectsLabel label: 'Recent Projects'.
