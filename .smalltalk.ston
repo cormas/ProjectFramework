@@ -10,9 +10,10 @@ SmalltalkCISpec {
   ],
   #testing : {
     #coverage : {
-       #packages : [ 'ProjectFrameworkTests' ]
+       #packages : [ 'ProjectFramework*' ]
     },
-	#packages : [ 'ProjectFrameworkTests*' ]
+    #include : {
+       #packages : [ 'ProjectFramework*' ]
     }
   }
 }
