@@ -56,4 +56,5 @@ addTranslationsForEN
 		at: #tUpdateInform 				put: ' has been updated';
 		at: #tRemoveFromList 				put: 'Remove from list';
 		at: #tEmptyRecentFileList  		put: 'Empty recent file list';
+		at: #tChooseAnotherName 			put: '. Please choose another name';
 		yourself

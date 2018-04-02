@@ -1,13 +1,15 @@
 callbacks
 openFromList
-	| item |
+	" Private - Callback for double-click selection in recent projects list. Selection value contains the full path to the project file "
+
+	| prjAssoc |
 	
-	item := self recentProjectsList selectedItem.
-	item ifNil: [ ^ self ].
-	item key asFileReference exists
+	(prjAssoc := self recentProjectsList selectedItem)
+		ifNil: [ ^ self ].
+	prjAssoc value asFileReference exists
 		ifTrue: [ 	
-			self openProjectFile: item key.
+			self openProjectFile: prjAssoc value.
 			self informMessage: self translator tProjectOpenSuccess.
 			self updateOpenedProject. ]
 		ifFalse: [ 
-			self openProjectRemoved: item ].
+			self openProjectRemoved: prjAssoc ].

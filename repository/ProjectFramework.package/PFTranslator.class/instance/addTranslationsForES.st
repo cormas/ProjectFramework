@@ -55,5 +55,6 @@ addTranslationsForES
 		at: #tUpdateWait 					put: 'Por favor espere hasta finalizar el proceso de actualización...';
 		at: #tUpdateInform 				put: ' fue actualizado exitosamente';		
 		at: #tRemoveFromList 				put: 'Elimiar de la lista';
-		at: #tEmptyRecentFileList  		put: 'Vaciar lista de recientes';													
+		at: #tEmptyRecentFileList  		put: 'Vaciar lista de recientes';
+		at: #tChooseAnotherName 			put: '. Por favor, elija otro nombre';				
 		yourself

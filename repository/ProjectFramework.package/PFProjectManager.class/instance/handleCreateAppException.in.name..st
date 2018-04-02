@@ -1,4 +1,4 @@
 private
 handleCreateAppException: ex in: app name: projectName
 
-	self informMessage: ex messageText , '. Please choose another name'.
+	self informMessage: ex messageText , self translator tChooseAnotherName.

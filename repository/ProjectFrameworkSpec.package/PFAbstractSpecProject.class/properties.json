@@ -3,7 +3,9 @@
 	"classvars" : [
 		"RecentProjects"
 	],
-	"instvars" : [ ],
+	"instvars" : [
+		"windowTitle"
+	],
 	"name" : "PFAbstractSpecProject",
 	"commentStamp" : "",
 	"super" : "ComposableModel",
