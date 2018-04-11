@@ -9,7 +9,6 @@
 		"applicationClass",
 		"projectClass",
 		"settingsClass",
-		"announcer",
 		"projectWindow",
 		"fsm"
 	],
