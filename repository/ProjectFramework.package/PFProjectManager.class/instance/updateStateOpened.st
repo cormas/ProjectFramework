@@ -4,13 +4,6 @@ updateStateOpened
 
 	self notifyEvent:	'Action: Opened'.
 	self projectWindow 
-		enableNew;
-		enableOpen;
-		enableSave;
-		enableSaveAs;
-		enableClose;
-		enableExplore;
-		enableProperties;
-		enableRemove;
+		updateStateOpened;
 		updateOpenedProject: self currentProjectName.
 	self informMessage: self translator tProjectOpenSuccess.
