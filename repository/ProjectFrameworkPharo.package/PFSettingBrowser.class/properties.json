@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 9/6/2018 14:43",
+	"super" : "SettingBrowser",
+	"category" : "ProjectFrameworkPharo-Settings",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PFSettingBrowser",
+	"type" : "normal"
+}
