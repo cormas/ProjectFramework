@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"info"
+		"info",
+		"valid"
 	],
 	"name" : "PFProjectBase",
 	"type" : "normal"

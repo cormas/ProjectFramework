@@ -1,5 +1,5 @@
 accessing
 creationDateAsString
-	" Answer a <DateAndTime> with the receiver's date of creation "
+	" Answer a <String> with the receiver's date of creation "
 
 	^ self creationDate pfPrintYMDHMS

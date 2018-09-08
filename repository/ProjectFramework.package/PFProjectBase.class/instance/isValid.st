@@ -1,3 +1,5 @@
 testing
 isValid
-	^ true
+	" Answer the receiver's valid status "
+
+	^ valid
