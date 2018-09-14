@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"itemsList"
+		"itemsEditor",
+		"itemsSelector"
 	],
 	"name" : "PFSelectorWindow",
 	"type" : "normal"

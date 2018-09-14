@@ -1,0 +1,4 @@
+adding
+addItem: anObject
+
+	^ anObject

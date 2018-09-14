@@ -1,4 +1,4 @@
 defaults
 defaultProjectManagerClass
 
-	^ PFSample1ProjectManager
+	^ PFSample3ProjectManager

@@ -1,5 +1,6 @@
 initialization
 newItemFor: response
 
-	self halt.
-		
+	^ (self isValid: response)
+		ifTrue: [ response  ]
+		ifFalse: [ nil ]

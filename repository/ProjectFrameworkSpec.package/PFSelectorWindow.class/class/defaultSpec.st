@@ -8,6 +8,7 @@ defaultSpec
 				add: #menuToolbar height: self toolbarHeight;
 				newRow: [ : r |
 					r 
-						add: #itemsList width: 120 ];
+						add: #itemsSelector width: 120;
+						add: #itemsEditor  ];
 				add: #toolbar height: 26 ];
 		yourself

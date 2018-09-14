@@ -4,9 +4,10 @@ initializeWidgets
 	
 	super initializeWidgets.
 	self instantiateModels: #(
-		itemsList 		SpcActionList).
+		itemsSelector 		SpcActionList
+		itemsEditor 			SpcLabeledTextArea).
 		
-	self itemsList 
+	self itemsSelector 
 		addActionBlock: [ self addItemRequest ];
 		listCollectionClass: OrderedSet;
 		label: self translator tItems
