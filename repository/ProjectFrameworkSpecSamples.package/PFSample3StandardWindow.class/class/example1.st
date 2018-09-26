@@ -2,4 +2,4 @@ examples
 example1
 
 	PFProjectSettings currentApplicationClass: PFSample1ApplicationClass.
-	PFSample2StandardWindow open.
+	PFSample3StandardWindow open.
