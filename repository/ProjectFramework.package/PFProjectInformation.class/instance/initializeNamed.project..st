@@ -2,6 +2,7 @@ initialize - release
 initializeNamed: aNameString project: aProject
 	" Private - Initialize internal's receiver state "
 
-	infoName := aNameString.
-	project := aProject.
-	saveStatus := false
+	self infoName: aNameString.
+	self project: aProject.
+	self saveStatus: false.
+	self fileName: self defaultProjectName.

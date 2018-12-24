@@ -4,6 +4,6 @@ updateProject
 
 	[ self serializerClass 
 		serialize: self 
-		toFileNamed: self fileName ] 
+		toFileNamed: self info fullFilename ] 
 	ensure: [ self info beSaved ]
 	
