@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "HernanMoralesDurand 9/1/2016 19:14",
+	"commentStamp" : "smalltalkCI 12/24/2018 19:36",
 	"super" : "PFApplicationObject",
 	"category" : "ProjectFramework-Core",
 	"classinstvars" : [ ],
@@ -9,11 +9,12 @@
 		"history",
 		"project",
 		"usage",
-		"fileName",
+		"projectDirectory",
 		"owner",
 		"version",
 		"saveStatus",
-		"infoName"
+		"infoName",
+		"fileReference"
 	],
 	"name" : "PFProjectInformation",
 	"type" : "normal"
