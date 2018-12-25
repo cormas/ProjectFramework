@@ -12,6 +12,9 @@ baseline: spec
 				baseline: 'SpecUIAddOns'
 				with: [ spec repository: 'github://hernanmd/SpecUIAddOns/repository' ].
 			spec
+				baseline: 'OrderedSet'
+				with: [ spec repository: 'github://hernanmd/OrderedSet/repository' ].
+			spec
 				baseline: 'FileDialog'
 				with: [ spec repository: 'github://peteruhnak/file-dialog/repository' ].
 			spec
