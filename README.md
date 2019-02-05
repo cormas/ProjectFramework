@@ -5,12 +5,9 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/x265r8o52iirm9g2?svg=true)](https://ci.appveyor.com/project/hernanmd/projectframework)
 [![Coverage Status](https://coveralls.io/repos/github/hernanmd/ProjectFramework/badge.svg?branch=master)](https://coveralls.io/github/hernanmd/ProjectFramework?branch=master)
 
-# Description
+# Table of Contents
 
-ProjectFramework is a MIT licensed library for project management at application level with Pharo Smalltalk. The ProjectFramework enables to build typical project-based desktop GUI applications, without reinventing the wheel for project behaviors such as Open, Save, Closing, setting properties, etc. For example, when an user close a project inside an application window, menu items such as close, properties, save, etc. should be disabled, and re-enabled again when a project is opened. This is managed by the ProjectFramework automatically. A Spec UI application can be automatically generated from templates with basic menu options in very few lines of code.
-
-ProjectFramework is designed to create project-centric applications with minimal effort, and tries to be fairly agnostic regarding the choices of UI widget libraries, this means no widget toolkit dependent code.
-
+- [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
   - [Adding an Application and Project](#adding-application-and-project)
@@ -24,6 +21,12 @@ ProjectFramework is designed to create project-centric applications with minimal
 - [Implementation notes](#implementation-note)
 - [License](#license)
 
+
+# Description
+
+ProjectFramework is a MIT-licensed library for project management at application level with [Pharo Smalltalk](https://www.pharo.org). The ProjectFramework enables to build typical project-based desktop GUI applications, without reinventing the wheel for project behaviors such as Open, Save, Closing, setting properties, etc. For example, when an user close a project inside an application window, menu items such as close, properties, save, etc. should be disabled, and re-enabled again when a project is opened. This is managed by the ProjectFramework automatically. A Spec UI application can be automatically generated from templates with basic menu options in very few lines of code.
+
+ProjectFramework is designed to create project-centric applications with minimal effort, and tries to be fairly agnostic regarding the choices of UI widget libraries, this means no widget toolkit dependent code.
 
 # Installation
 
