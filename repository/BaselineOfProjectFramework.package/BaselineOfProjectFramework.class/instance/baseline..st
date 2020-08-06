@@ -24,7 +24,7 @@ baseline: spec
 				with: [ spec
 						className: 'ConfigurationOfSState';
 						version: #stable;
-						repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo60/main/' ].
+						repository: 'http://static.smalltalkhub.com/mc/Pharo/MetaRepoForPharo60/main/' ].
 			spec
 				package: 'ProjectFramework'
 					with: [ spec requires: #('CommonUtils' 'I18N' 'SState') ];
