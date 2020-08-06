@@ -26,29 +26,23 @@ baseline: spec
 				package: 'ProjectFramework'
 					with: [ spec requires: #('CommonUtils' 'I18N' 'SState') ];
 				package: #ProjectFrameworkMorphic
-					with: [ spec
-						requires:
-							#('ProjectFramework' 'ProjectFrameworkPharo' 'ProjectFrameworkSamples') ];
+					with: [ spec requires: #('ProjectFramework' 'ProjectFrameworkPharo' 'ProjectFrameworkSamples') ];
 				package: #ProjectFrameworkPharo
 					with: [ spec requires: #('ProjectFramework' 'FileDialog') ];
 				package: #ProjectFrameworkSamples
 					with: [ spec requires: #('ProjectFramework') ];
 				package: #ProjectFrameworkSpec
-					with: [ spec
-						requires: #('ProjectFramework' #ProjectFrameworkPharo 'SpecUIAddOns') ];
+					with: [ spec requires: #('ProjectFramework' #ProjectFrameworkPharo 'SpecUIAddOns') ];
 				package: #ProjectFrameworkSpecSamples
-					with: [ spec
-						requires:
-							#('ProjectFramework' #ProjectFrameworkPharo #ProjectFrameworkSpec #ProjectFrameworkSamples) ];
-				package: 'ProjectFrameworkTests'
+					with: [ spec requires: #('ProjectFramework' #ProjectFrameworkPharo #ProjectFrameworkSpec #ProjectFrameworkSamples) ];
+				package: 'ProjectFramework-Tests'
 					with: [ spec requires: #('ProjectFramework' #ProjectFrameworkSamples) ].
 			spec
 				group: 'All'
-					with:
-					#('ProjectFramework' #ProjectFrameworkSpec 'ProjectFrameworkTests' 'ProjectFrameworkMorphic' #ProjectFrameworkSpecSamples #ProjectFrameworkPharo #ProjectFrameworkSamples);
+					with: #('ProjectFramework' #ProjectFrameworkSpec 'ProjectFramework-Tests' 'ProjectFrameworkMorphic' #ProjectFrameworkSpecSamples #ProjectFrameworkPharo #ProjectFrameworkSamples);
 				group: 'Basic'
 					with: #('ProjectFramework' #ProjectFrameworkPharo #ProjectFrameworkSpec);
 				group: 'Core' with: #('ProjectFramework');
 				group: 'Tests'
-					with: #('ProjectFramework' 'ProjectFrameworkTests' #ProjectFrameworkSamples);
+					with: #('ProjectFramework' 'ProjectFramework-Tests' #ProjectFrameworkSamples);
 				group: 'default' with: #('All') ]

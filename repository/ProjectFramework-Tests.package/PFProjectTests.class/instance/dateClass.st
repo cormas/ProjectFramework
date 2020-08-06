@@ -1,0 +1,4 @@
+running
+dateClass
+	
+	^ PFObject dateClass.

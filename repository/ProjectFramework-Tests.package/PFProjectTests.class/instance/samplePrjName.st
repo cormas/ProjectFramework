@@ -1,0 +1,4 @@
+accessing
+samplePrjName
+
+	^ 'testProject1'

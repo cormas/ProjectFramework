@@ -54,9 +54,9 @@ addTranslationsForES
 		at: #tUpdateAsk 						put: '¿Desea actualizar ';
 		at: #tUpdateWait 						put: 'Por favor espere hasta finalizar el proceso de actualización...';
 		at: #tUpdateInform 					put: ' fue actualizado exitosamente';		
-		at: #tRemoveFromList 				put: 'Elimiar de la lista';
+		at: #tRemoveFromList 				put: 'Eliminar de la lista';
 		at: #tEmptyRecentFileList  			put: 'Vaciar lista de recientes';
 		at: #tChooseAnotherName 			put: '. Por favor, elija otro nombre';	
-		at: #tAddItemMsg 					put: 'Por favor ingrese el nombre del nuevo item' ;
+		at: #tAddItemMsg 					put: 'Por favor ingrese el nombre del nuevo ítem' ;
 		at: #tItems 							put: 'Items';
 		yourself

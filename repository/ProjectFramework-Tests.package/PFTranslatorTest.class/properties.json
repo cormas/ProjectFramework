@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TestCase",
+	"category" : "ProjectFramework-Tests-Translator",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"projectTranslator"
+	],
+	"name" : "PFTranslatorTest",
+	"type" : "normal"
+}

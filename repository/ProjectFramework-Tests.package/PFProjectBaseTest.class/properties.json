@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "PFProjectTests",
+	"category" : "ProjectFramework-Tests-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"user2"
+	],
+	"name" : "PFProjectBaseTest",
+	"type" : "normal"
+}

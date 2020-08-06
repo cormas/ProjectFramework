@@ -1,0 +1,4 @@
+accessing
+sampleUserName
+
+	^ 'user1'

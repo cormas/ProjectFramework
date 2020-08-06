@@ -1,0 +1,4 @@
+accessing
+sampleApplicationClass
+
+	^ PFSample1ApplicationClass
