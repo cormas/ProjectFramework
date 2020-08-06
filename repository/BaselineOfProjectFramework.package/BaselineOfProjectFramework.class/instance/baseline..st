@@ -20,11 +20,8 @@ baseline: spec
 				baseline: 'I18N'
 				with: [ spec repository: 'github://astares/Pharo-I18N/src' ].
 			spec
-				configuration: 'SState'
-				with: [ spec
-						className: 'ConfigurationOfSState';
-						version: #stable;
-						repository: 'http://static.smalltalkhub.com/mc/Pharo/MetaRepoForPharo60/main/' ].
+				baseline: 'SState'
+				with: [ spec repository: 'github://mumez/SState/repository' ].
 			spec
 				package: 'ProjectFramework'
 					with: [ spec requires: #('CommonUtils' 'I18N' 'SState') ];
@@ -53,6 +50,5 @@ baseline: spec
 					with: #('ProjectFramework' #ProjectFrameworkPharo #ProjectFrameworkSpec);
 				group: 'Core' with: #('ProjectFramework');
 				group: 'Tests'
-					with:
-					#('ProjectFramework' 'ProjectFrameworkTests' #ProjectFrameworkSamples);
+					with: #('ProjectFramework' 'ProjectFrameworkTests' #ProjectFrameworkSamples);
 				group: 'default' with: #('All') ]
