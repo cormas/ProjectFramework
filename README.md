@@ -87,8 +87,8 @@ If you want to add the ProjectFramework to your Metacello Baselines or Configura
 
 ## Libraries used
 
-  - [SState](http://smalltalkhub.com/#!/~MasashiUmezawa/SState) from Masashi Umezawa
-  - [i18N](http://smalltalkhub.com/#!/~TorstenBergmann/I18N) from Torsten Bergmann
+  - [SState](https://github.com/mumez/SState) from Masashi Umezawa
+  - [i18N](https://github.com/astares/Pharo-I18N) from Torsten Bergmann
   - [Spec](https://github.com/spec-framework)
   - [Traits](http://scg.unibe.ch/research/traits)
   - [file-dialog](https://github.com/peteruhnak/file-dialog) from Peter Uhnak
