@@ -1,9 +1,10 @@
 initialization-submenus
 subMenuCloseProject: item
 	" Configure the menu option for closing the receiver "
-	
-	item 
+
+	item
 		name: self translator tClose;
 		shortcut: $c command;
-		icon: #smallCancelIcon asIcon;
+		icon:
+			(self iconNamed: #smallCancelIcon);
 		action: [ self closeProject ]

@@ -1,9 +1,10 @@
 initialization-submenus
 subMenuNewProject: item
 	" Configure the menu option for creating a project "
-	
-	item 
+
+	item
 		name: self translator tNew;
 		shortcut: $n command;
-		icon: #smallNewIcon asIcon;
+		icon:
+			(self iconNamed: #smallNewIcon);
 		action: [ self createNewProject ]

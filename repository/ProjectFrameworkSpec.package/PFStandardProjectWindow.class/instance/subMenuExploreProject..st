@@ -1,9 +1,10 @@
 initialization-submenus
 subMenuExploreProject: item
 	" Configure the menu option for oopening the receiver "
-	
-	item 
+
+	item
 		name: self translator tExplore;
 		shortcut: $e command;
-		icon: #smallInspectItIcon asIcon;
+		icon:
+			(self iconNamed: #smallInspectItIcon);
 		action: [ self exploreProject ]

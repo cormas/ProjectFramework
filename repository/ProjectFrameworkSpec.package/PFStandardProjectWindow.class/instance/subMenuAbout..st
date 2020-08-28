@@ -1,7 +1,7 @@
 initialization-submenus
 subMenuAbout: item
-
 	item
 		name: self translator tAbout;
-		icon: #smallInfoIcon asIcon;
+		icon:
+			(self iconNamed: #smallInfoIcon);
 		action: self aboutActionBlock

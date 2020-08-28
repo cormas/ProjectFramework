@@ -1,9 +1,10 @@
 initialization-submenus
 subMenuOpenProject: item
 	" Configure the menu option for oopening the receiver "
-	
-	item 
+
+	item
 		name: self translator tOpen;
 		shortcut: $o command;
-		icon: #smallLoadProjectIcon asIcon;
+		icon:
+			(self iconNamed: #smallLoadProjectIcon);
 		action: [ self openProject ]

@@ -1,8 +1,8 @@
 initialization-submenus
 subMenuSettingsProject: item
-
-	item 
+	item
 		name: self translator tProperties;
 		shortcut: $i command;
-		icon: #smallInfoIcon asIcon;
+		icon:
+			(self iconNamed: #smallInfoIcon);
 		action: [ self applicationProperties ]
