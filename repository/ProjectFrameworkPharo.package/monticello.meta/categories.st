@@ -1,3 +1,3 @@
 SystemOrganization addCategory: #ProjectFrameworkPharo!
-SystemOrganization addCategory: 'ProjectFrameworkPharo-Core'!
-SystemOrganization addCategory: 'ProjectFrameworkPharo-Settings'!
+SystemOrganization addCategory: #'ProjectFrameworkPharo-Core'!
+SystemOrganization addCategory: #'ProjectFrameworkPharo-Settings'!

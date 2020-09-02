@@ -10,6 +10,7 @@
 		"projectClass",
 		"settingsClass",
 		"projectWindow",
+		"announcer",
 		"fsm"
 	],
 	"name" : "PFProjectManager",

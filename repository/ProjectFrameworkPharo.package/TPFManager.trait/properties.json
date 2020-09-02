@@ -1,5 +1,7 @@
 {
-	"name" : "TPFManager",
 	"commentStamp" : "",
-	"category" : "ProjectFrameworkPharo-Core"
+	"classinstvars" : [ ],
+	"category" : "ProjectFrameworkPharo-Core",
+	"instvars" : [ ],
+	"name" : "TPFManager"
 }
