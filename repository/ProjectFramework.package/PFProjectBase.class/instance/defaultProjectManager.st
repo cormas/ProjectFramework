@@ -1,0 +1,4 @@
+accessing
+defaultProjectManager
+
+	^ self subclassResponsibility
