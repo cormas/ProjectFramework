@@ -35,7 +35,7 @@ addTranslationsForES
 		at: #tAreYouSureToCloseProject 		put: '¿Está seguro de cerrar el proyecto? : ';
 		at: #tNewProjectSuccess 				put: 'Nuevo proyecto creado exitosamente : ';
 		at: #tNewProjectName 				put: 'Nombre del nuevo proyecto';
-		at: #tNewProjectEmptyName 			put: 'El nombre del proyecto no puede ser vacío. Por favor intente nuevamente';
+		at: #tNewProjectInvalidName 			put: 'El nombre del proyecto es inválido. Por favor intente nuevamente.';
 		at: #tProjectOpenSuccess 				put: 'Proyecto abierto exitosamente';
 		at: #tProjectNewSuccess 				put: 'Proyecto creado exitosamente';
 		at: #tProjectSaveSuccess 				put: 'Proyecto guardado exitosamente';					
