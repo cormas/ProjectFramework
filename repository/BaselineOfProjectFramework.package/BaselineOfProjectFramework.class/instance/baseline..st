@@ -6,22 +6,22 @@ baseline: spec
 		do: [ spec postLoadDoIt: #postLoad.
 			spec
 				baseline: 'CommonUtils'
-				with: [ spec repository: 'github://hernanmd/CommonUtils/repository' ].
+				with: [ spec repository: 'github://hernanmd/CommonUtils:v1.0.0/repository' ].
 			spec
 				baseline: 'SpecUIAddOns'
-				with: [ spec repository: 'github://hernanmd/SpecUIAddOns/repository' ].
+				with: [ spec repository: 'github://hernanmd/SpecUIAddOns:v1.0.0/repository' ].
 			spec
 				baseline: 'OrderedSet'
-				with: [ spec repository: 'github://hernanmd/OrderedSet/repository' ].
+				with: [ spec repository: 'github://hernanmd/OrderedSet:v1.0.0/repository' ].
 			spec
 				baseline: 'FileDialog'
-				with: [ spec repository: 'github://peteruhnak/file-dialog/repository' ].
+				with: [ spec repository: 'github://peteruhnak/file-dialog:v1.0.0/repository' ].
 			spec
 				baseline: 'I18N'
 				with: [ spec repository: 'github://astares/Pharo-I18N/src' ].
 			spec
 				baseline: 'SState'
-				with: [ spec repository: 'github://mumez/SState/repository' ].
+				with: [ spec repository: 'github://mumez/SState:v1.0.0/repository' ].
 			spec
 				package: 'ProjectFramework'
 					with: [ spec requires: #('CommonUtils' 'I18N' 'SState') ];
