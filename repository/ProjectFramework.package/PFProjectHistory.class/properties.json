@@ -9,7 +9,8 @@
 		"author",
 		"creationDate",
 		"removalDate",
-		"modifications"
+		"modifications",
+		"authors"
 	],
 	"name" : "PFProjectHistory",
 	"type" : "normal"

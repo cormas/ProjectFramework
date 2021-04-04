@@ -14,7 +14,12 @@
 		"version",
 		"saveStatus",
 		"infoName",
-		"fileReference"
+		"fileReference",
+		"language",
+		"demo",
+		"relatedProjects",
+		"osVersion",
+		"stars"
 	],
 	"name" : "PFProjectInformation",
 	"type" : "normal"

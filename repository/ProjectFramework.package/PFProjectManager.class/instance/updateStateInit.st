@@ -12,4 +12,5 @@ updateStateInit
 		disableEdit;
 		disableExplore;
 		disableProperties;
-		disableRemove.
+		disableRemove;
+		enablePreferences.
