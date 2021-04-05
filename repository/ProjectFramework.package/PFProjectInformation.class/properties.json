@@ -19,7 +19,8 @@
 		"demo",
 		"relatedProjects",
 		"osVersion",
-		"stars"
+		"stars",
+		"comment"
 	],
 	"name" : "PFProjectInformation",
 	"type" : "normal"
