@@ -1,4 +1,4 @@
-accessing
+accessing - projects
 projectINamed: aNameString ifAbsent: absentBlock
 	" Answer a <PFProjectInformation> named aNameString or evaluate aClosure an exception if not found "
 	

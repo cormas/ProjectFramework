@@ -3,5 +3,5 @@ newTestPrjInformation
 	" Answer a new <PFProjectInformation> "
 
 	^ PFProjectInformation 
-			named: self sampleUserName
+			named: self samplePrjName
 			project: self newTestPrj

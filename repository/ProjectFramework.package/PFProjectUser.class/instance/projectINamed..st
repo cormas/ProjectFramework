@@ -1,4 +1,4 @@
-accessing
+accessing - projects
 projectINamed: aNameString
 	" Answer a <PFProjectInformation> named aNameString or raise an exception if not found "
 	

@@ -20,7 +20,8 @@
 		"relatedProjects",
 		"osVersion",
 		"stars",
-		"comment"
+		"comment",
+		"modified"
 	],
 	"name" : "PFProjectInformation",
 	"type" : "normal"
