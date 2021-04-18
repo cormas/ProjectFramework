@@ -1,4 +1,4 @@
-accessing
+accessing - projects
 removeProject: aString ifAbsent: absentBlock
 	" Remove the project named aNameString if exists in the receiver's projects. Answer the receiver "
 

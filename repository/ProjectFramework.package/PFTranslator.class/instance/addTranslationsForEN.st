@@ -58,5 +58,6 @@ addTranslationsForEN
 		at: #tEmptyRecentFileList  			put: 'Empty recent file list';
 		at: #tChooseAnotherName 			put: '. Please choose another name';
 		at: #tAddItemMsg 					put: 'Please enter the name of the new item' ;
-		at: #tItems 							put: 'Items';							
+		at: #tItems 							put: 'Items';
+		at: #tQuerySaveProject 			put: 'Project was changed, do you want to save?';					
 		yourself

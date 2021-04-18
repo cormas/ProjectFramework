@@ -1,4 +1,4 @@
-accessing
+accessing - projects
 removeProject: aString
 	" Remove the project named aNameString if exists in the receiver's projects. Answer the receiver "
 

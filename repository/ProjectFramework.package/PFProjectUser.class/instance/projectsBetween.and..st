@@ -1,4 +1,4 @@
-accessing
+accessing - projects
 projectsBetween: startDate and: endDate
 	" Answer a <Collection> of <PFProjectBase> between startDate and endDate "
 

@@ -1,4 +1,4 @@
-accessing
+accessing - projects
 addUserProject: aPFProjectBase
 	" Add a <PFProjectBase> to the receiver's projects. "
 

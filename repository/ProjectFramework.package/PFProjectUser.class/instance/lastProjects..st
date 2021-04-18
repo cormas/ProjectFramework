@@ -1,4 +1,4 @@
-accessing
+accessing - projects
 lastProjects: aNumber
 	" Answer a <Collection> of <PFProjectBase> with the last aNumber projects of the receiver "
 	

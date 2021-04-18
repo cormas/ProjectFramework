@@ -1,4 +1,4 @@
-accessing
+accessing - ownership
 addOwner: aPFProjectUser
 	" Add an user named aNameString to the receiver's owner record.
 	aNameString must exists as user "

@@ -1,4 +1,4 @@
-accessing
+accessing - file
 fileName
 	" Answer a <String> representing the receiver's file name "
 
