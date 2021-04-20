@@ -5,4 +5,4 @@ initializeNamed: aNameString project: aProject
 	self infoName: aNameString.
 	self project: aProject.
 	self saveStatus: false.
-	self fileName: self defaultProjectName.
+"	self fileName: self defaultProjectName."

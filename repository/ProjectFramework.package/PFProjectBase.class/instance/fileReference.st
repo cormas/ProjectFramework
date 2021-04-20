@@ -1,5 +1,5 @@
 accessing - serialization
-fileReference
-	" See comment in #fileReference "
+fileReference 
+	" Answer the receiver's project <FileReference> "
 
 	^ self info fileReference 
