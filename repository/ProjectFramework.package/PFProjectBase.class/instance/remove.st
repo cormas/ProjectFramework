@@ -2,9 +2,9 @@ accessing - serialization
 remove
 	" Remove the receiver from disk if the receiver was persisted and raise a Remove notification. If project does not exists as a file, just raise a Close notification. "
 	
-	self fileName asFileReference exists
+	self projectExists
 		ifTrue: [ 
-			self fileName asFileReference delete.
+			self projectFileReference delete.
 			self release.
 			PFSuccessRemove signal: 'Successfully removed' ]
 		ifFalse: [ 
