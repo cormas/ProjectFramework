@@ -1,0 +1,4 @@
+test
+testDefaultAddToApplicationProjects
+
+	self assert: self projectPreferences defaultAddToApplicationProjects.

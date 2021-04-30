@@ -8,6 +8,7 @@
 	"instvars" : [
 		"searchGlobalProjects",
 		"user",
+		"project",
 		"addToApplicationProjects"
 	],
 	"name" : "PFProjectPreferences",
