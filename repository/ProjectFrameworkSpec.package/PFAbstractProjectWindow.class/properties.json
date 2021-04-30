@@ -17,7 +17,8 @@
 		"closeWindowButton",
 		"projectManager",
 		"recentProjectsList",
-		"recentProjectsLabel"
+		"recentProjectsLabel",
+		"preferencesButton"
 	],
 	"name" : "PFAbstractProjectWindow",
 	"type" : "normal"

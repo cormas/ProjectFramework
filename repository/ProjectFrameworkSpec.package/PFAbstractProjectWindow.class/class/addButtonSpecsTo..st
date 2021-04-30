@@ -9,6 +9,7 @@ addButtonSpecsTo: row
 				add: #saveProjectButton height: self buttonHeight;
 				add: #openFromFileButton height: self buttonHeight;
 				add: #exploreProjectButton height: self buttonHeight;
+				add: #preferencesButton height: self buttonHeight;
 				add: #editProjectButton height: self buttonHeight;
 				add: #removeProjectButton height: self buttonHeight;
 				add: #closeProjectButton height: self buttonHeight;

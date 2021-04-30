@@ -10,4 +10,5 @@ initializeLabels
 	removeProjectButton label: self translator tRemove.
 	closeProjectButton label: self translator tClose.
 	closeWindowButton label: self translator tQuit.
+	preferencesButton label: self translator tPreferences.
 	recentProjectsLabel label: 'Recent Projects'.

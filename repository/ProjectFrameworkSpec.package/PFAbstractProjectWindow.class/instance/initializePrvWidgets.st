@@ -13,3 +13,4 @@ initializePrvWidgets
 	closeWindowButton := self newButton.
 	recentProjectsLabel := self newLabel.
 	recentProjectsList := self instantiate: FastTableModel.
+	preferencesButton := self newButton.
