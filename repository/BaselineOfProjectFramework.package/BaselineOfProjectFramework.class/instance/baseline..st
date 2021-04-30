@@ -6,7 +6,7 @@ baseline: spec
 		do: [ spec postLoadDoIt: #postLoad.
 			spec
 				baseline: 'CommonUtils'
-				with: [ spec repository: 'github://hernanmd/CommonUtils:v1.0.0/repository' ].
+				with: [ spec repository: 'github://hernanmd/CommonUtils:v1.0.1/repository' ].
 			spec
 				baseline: 'SpecUIAddOns'
 				with: [ spec repository: 'github://hernanmd/SpecUIAddOns:v1.0.0/repository' ].
