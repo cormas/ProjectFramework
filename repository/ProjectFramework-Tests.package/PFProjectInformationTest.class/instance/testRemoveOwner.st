@@ -10,6 +10,6 @@ testRemoveOwner
 	project addOwner: user1.
 	project addOwner: user2.
 
-	self assert: ((project removeOwner: user2) isKindOf: PFProjectInformation).
+	self assert: ((project info removeOwner: user2) isKindOf: PFProjectInformation).
 
-	self should: [ project removeOwner: user2 ] raise: Error.
+	self should: [ project info removeOwner: user2 ] raise: Error.

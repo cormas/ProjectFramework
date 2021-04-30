@@ -4,6 +4,6 @@ testDemo
 	| prInf |
 	
 	prInf := self newTestPrjInformation.
-	self assert: prInf demo isNil.	
+	self deny: prInf demo.	
 	prInf demo: true.
 	self assert: prInf demo.
