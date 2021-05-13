@@ -1,0 +1,4 @@
+test
+testDefaultSearchGlobalProjects
+
+	self assert: self projectPreferences defaultSearchGlobalProjects.

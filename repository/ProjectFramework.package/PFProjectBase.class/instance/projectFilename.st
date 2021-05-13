@@ -7,4 +7,5 @@ projectFilename
 			nextPutAll: self defaultSaveDirectoryName;
 			nextPutAll: self platformSeparator;
 			nextPutAll: info infoName;
+			nextPut: $.;
 			nextPutAll: self projectFileExtension ]

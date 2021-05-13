@@ -47,7 +47,7 @@ For a short summary, you may follow these suggestions:
 
 ## Stable version (All group) from CLI
 
-Install **ProjectFramework** from Command-Line Interface using [Pharo Instal](https://github.com/hernanmd/pi)l:
+Install **ProjectFramework** from Command-Line Interface using [Pharo Install](https://github.com/hernanmd/pi):
 
 ```bash
 pi install ProjectFramework
@@ -65,7 +65,6 @@ Metacello new
 
 ## Stable version (Basic group) from Pharo
 
-[//]: # (pidev)
 ```smalltalk
 Metacello new	
   baseline: 'ProjectFramework';	
@@ -253,7 +252,7 @@ prj setCurrentFor: usr.
 
 ## Adding a Project Window 
 
-The ProjectFramework has built-in support for several types of User-Interfaces. The differences between UI's are that they provide different layouts considering the features (or limitations) of xavailable underlying widget library. This also provides an abstraction layer for future widget toolkits or libraries (such as [Bloc](https://github.com/pharo-graphics/Bloc)).
+The ProjectFramework has built-in support for several types of User-Interfaces. The differences between UI's are that they provide different layouts considering the features (or limitations) of available underlying widget library. This also provides an abstraction layer for future widget toolkits or libraries (such as [Bloc](https://github.com/pharo-graphics/Bloc)).
 
 First we require a "Window" class:
 

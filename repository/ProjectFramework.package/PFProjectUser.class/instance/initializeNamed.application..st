@@ -3,4 +3,4 @@ initializeNamed: aNameString application: aPFApplicationClass
 	" Private - Initialize receive's settings "
 	
 	userName := aNameString.
-	preferences := PFProjectPreferences newFor: self.
+	preferences := PFProjectPreferences forUser: self.

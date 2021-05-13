@@ -9,4 +9,4 @@ baseline: spec
 				baselineDependencies: spec;
 				baselinePackages: spec;
 				baselineGroups: spec ]
-			
+	
