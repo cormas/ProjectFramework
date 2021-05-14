@@ -8,4 +8,5 @@ initializePresenterButtons
 	self editProjectButton disable.
 	self saveProjectButton disable.
 	self closeProjectButton disable.
-	self exploreProjectButton disable
+	self exploreProjectButton disable.
+	self preferencesButton disable.

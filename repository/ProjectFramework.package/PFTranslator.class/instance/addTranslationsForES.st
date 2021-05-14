@@ -60,4 +60,5 @@ addTranslationsForES
 		at: #tAddItemMsg 					put: 'Por favor ingrese el nombre del nuevo ítem' ;
 		at: #tItems 							put: 'Items';
 		at: #tQuerySaveProject 			put: 'El proyecto fue modificado. ¿Desea guardarlo?';
+		at: #tPreferences 					put: 'Configuración';
 		yourself

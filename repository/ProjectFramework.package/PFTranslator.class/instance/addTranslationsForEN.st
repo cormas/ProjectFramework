@@ -51,13 +51,14 @@ addTranslationsForEN
 		at: #tUpdateAppDescription 			put: 'Update application from repository if connected to Internet';
 		at: #tSetLanguageDescription 			put: 'Set the application language';
 		at: #tSetLanguage 					put: 'Language';
-		at: #tUpdateAsk 						put: 'Do you want to update ';
-		at: #tUpdateWait 						put: 'Please wait until we finish the update process...';
-		at: #tUpdateInform 					put: ' has been updated';
+		at: #tUpdateAsk 					put: 'Do you want to update ';
+		at: #tUpdateWait 					put: 'Please wait until we finish the update process...';
+		at: #tUpdateInform 				put: ' has been updated';
 		at: #tRemoveFromList 				put: 'Remove from list';
-		at: #tEmptyRecentFileList  			put: 'Empty recent file list';
+		at: #tEmptyRecentFileList  		put: 'Empty recent file list';
 		at: #tChooseAnotherName 			put: '. Please choose another name';
 		at: #tAddItemMsg 					put: 'Please enter the name of the new item' ;
 		at: #tItems 							put: 'Items';
-		at: #tQuerySaveProject 			put: 'Project was changed, do you want to save?';					
+		at: #tQuerySaveProject 			put: 'Project was changed, do you want to save?';	
+		at: #tPreferences 					put: 'Preferences';			
 		yourself

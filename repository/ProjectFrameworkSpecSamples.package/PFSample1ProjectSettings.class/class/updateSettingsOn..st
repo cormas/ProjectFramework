@@ -1,10 +1,10 @@
 settings
 updateSettingsOn: aBuilder
-	<projectSample1Settings>
 
+	<projectSample1Settings>
 	(aBuilder launcher: #updateApplication)
 		target: self;
-		icon: #smallUpdateIcon asIcon;
+		icon: (self iconNamed: #smallUpdateIcon);
 		script: #updateApplication;
 		description: self translator tUpdateAppDescription;
 		label: self translator tUpdate , self applicationName;
