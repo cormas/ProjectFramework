@@ -3,4 +3,5 @@ saveProject
 	" Private - Serialize current opened project "
 
 	self currentProject updateProject.
-	self projectWindow doPostSaveActions.
+	"self projectWindow doPostSaveActions."
+	PFSuccessSave signal.

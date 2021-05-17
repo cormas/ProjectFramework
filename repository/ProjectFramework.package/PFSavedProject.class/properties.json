@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "PFAnnouncement",
+	"category" : "ProjectFramework-Exceptions",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PFSavedProject",
+	"type" : "normal"
+}

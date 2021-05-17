@@ -2,7 +2,5 @@ callbacks
 updateStateChanged
 
 	self notifyEvent:	'Action: Changed'.
-	self projectWindow
-		enableSave;
-		enableSaveAs.
+	self announcer announce: PFChangedProject.
 	self informMessage: self translator tProjectChanged.

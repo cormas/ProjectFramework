@@ -2,5 +2,5 @@ callbacks
 updateStateSaveAs
 
 	self notifyEvent:	'Action: Save As'.
-	self projectWindow disableSave.
+	self announcer announce: PFSavedProject.
 	self informMessage: self translator tProjectSaveSuccess.

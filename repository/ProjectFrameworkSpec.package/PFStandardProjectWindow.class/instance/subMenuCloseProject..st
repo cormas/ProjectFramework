@@ -5,6 +5,5 @@ subMenuCloseProject: item
 	item
 		name: self translator tClose;
 		shortcut: $c command;
-		icon:
-			(self iconNamed: #smallCancelIcon);
+		icon: (self iconNamed: #smallCancelIcon);
 		action: [ self closeProject ]

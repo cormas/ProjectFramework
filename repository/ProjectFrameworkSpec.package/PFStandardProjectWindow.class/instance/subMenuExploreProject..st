@@ -5,6 +5,5 @@ subMenuExploreProject: item
 	item
 		name: self translator tExplore;
 		shortcut: $e command;
-		icon:
-			(self iconNamed: #smallInspectItIcon);
+		icon: (self iconNamed: #smallInspectItIcon);
 		action: [ self exploreProject ]

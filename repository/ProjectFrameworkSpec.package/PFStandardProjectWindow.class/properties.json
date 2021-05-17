@@ -1,5 +1,5 @@
 {
-	"classtraitcomposition" : "TPFManager classTrait + TPFRecents classTrait",
+	"classtraitcomposition" : "TPFManager classTrait + TPFRecents classTrait + TPFUIUtils classTrait",
 	"classvars" : [
 		"RecentProjects"
 	],
@@ -9,7 +9,7 @@
 	"name" : "PFStandardProjectWindow",
 	"commentStamp" : "HernanMoralesDurand 3/31/2018 03:12",
 	"super" : "SpcMenuAppWindow",
-	"traitcomposition" : "TPFManager + TPFRecents",
+	"traitcomposition" : "TPFManager + TPFRecents + TPFUIUtils",
 	"type" : "normal",
 	"classinstvars" : [ ],
 	"pools" : [ ],

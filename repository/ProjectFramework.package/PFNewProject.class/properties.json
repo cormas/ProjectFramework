@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "Announcement",
+	"super" : "PFNamedProjectAnnouncement",
 	"category" : "ProjectFramework-Exceptions",
 	"classinstvars" : [ ],
 	"pools" : [ ],

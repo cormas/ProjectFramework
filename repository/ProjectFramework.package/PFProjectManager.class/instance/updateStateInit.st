@@ -3,4 +3,4 @@ updateStateInit
 	" Private - Handle the open application event "
 
 	self notifyEvent:	'Action: App init'.
-	self updateUIState.
+	self announcer announce: PFInitProject.

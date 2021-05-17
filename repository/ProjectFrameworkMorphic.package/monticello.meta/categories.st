@@ -1,2 +1,2 @@
 SystemOrganization addCategory: #ProjectFrameworkMorphic!
-SystemOrganization addCategory: 'ProjectFrameworkMorphic-Core'!
+SystemOrganization addCategory: #'ProjectFrameworkMorphic-Core'!

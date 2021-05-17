@@ -1,11 +1,13 @@
 {
-	"commentStamp" : "",
-	"super" : "Announcement",
+	"commentStamp" : "HernanMoralesDurand 5/15/2021 01:22",
+	"super" : "PFNamedProjectAnnouncement",
 	"category" : "ProjectFramework-Exceptions",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"projectLocation"
+	],
 	"name" : "PFCloseProject",
 	"type" : "normal"
 }

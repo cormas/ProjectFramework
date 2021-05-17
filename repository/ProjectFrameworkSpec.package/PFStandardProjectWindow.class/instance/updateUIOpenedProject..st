@@ -1,5 +1,5 @@
 callbacks
-updateStateNew
+updateUIOpenedProject: anObject
 	" Private - See superimplementor's comment "
 
 	self menuEnableFileGroup.
@@ -12,4 +12,6 @@ updateStateNew
 		enableEdit;
 		enableExplore;
 		enableProperties;
-		enableRemove.
+		enableRemove;
+		windowTitle: self formattedWindowTitle;
+		updateTitle.

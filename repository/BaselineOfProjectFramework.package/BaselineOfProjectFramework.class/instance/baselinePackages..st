@@ -15,7 +15,7 @@ baselinePackages: spec
 		with: [ spec requires: #('ProjectFramework') ];
 
 		package: #ProjectFrameworkSpec
-		with: [ spec requires: #('ProjectFramework' #ProjectFrameworkPharo 'SpecUIAddOns') ];
+		with: [ spec requires: #('ProjectFramework' #ProjectFrameworkPharo 'SpecUIAddOns' 'OrderedSet') ];
 
 		package: #ProjectFrameworkSpecSamples
 		with: [ spec requires: #('ProjectFramework' #ProjectFrameworkPharo #ProjectFrameworkSpec #ProjectFrameworkSamples) ];

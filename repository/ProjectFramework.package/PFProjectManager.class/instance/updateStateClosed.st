@@ -2,5 +2,9 @@ callbacks
 updateStateClosed
 
 	self notifyEvent:	'Action: Close'.
-	self updateUIStateForClose.
+	self announcer announce: 
+		(PFCloseProject new 
+			projectName: self currentProjectName;
+			projectLocation: self currentProject fileName;
+			yourself).
 	self informMessage: self translator tProjectCloseSuccess.
