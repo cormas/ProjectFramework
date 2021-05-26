@@ -5,4 +5,4 @@ subMenuSettingsProject: item
 		name: self translator tProperties;
 		shortcut: $i command;
 		icon: (self iconNamed: #smallInfoIcon);
-		action: [ self projectProperties ]
+		action: [ self openProjectProperties ]
