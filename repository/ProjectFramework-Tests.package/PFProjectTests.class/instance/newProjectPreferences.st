@@ -1,0 +1,4 @@
+accessing
+newProjectPreferences
+
+	^ PFProjectPreferences new

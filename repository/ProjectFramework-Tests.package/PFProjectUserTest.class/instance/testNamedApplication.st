@@ -1,4 +1,4 @@
-testing
+tests-accessing
 testNamedApplication
 
 	self sampleApplicationClass release.
