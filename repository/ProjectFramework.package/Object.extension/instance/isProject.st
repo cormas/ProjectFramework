@@ -1,0 +1,3 @@
+*ProjectFramework
+isProject
+	^ false

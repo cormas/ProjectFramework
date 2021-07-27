@@ -1,5 +1,8 @@
 accessing - file
 fullFilename
-	" Answer a <String> representing the full path to the receiver's file name "
+	" Answer a <String> representing the full path to the receiver's file name. If the receiver is not yet persisted, then answer an empty string "
 
-	^ self fileReference fullName
+	^ self fileReference 
+		ifNotNil: [ : fileRef | fileRef fullName ]
+		ifNil: [ String empty ]
+	
