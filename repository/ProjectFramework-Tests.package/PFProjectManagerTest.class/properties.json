@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "TestCase",
+	"super" : "PFProjectTests",
 	"category" : "ProjectFramework-Tests-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],

@@ -1,4 +1,4 @@
-initialize - fsm
+accessing - fsm
 exitStateWaitNewOrOpen
 
 "	self notifyEvent: 'Exit init'.

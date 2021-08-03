@@ -1,5 +1,5 @@
 accessing - fsm
-fsm
+fsmState
 	" Answer a <SsStateMachine> for the current project "
 	
-	^ fsm
+	^ self fsm currentState
