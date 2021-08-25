@@ -3,7 +3,7 @@ baselineDependencies: spec
 
 	spec
 		baseline: 'CommonUtils'
-		with: [ spec repository: 'github://hernanmd/CommonUtils:v1.0.0/repository' ].
+		with: [ spec repository: 'github://hernanmd/CommonUtils:v1.0.3/repository' ].
 	spec
 		baseline: 'SpecUIAddOns'
 		with: [ spec repository: 'github://hernanmd/SpecUIAddOns:v1.0.0/repository' ].
@@ -12,7 +12,7 @@ baselineDependencies: spec
 		with: [ spec repository: 'github://hernanmd/OrderedSet:v1.0.0/repository' ].
 	spec
 		baseline: 'FileDialog'
-		with: [ spec repository: 'github://peteruhnak/file-dialog:v1.0.0/repository' ].
+		with: [ spec repository: 'github://peteruhnak/file-dialog:v1.x/repository' ].
 	spec
 		baseline: 'I18N'
 		with: [ spec repository: 'github://astares/Pharo-I18N:v1.0.0/src' ].
