@@ -1,6 +1,6 @@
 initialize - fsm
 initializeFSM
-	" Private - Initialize receiver's state machine "
+	" Private - Initialize and starts receiver's state machine "
 
 	self fsm: SsStateMachine new.
 	(self fsm addStateNamed: #stateWaitNewOrOpen)
@@ -21,5 +21,7 @@ initializeFSM
 		entryAction: [  self entryStateWaitSaveOrClose ];
 		exitAction: [  self exitStateWaitSaveOrClose ];
 		when: #actionClose do: [ : ctx : ev | ctx at: #pfTrans put: ev ] to: #stateWaitNewOrOpen.	
+			
+	self startFSM.
 
 

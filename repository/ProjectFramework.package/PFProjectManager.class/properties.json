@@ -10,7 +10,8 @@
 		"projectClass",
 		"settingsClass",
 		"announcer",
-		"fsm"
+		"fsm",
+		"interactive"
 	],
 	"name" : "PFProjectManager",
 	"type" : "normal"

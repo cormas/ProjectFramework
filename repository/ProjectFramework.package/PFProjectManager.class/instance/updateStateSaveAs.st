@@ -3,4 +3,5 @@ updateStateSaveAs
 
 	self notifyEvent:	'Action: Save As'.
 	self announcer announce: PFSavedProject.
-	self informMessage: self translator tProjectSaveSuccess.
+	self isInteractive 
+		ifTrue: [ self informMessage: self translator tProjectSaveSuccess ].

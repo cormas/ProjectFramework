@@ -7,4 +7,5 @@ updateStateClosed
 			projectName: self currentProjectName;
 			projectLocation: self currentProject fileName;
 			yourself).
-	self informMessage: self translator tProjectCloseSuccess.
+	self isInteractive 
+		ifTrue: [ self informMessage: self translator tProjectCloseSuccess ].

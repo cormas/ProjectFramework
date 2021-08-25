@@ -9,6 +9,6 @@ openProjectFile: fileName
 	[ app := self materializerClass materializeFromFileNamed: fileName ]
 		on: Error
 		do: [ :ex | 
-			self informMessage: self translator tFuelMaterializationError , ex messageText.
+			self isInteractive ifTrue: [ self informMessage: self translator tFuelMaterializationError , ex messageText ].
 			^ ex return: false ].
 	^ self openProject: app

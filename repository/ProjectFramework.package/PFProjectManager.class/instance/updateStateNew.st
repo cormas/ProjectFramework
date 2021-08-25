@@ -4,4 +4,5 @@ updateStateNew
 
 	self notifyEvent:	'Action: New'.
 	self announcer announce: (PFNewProject new projectName: self currentProjectName).
-	self informMessage: self translator tProjectNewSuccess.
+	self isInteractive
+		ifTrue: [ self informMessage: self translator tProjectNewSuccess ].

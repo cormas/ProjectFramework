@@ -4,3 +4,4 @@ initialize
 
 	super initialize.
 	self initializeFSM.
+	interactive := false.
