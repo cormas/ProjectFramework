@@ -1,7 +1,7 @@
-test
+tests-accessing
 testAddUserProject
 
-	self sampleApplicationClass release.
-	self deny: self user hasProjects.
-	self project: (self user addUserProject: self samplePrjName).	
-	self assert: self user hasProjects.
+	| newProject |
+	newProject := self newTestPrj.
+	self assert: (self user addUserProject: newProject) equals: newProject.
+	self assert: (self user hasProjectNamed: newProject projectName)

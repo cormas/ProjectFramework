@@ -1,5 +1,6 @@
 callbacks
 createProject: projectName in: aCMApplicationProject
+	" Create a new user project named projectName <String> as part of aCMApplicationProject "
 
 	| newProject |
 	

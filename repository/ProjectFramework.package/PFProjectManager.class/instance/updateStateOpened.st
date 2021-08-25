@@ -4,4 +4,5 @@ updateStateOpened
 
 	self notifyEvent:	'Action: Opened'.
 	self announcer announce: (PFOpenedProject new projectName: self currentProjectName).
-	self informMessage: self translator tProjectOpenSuccess.
+	self isInteractive 
+		ifTrue: [ self informMessage: self translator tProjectOpenSuccess ].
