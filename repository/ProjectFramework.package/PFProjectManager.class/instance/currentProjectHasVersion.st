@@ -1,4 +1,4 @@
-testing
+accessing - version
 currentProjectHasVersion
 	" Answer <true> if receiver's contains a version name "
 

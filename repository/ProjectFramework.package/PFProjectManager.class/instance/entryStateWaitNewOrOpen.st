@@ -1,4 +1,4 @@
-initialize - fsm
+accessing - fsm
 entryStateWaitNewOrOpen
 	" This action is activated after closing a project or opening the application "
 

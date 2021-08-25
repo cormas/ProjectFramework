@@ -1,4 +1,6 @@
 test
 setUp
 
-	projectManager := PFProjectManager new
+	super setUp.
+	projectManager := PFProjectManager new.
+	projectManager applicationClass: self sampleApplicationClass.

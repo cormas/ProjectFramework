@@ -1,4 +1,4 @@
-initialize - fsm
+accessing - fsm
 entryStateWaitSaveOrClose
 	" This action is activated after changing or closing a project "
 	
