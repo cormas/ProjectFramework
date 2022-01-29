@@ -6,7 +6,7 @@ baselineDependencies: spec
 		with: [ spec repository: 'github://hernanmd/CommonUtils:v1.0.3/repository' ].
 	spec
 		baseline: 'SpecUIAddOns'
-		with: [ spec repository: 'github://hernanmd/SpecUIAddOns:v1.0.0/repository' ].
+		with: [ spec repository: 'github://hernanmd/SpecUIAddOns/repository' ].
 	spec
 		baseline: 'OrderedSet'
 		with: [ spec repository: 'github://hernanmd/OrderedSet:v1.0.0/repository' ].
