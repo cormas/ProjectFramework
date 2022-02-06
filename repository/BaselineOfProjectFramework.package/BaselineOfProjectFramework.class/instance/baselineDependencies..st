@@ -3,7 +3,7 @@ baselineDependencies: spec
 
 	spec
 		baseline: 'CommonUtils'
-		with: [ spec repository: 'github://hernanmd/CommonUtils:v1.0.3/repository' ].
+		with: [ spec repository: 'github://hernanmd/CommonUtils:v1.0.4/repository' ].
 	spec
 		baseline: 'SpecUIAddOns'
 		with: [ spec repository: 'github://hernanmd/SpecUIAddOns/repository' ].
