@@ -38,10 +38,11 @@ There are several ways to install the **ProjectFramework**. At minimum, you need
 ## Install using Pharo
 
 ```smalltalk
-Metacello new	
-  baseline: 'ProjectFramework';	
-  repository: 'github://hernanmd/ProjectFramework/repository';	
-  load.
+EpMonitor disableDuring: [
+  Metacello new	
+    baseline: 'ProjectFramework';	
+    repository: 'github://hernanmd/ProjectFramework/repository';	
+    load ].
 ```
 
 ## Install using CLI
