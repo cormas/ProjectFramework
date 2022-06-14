@@ -9,6 +9,9 @@
 
 - [Description](#description)
 - [Installation](#installation)
+  - [Install using Pharo](#install-using-pharo)
+  - [Install using CLI](#install-using-cli)
+  - [Baseline String](#baseline-string)
 - [Usage](#usage)
   - [Adding an Application and Project](#adding-application-and-project)
   - [Configuring the Application](#configuring-the-application)
@@ -32,30 +35,8 @@ ProjectFramework is designed to create project-centric applications with minimal
 
 There are several ways to install the **ProjectFramework**. At minimum, you need a working Pharo virtual image installed in your system. Check the [Pharo website](http://www.pharo.org) for installation information regarding the Pharo Open-Source system. Once Pharo is launched you have the following installation options:
 
-**Group**|**ProjectFramework**|**Spec**|**Tests**|**Morphic**|**SpecSamples**|**Pharo**|**Samples**
------|-----|-----|-----|-----|-----|-----|-----
-All|Yes|Yes|Yes| Yes| Yes| Yes| Yes
-Basic|Yes|Yes|No|No|No|Yes|No
-Core|Yes|No|No|No|Yes|No|No
-Tests|Yes|No|Yes|No|No|No|Yes
+## Install using Pharo
 
-For a short summary, you may follow these suggestions:
-
-  - For a Spec UI in Pharo, without Tests and Samples, install the "Basic" group.
-  - For a Morpic UI in Pharo, install the "Morphic" group.
-  - For just the basic classes, to develop your own connector to an UI library, install the "Core" group.
-
-## Stable version (All group) from CLI
-
-Install **ProjectFramework** from Command-Line Interface using [Pharo Install](https://github.com/hernanmd/pi):
-
-```bash
-pi install ProjectFramework
-```
-
-## Stable version (All group) from Pharo
-
-[//]: # (pi)
 ```smalltalk
 Metacello new	
   baseline: 'ProjectFramework';	
@@ -63,25 +44,24 @@ Metacello new
   load.
 ```
 
-## Stable version (Basic group) from Pharo
+## Install using CLI
 
-```smalltalk
-Metacello new	
-  baseline: 'ProjectFramework';	
-  repository: 'github://hernanmd/ProjectFramework/repository';
-  loads: #('Basic');
-  load.
+Install **ProjectFramework** from Command-Line Interface using [Pharo Install](https://github.com/hernanmd/pi):
+
+```bash
+pi install ProjectFramework
 ```
 
 ## Baseline String
 
 If you want to add the ProjectFramework to your Metacello Baselines or Configurations, copy and paste the following expression:
+
 ```smalltalk
-	" ... "
-	spec
-		baseline: 'ProjectFramework' 
-		with: [ spec repository: 'github://hernanmd/ProjectFramework/repository' ];
-	" ... "
+        " ... "
+        spec
+                baseline: 'ProjectFramework' 
+                with: [ spec repository: 'github://hernanmd/ProjectFramework/repository' ];
+        " ... "
 ```
 
 ## Libraries used
