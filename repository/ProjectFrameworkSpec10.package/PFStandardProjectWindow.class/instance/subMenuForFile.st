@@ -1,7 +1,7 @@
 initialization-submenus
 subMenuForFile 
 
-	^ MenuModel new
+	^ self newMenu
 		addGroup: [ : group |
 			group 
 				addItem: [ : item | self subMenuNewProject: item ];
