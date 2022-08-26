@@ -9,8 +9,7 @@ baselineDependencies: spec
 		spec
 			baseline: 'SpecUIAddOns'
 			with: [ spec repository: 'github://hernanmd/SpecUIAddOns/repository' ] ].
-	spec for: #( #'pharo10.x' #'pharo11.x')
-		do: [ 
+	spec for: #( #'pharo10.x' #'pharo11.x') 	do: [ 
 		spec
 			baseline: 'SpecUIAddOns'
 			with: [ spec repository: 'github://hernanmd/SpecUIAddOns:pharo10/repository' ] ].

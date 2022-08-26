@@ -3,7 +3,7 @@ baselineGroups: spec
 
 	spec
 		group: 'All'
-		with: #('ProjectFramework' 'ProjectFrameworkSpc' #ProjectFrameworkSpec 'ProjectFramework-Tests' 'ProjectFrameworkMorphic' #ProjectFrameworkSpecSamples #ProjectFrameworkPharo #ProjectFrameworkSamples);
+		with: #('ProjectFramework' 'ProjectFrameworkSpc' 'ProjectFramework-Tests' 'ProjectFrameworkMorphic' #ProjectFrameworkPharo #ProjectFrameworkSamples);
 
 		group: 'Basic'
 		with: #('ProjectFramework' #ProjectFrameworkPharo #ProjectFrameworkSpc);
