@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "PFProjectSettingsPharo",
+	"category" : "ProjectFrameworkSpecSamples10-Sample1",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PFSample1ProjectSettings",
+	"type" : "normal"
+}

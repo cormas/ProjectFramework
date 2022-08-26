@@ -1,4 +1,0 @@
-defaults
-defaultProjectManagerClass
-
-	^ PFSample3ProjectManager

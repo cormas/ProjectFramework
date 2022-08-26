@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "PFStandardProjectWindow",
+	"category" : "ProjectFrameworkSpec10-Layouts",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"itemsEditor",
+		"itemsSelector"
+	],
+	"name" : "PFSelectorWindow",
+	"type" : "normal"
+}

@@ -1,0 +1,17 @@
+{
+	"classtraitcomposition" : "TPFManager classTrait + TPFRecents classTrait + TPFUIUtils classTrait",
+	"classvars" : [
+		"RecentProjects"
+	],
+	"instvars" : [
+		"projectManager"
+	],
+	"name" : "PFStandardProjectWindow",
+	"commentStamp" : "",
+	"super" : "SpcMenuAppWindow",
+	"traitcomposition" : "TPFManager + TPFRecents + TPFUIUtils",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "ProjectFrameworkSpec10-Layouts"
+}

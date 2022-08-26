@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "PFAbstractProjectWindow",
+	"category" : "ProjectFrameworkSpec10-Layouts",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"currentProjectList",
+		"currentProjectsLabel",
+		"projectDetails"
+	],
+	"name" : "PFProjectDetailsWindow",
+	"type" : "normal"
+}

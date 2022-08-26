@@ -1,0 +1,17 @@
+{
+	"classtraitcomposition" : "TPFManager classTrait + TPFRecents classTrait",
+	"classvars" : [
+		"RecentProjects"
+	],
+	"instvars" : [
+		"windowTitle"
+	],
+	"name" : "PFAbstractSpecProject",
+	"commentStamp" : "",
+	"super" : "SpPresenter",
+	"traitcomposition" : "TPFManager + TPFRecents",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "ProjectFrameworkSpec10-Core"
+}

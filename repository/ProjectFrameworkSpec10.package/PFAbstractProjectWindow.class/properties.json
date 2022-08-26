@@ -1,0 +1,25 @@
+{
+	"commentStamp" : "HernanMoralesDurand 3/25/2018 05:28",
+	"super" : "PFAbstractSpecProject",
+	"category" : "ProjectFrameworkSpec10-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"newProjectButton",
+		"openFromFileButton",
+		"exploreProjectButton",
+		"removeProjectButton",
+		"closeProjectButton",
+		"saveProjectButton",
+		"projectActions",
+		"editProjectButton",
+		"closeWindowButton",
+		"projectManager",
+		"recentProjectsList",
+		"recentProjectsLabel",
+		"preferencesButton"
+	],
+	"name" : "PFAbstractProjectWindow",
+	"type" : "normal"
+}
