@@ -5,7 +5,7 @@ baselinePackagesUI: spec
 		package: #ProjectFrameworkMorphic
 		with: [ spec requires: #('ProjectFramework' 'ProjectFrameworkPharo' 'ProjectFrameworkSamples') ].
 
-	spec for: '#pharo9.x' do: [
+	spec for: #'pharo9.x' do: [
 		spec
 			package: #ProjectFrameworkSpec
 			with: [ spec requires: #('ProjectFramework' #ProjectFrameworkPharo 'SpecUIAddOns' 'OrderedSet') ];
