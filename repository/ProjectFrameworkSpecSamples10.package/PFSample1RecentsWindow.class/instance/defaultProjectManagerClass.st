@@ -1,0 +1,4 @@
+defaults
+defaultProjectManagerClass
+
+	^ PFSample1ProjectManager

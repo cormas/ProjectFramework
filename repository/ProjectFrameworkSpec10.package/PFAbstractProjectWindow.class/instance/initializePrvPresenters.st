@@ -1,5 +1,5 @@
 initialization
-initializePrvWidgets
+initializePrvPresenters
 	" Private - See superimplementor's comment "
 
 	projectActions := self newLabel.
@@ -12,5 +12,5 @@ initializePrvWidgets
 	editProjectButton := self newButton. 
 	closeWindowButton := self newButton.
 	recentProjectsLabel := self newLabel.
-	recentProjectsList := self instantiate: FastTableModel.
+	recentProjectsList := self newTreeTable.
 	preferencesButton := self newButton.

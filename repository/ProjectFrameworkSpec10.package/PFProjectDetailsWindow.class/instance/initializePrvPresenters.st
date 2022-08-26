@@ -1,8 +1,8 @@
 initialization
-initializePrvWidgets
+initializePrvPresenters
 	" Private - See superimplementor's comment "
 
-	super initializePrvWidgets.
-	currentProjectList := self newTree.
+	super initializePrvPresenters.
+	currentProjectList := self newTreeTable.
 	currentProjectsLabel := self newLabel.
 	

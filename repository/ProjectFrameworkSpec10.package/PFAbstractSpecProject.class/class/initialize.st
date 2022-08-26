@@ -1,4 +1,4 @@
-class-initialization
+class initialization
 initialize
 	" Private - See superimplementor's comment "
 	

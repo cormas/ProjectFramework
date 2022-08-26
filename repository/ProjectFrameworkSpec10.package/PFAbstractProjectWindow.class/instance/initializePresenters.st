@@ -1,9 +1,10 @@
 initialization
-initializeWidgets
+initializePresenters
 	" Private - See superimplementor's comment "
 
-	self initializePrvWidgets.	
+	self initializePrvPresenters.	
 	self initializeLabels.
 	self initializeFocusOrders.
 	self initializePresenterRecents.
+	self initializePresenterButtons.	
 	self updateRecentProjects.

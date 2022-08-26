@@ -1,0 +1,4 @@
+accessing
+defaultWindowPresenterClass
+		
+	^ SpWindowPresenter

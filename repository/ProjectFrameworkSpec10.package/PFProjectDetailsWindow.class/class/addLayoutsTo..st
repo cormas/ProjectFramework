@@ -1,5 +1,5 @@
 specs
-addSpecsTo: row
+addLayoutsTo: row
 
 	row
 		newColumn: [ :col | 
@@ -8,5 +8,5 @@ addSpecsTo: row
 				add: #recentProjectsList;
 				add: #currentProjectsLabel height: self buttonHeight;
 				add: #currentProjectList ].
-	self addButtonSpecsTo: row.
+	self addButtonLayoutTo: row.
 	
