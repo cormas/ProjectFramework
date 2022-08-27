@@ -1,11 +1,10 @@
 initialization
-initializeWidgets
+initializePresenters
 	"Private - See superimplementor's details "
 	
-	super initializeWidgets.
-	self instantiateModels: #(
-		itemsSelector 		SpcActionList
-		itemsEditor 			SpcLabeledTextArea).
+	super initializePresenters.
+	itemsSelector := self instantiate: SpcActionList.
+	itemsEditor := self instantiate: SpcLabeledTextArea.
 
 	self itemsSelector 
 		addActionBlock: [ self addItemRequest ];

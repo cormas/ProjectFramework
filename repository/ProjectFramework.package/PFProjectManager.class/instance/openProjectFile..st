@@ -11,4 +11,5 @@ openProjectFile: fileName
 		do: [ :ex | 
 			self isInteractive ifTrue: [ self informMessage: self translator tFuelMaterializationError , ex messageText ].
 			^ ex return: false ].
+	app ifNil: [ ^ self error: 'Could not open project: ' , app asString ].
 	^ self openProject: app

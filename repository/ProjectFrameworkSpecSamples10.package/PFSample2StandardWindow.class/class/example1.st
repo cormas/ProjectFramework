@@ -1,5 +1,5 @@
 examples
 example1
 
-	PFProjectSettings currentApplicationClass: PFSample1ApplicationClass.
+	PFProjectSettings currentApplicationClass: PFSample2ApplicationClass.
 	PFSample2StandardWindow open.

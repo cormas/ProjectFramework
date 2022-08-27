@@ -4,10 +4,12 @@ openProject
 
 	| openStatus |
 	openStatus := false.
-	(self requestFileNameForOpen: self projectFileExtension)
+	(self requestFileNameForOpen: self projectFileExtension) 		
 		ifNotNil: [ : fileRef | 
 			fileRef fullName notEmpty
 				ifTrue: [ openStatus := self openProjectFile: fileRef fullName ] ].
 	^ openStatus
 		ifTrue: [ self doPostOpenActions ]
-		ifFalse: [ self isInteractive ifTrue: [ self informMessage: self translator tProjectOpenFailed ] ]
+		ifFalse: [ 
+			self isInteractive 
+				ifTrue: [ self informMessage: self translator tProjectOpenFailed ] ]
