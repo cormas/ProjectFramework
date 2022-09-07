@@ -7,7 +7,7 @@ openProjectFile: fileName
 	fileName asFileReference isFile
 		ifFalse: [ ^ false ].
 	[ app := self materializerClass materializeFromFileNamed: fileName ]
-		on: Error
+		on: Error, FLBadSignature
 		do: [ :ex | 
 			self isInteractive ifTrue: [ self informMessage: self translator tFuelMaterializationError , ex messageText ].
 			^ ex return: false ].

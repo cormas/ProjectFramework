@@ -7,4 +7,4 @@ requestFileNameForOpen: extensionString
 				 ^ selectedFileReference ];
 			previewer: FDInspectPreviewer new;
 			filtersCustomization: { FDDefaultFilter new })
-				openModal 
+				openBlockedDialog 
