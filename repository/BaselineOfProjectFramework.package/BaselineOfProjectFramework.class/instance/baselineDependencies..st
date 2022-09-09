@@ -22,7 +22,7 @@ baselineDependencies: spec
 		with: [ spec repository: 'github://hernanmd/file-dialog/repository' ].
 	spec
 		baseline: 'I18N'
-		with: [ spec repository: 'github://hernanmd/Pharo-I18N/src' ].
+		with: [ spec repository: 'github://hernanmd/Pharo-I18N:v1.0.1/src' ].
 	spec
 		baseline: 'SState'
 		with: [ spec repository: 'github://mumez/SState:v1.0.0/repository' ].
