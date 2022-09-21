@@ -3,7 +3,7 @@ baselineDependencies: spec
 
 	spec
 		baseline: 'CommonUtils'
-		with: [ spec repository: 'github://hernanmd/CommonUtils:v1.0.5/repository' ].
+		with: [ spec repository: 'github://hernanmd/CommonUtils/repository' ].
 		
 	spec for: #'pharo9.x' do: [
 		spec
