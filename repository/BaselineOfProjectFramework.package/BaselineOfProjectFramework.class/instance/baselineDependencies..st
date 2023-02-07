@@ -16,7 +16,7 @@ baselineDependencies: spec
 	
 	spec
 		baseline: 'OrderedSet'
-		with: [ spec repository: 'github://hernanmd/OrderedSet:v1.0.0/repository' ].
+		with: [ spec repository: 'github://hernanmd/OrderedSet/repository' ].
 	spec
 		baseline: 'FileDialog'
 		with: [ spec repository: 'github://hernanmd/file-dialog/repository' ].
