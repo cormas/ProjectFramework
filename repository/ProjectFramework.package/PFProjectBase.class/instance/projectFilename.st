@@ -4,8 +4,8 @@ projectFilename
 	
 	^ String streamContents: [ : stream |
 		stream 	
-			nextPutAll: self defaultSaveDirectoryName;
-			nextPutAll: self platformSeparator;
-			nextPutAll: info infoName;
-			nextPut: $.;
-			nextPutAll: self projectFileExtension ]
+			<< self defaultSaveDirectoryName;
+			<< self platformSeparator;
+			<< info infoName;
+			<< $.;
+			<< self projectFileExtension ]
