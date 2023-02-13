@@ -3,14 +3,15 @@ SmalltalkCISpec {
     SCIMetacelloLoadSpec {
       #baseline : 'ProjectFramework',
       #directory : 'repository',
-	  #onWarningLog : true,	  
+      #onWarningLog : true,	  
       #load : [ 'default' ],
       #platforms : [  #pharo ]
     }
   ],
   #testing : {
     #coverage : {
-       #packages : [ 'ProjectFramework*' ]
+       #packages : [ 'ProjectFramework*' ],
+       #format: #lcov
     },
     #include : {
        #packages : [ 'ProjectFramework*' ]
