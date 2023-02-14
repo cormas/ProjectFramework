@@ -16,8 +16,8 @@ baselineDependencies: spec
 			with: [ spec repository: 'github://hernanmd/SpecUIAddOns:pharo10/repository' ] ].
 	
 	spec
-		baseline: 'OrderedSet'
-		with: [ spec repository: 'github://hernanmd/OrderedSet:v1.0.0/repository' ].
+		baseline: 'ContainersOrderedSet'
+		with: [ spec repository: 'github://pharo-containers/Containers-OrderedSet:v1.0/src' ].
 	spec
 		baseline: 'FileDialog'
 		with: [ spec repository: 'github://hernanmd/file-dialog:v1.0.0/repository' ].

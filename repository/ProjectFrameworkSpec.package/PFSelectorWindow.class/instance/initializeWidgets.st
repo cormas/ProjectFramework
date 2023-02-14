@@ -9,5 +9,5 @@ initializeWidgets
 
 	self itemsSelector 
 		addActionBlock: [ self addItemRequest ];
-		listCollectionClass: OrderedSet;
+		listCollectionClass: CTOrderedSet;
 		label: self translator tItems
