@@ -1,4 +1,4 @@
 menu
 enableSaveAs
 
-	(self selectMenuItemNamed: self translator tSaveAs) enabled: true.
+	(self selectMenuItemNamed: self translator tSaveAs) enabled: true

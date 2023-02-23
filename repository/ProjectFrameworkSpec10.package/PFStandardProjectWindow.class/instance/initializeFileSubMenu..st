@@ -1,7 +1,7 @@
-initialization-submenus
+initialization
 initializeFileSubMenu: group
 	group
-		addItem: [ :item | 
+		addItem: [ :item |
 			item
 				name: self translator tFile;
 				icon:

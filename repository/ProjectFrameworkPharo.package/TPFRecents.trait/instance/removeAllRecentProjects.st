@@ -1,4 +1,4 @@
 removing
 removeAllRecentProjects
 
-	self recentProjects removeAll.
+	self recentProjects removeAll
