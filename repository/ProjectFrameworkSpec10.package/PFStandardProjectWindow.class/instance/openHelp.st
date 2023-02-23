@@ -1,3 +1,3 @@
 callbacks
 openHelp
-	self shouldBeImplemented.
+	self shouldBeImplemented

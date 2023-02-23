@@ -8,6 +8,6 @@ updateApplication
 	trWindow := self log: self translator tUpdateWait.
 	self updateApplicationCode.
 	trWindow
-		ifNotNil: [ :w | 
+		ifNotNil: [ :w |
 			w close.
 			self inform: self applicationName , self tUpdateInform ]

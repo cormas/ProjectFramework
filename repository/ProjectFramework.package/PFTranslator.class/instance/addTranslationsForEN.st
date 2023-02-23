@@ -1,11 +1,11 @@
 accessing
 addTranslationsForEN
 
-	^ (self translatorClass forLanguage: #EN) translationMap 
+	^ (self translatorClass forLanguage: #EN) translationMap
 		at: #tFile 							put: 'File';
 		at: #tNew 							put: 'New';
 		at: #tOpen 							put: 'Open';
-		at: #tSave 							put: 'Save';		
+		at: #tSave 							put: 'Save';
 		at: #tSaveAs 							put: 'Save as';
 		at: #tClose 							put: 'Close';
 		at: #tExplore 							put: 'Explore';
@@ -17,13 +17,13 @@ addTranslationsForEN
 		at: #tExport 							put: 'Export';
 		at: #tProperties 						put: 'Properties';
 		at: #tTools							put: 'Tools';
-		at: #tHelp							put: 'Help';	
+		at: #tHelp							put: 'Help';
 		at: #tAbout 							put: 'About';
 		at: #tQuit 							put: 'Quit';
 		at: #tOk 								put: 'Ok';
 		at: #tCancel 							put: 'Cancel';
 		at: #tUpdate 							put: 'Update ';
-		at: #tVersion 							put: 'Version';								
+		at: #tVersion 							put: 'Version';
 		at: #tUsername 						put: 'User name';
 		at: #tName 							put: 'Name';
 		at: #tAuthor 							put: 'Author';
@@ -41,7 +41,7 @@ addTranslationsForEN
 		at: #tProjectSaveSuccess 				put: 'Project saved successfully';
 		at: #tProjectCloseSuccess 				put: 'Project closed successfully';
 		at: #tProjectSaved 					put: 'File saved';
-		at: #tNotAFile 						put: 'Not a file';	
+		at: #tNotAFile 						put: 'Not a file';
 		at: #tProjectChanged 					put: 'Changed';
 		at: #tProjectOpenFailed 				put: 'Project not opened, please try again';
 		at: #tProjectUpdateSuccess 			put:  'Current project updated successfully as: ';
@@ -59,6 +59,6 @@ addTranslationsForEN
 		at: #tChooseAnotherName 			put: '. Please choose another name';
 		at: #tAddItemMsg 					put: 'Please enter the name of the new item' ;
 		at: #tItems 							put: 'Items';
-		at: #tQuerySaveProject 			put: 'Project was changed, do you want to save?';	
-		at: #tPreferences 					put: 'Preferences';			
+		at: #tQuerySaveProject 			put: 'Project was changed, do you want to save?';
+		at: #tPreferences 					put: 'Preferences';
 		yourself

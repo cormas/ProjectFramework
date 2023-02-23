@@ -4,4 +4,4 @@ applicationProjectNamed: aNameString
 
 	^ self applicationProjects
 			at: aNameString
-			ifAbsent: [ self error: aNameString ] 
+			ifAbsent: [ self error: aNameString ]
