@@ -11,12 +11,12 @@ baselinePackagesUI: spec
 			with: [ spec requires: #('ProjectFramework' #ProjectFrameworkPharo 'SpecUIAddOns' 'ContainersOrderedSet') ];
 			package: #ProjectFrameworkSpecSamples
 			with: [ spec requires: #('ProjectFramework' #ProjectFrameworkPharo #ProjectFrameworkSpec #ProjectFrameworkSamples) ];
-			group: 'ProjectFrameworkSpec' with: #('ProjectFrameworkSpec' 'ProjectFrameworkSpecSamples')  ].
+			group: 'ProjectFrameworkSpc' with: #('ProjectFrameworkSpec' 'ProjectFrameworkSpecSamples')  ].
 	
-	spec for: #(#'pharo10.x' #'pharo11.x') do: [
+	spec for: #(#'pharo10.x' #'pharo11.x' #'pharo12.x') do: [
 		spec
 			package: #ProjectFrameworkSpec10
 			with: [ spec requires: #('ProjectFramework' #ProjectFrameworkPharo 'SpecUIAddOns' 'ContainersOrderedSet') ];
 			package: #ProjectFrameworkSpecSamples10
 			with: [ spec requires: #('ProjectFramework' #ProjectFrameworkPharo #ProjectFrameworkSpec10 #ProjectFrameworkSamples) ];
-			group: 'ProjectFrameworkSpec' with: #('ProjectFrameworkSpec10' 'ProjectFrameworkSpecSamples10') ].
+			group: 'ProjectFrameworkSpc' with: #('ProjectFrameworkSpec10' 'ProjectFrameworkSpecSamples10') ].
