@@ -11,7 +11,7 @@ baselinePackagesUI: spec
 			with: [ spec requires: #('ProjectFramework' #ProjectFrameworkPharo 'SpecUIAddOns' 'ContainersOrderedSet') ];
 			package: #ProjectFrameworkSpecSamples
 			with: [ spec requires: #('ProjectFramework' #ProjectFrameworkPharo #ProjectFrameworkSpec #ProjectFrameworkSamples) ];
-			group: 'ProjectFrameworkSpc' with: #('ProjectFrameworkSpec' 'ProjectFrameworkSpecSamples')  ].
+			group: 'ProjectFrameworkSpec' with: #('ProjectFrameworkSpec' 'ProjectFrameworkSpecSamples')  ].
 	
 	spec for: #(#'pharo10.x' #'pharo11.x') do: [
 		spec
